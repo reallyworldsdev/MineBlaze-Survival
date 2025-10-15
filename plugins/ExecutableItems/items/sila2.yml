@@ -1,0 +1,91 @@
+name: ''
+glow: false
+lore: []
+material: POTION
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+disableEnchantGlide: false
+isDurabilityBasedOnUsage: false
+glider: false
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: true
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hideAdditionalTooltip: false
+  hideToolTip: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+food:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+consumableFeatures:
+  enable: false
+  animation: EAT
+  hasConsumeParticles: false
+  consumeSeconds: 3
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+potionSettings:
+  potionType: WATER
+  potionEffects:
+    pEffect0:
+      isAmbient: false
+      duration: 2400
+      potionEffectType: INCREASE_DAMAGE
+      amplifier: 1
+      hasParticles: true
+      hasIcon: true
+attributes: {}

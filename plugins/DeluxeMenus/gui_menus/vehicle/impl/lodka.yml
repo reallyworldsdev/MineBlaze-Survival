@@ -1,0 +1,102 @@
+menu_title: '&#555555Магазин подводных лодок'
+size: 26
+items:
+  '11':
+    display_name: '&#55ff55Подводная лодка Ohio'
+    slot: 11
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$1500'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 1500
+          deny_commands:
+          - '[message] &c&l| &cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 1500' #
+    - '[console] givesubmarine %player_name% S1'
+  '13':
+    display_name: '&#ffff55Подводная лодка Yellow'
+    slot: 13
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$2000'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 2000
+          deny_commands:
+          - '[message] &c&l| &cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 2000' #
+    - '[console] givesubmarine %player_name% S2'
+  '15':
+    display_name: '&#ff5555Подводная лодка Sierra II'
+    slot: 15
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$3000'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] givesubmarine %player_name% S3'

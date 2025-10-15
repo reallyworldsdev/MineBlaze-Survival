@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: pale_oak_leaves
+effect-name: pale_oak_leaves
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [PALE_OAK_LEAVES]
+gui-icon-material:
+  - PALE_OAK_LEAVES

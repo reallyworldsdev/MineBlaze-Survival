@@ -1,0 +1,16 @@
+job-info:
+- Information about
+- plugin
+regions:
+  '1':
+    x1: -69.62
+    y1: 68.0
+    z1: -9.46
+    x2: -53.37
+    y2: 83.0
+    z2: -43.57
+    earn: 200
+    cooldown: 5
+needAxe: true
+mustSneak: false
+recordPrismEvents: false

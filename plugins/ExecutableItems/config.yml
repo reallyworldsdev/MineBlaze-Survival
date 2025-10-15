@@ -1,0 +1,29 @@
+# ----------------------------------
+# -
+#       ExecutableItems
+# -
+#         By: Ssomar
+# -
+# ----------------------------------
+# -
+# WIKI HERE : https://docs.ssomar.com/executableitems/information-ei
+# DISCORD HERE : https://discord.com/invite/TRmSwJaYNv
+# -
+checkVersionMsg: false
+disableTestItems: true
+silentMessagePreventionErrorHeadDBError: false
+disableBackup: true
+deleteBackupsAfterDays: 7
+enableGarbageCollectorAfterReload: false
+config_12_04_2024: true
+premiumEnableCooldownForOp: true
+silentGive: false
+disabledWorlds: []
+whitelistedWorlds: []
+pickupLimit: -1
+texturesPackUrl: https://github.com/Ssomar-Developement/items/raw/main/__textures__/ExecutableItems_Pack.zip
+enableTexturesPack: false
+updateOldItems: false
+itemCheckWithNBTAPI: false
+debugOnlyRun: false
+giveLimit: 100

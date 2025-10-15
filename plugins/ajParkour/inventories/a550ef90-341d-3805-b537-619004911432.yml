@@ -1,0 +1,53 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: GLASS_BOTTLE
+    amount: 8
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: MILK_BUCKET
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

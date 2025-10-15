@@ -1,0 +1,467 @@
+# To simplify the customisation and the translation process please check out the editor: https://ptp.pcgamingfreaks.at
+Language:
+  NotFromConsole: "&c&l| &cЭта команда не может использоваться с консоли!"
+  # Global Wildcards: <heart> and <smallheart>
+  Ingame:
+    NoPermission: "&c&l| &cУ вас нет разрешения на это"
+    NaN: "&c&l| &cВведенное значение не является числом!"
+    NotMarried: "&c&l| &fВы не женаты"
+    PartnerOffline: "&c&l| &cВаш партнер не на сервере"
+    PartnerNotInRange: "&c&l| &cВаш партнер слишком далеко"
+    TargetPartnerNotFound: "&c&l| &cВаш партнер не найден!"
+    PlayerNotMarried: "&c&l| &f\"{PlayerName}\" не женат!"
+    PlayerNotFound: "&c&l| &fНе удалось найти \"{PlayerName}\"!"
+    PlayerNotOnline: "&c&l| &f\"{PlayerName}\" не в сети!"
+    PlayersNotMarried: "&c&l| &fИгроки не женаты!"
+    MarriageNotExact: "&c&l| &fИзвините, существует более одного брака, соответствующего запросу!"
+    JoinLeaveInfo:
+      # Only used for players with 1 partner
+      PartnerOnline: "&6&l| &fВаш партнер онлайн"
+      # Only used for players with 1 partner
+      PartnerOffline: "&6&l| &fВаш партнер офлайн"
+      # Only used for players with more than 1 partner
+      AllPartnersOffline: "&6&l| &fВсе ваши партнеры офлайн"
+      # Only used for players with more than 1 partner
+      PartnerOnlineMulti: "&6&l| &fСледующие партнеры онлайн: &6{OnlinePartners}"
+      # Placeholders: {Name}, {DisplayName}.    Keep in mind display names can contain colors!  No JSON!!!
+      MultiOnlineFormat: "&6&l &6{DisplayName}"
+      # No JSON!!!
+      MultiOnlineSeparator: "&r, "
+      # Placeholders: {Name}, {DisplayName}
+      PartnerNowOnline: "&6&l| &fВаш партнер сейчас в сети"
+      # Placeholders: {Name}, {DisplayName}
+      PartnerNowOffline: "&6&l| &fВаш партнер сейчас не в сети"
+    Backpack:
+      OnlyInSurvival: "&6&l| &fВы можете получить доступ к рюкзаку своего партнера только в режиме выживания"
+      ShareOn: "&6&l| &fТеперь вы можете поделиться своим рюкзаком со своим партнером"
+      ShareOff: "&6&l| &fВы больше не делитесь своим рюкзаком со своим партнером"
+      Opened: "&6&l| &fВаш партнер &aоткрыл &fваш рюкзак"
+      ShareDenied: "&6&l| &fВаш партнер &cне дал &fвам доступ к его рюкзаку"
+    Chat:
+      Joined: "&6&l| &fВы переключили чат в чат семейного брака"
+      Left: "&6&l| &fВы переключили чат в общедоступный чат"
+      ListeningStarted: "&6&l| &fВы &aслушаете &fсемейный чат"
+      ListeningStopped: "&6&l| &fВы &cне слушаете &fсемейный чат"
+      TargetSet: "&6&l| &fПереключен семейный чат"
+      DisplayNameAll: "все партнеры"
+      # Placeholders: {SenderDisplayName}, {SenderName}, {ReceiverDisplayName}, {ReceiverName}, {Message}, {MagicHeart}
+      Format: "&6&l &6{MagicHeart}&r &7{SenderDisplayName} &8 => &7{ReceiverDisplayName} &8 &7{Message}"
+    Gift:
+      # Placeholders: {AllowedGameModes}, {CurrentGameMode}
+      GameModeNotAllowedSender: "&6&l| &fВы &cне можете &fотправлять подарки в текущем режиме игры"
+      # Placeholders: {AllowedGameModes}, {CurrentGameMode}
+      GameModeNotAllowedReceiver: "&6&l| &fВаш партнер &cне может &fполучать подарки в текущем игровом режиме"
+      NoItemInHand: "&c&l| &fУ вас нет предмета"
+      PartnerInvFull: "&c&l| &fУ вашего партнера нет свободного места в инвентаре"
+      # Placeholders: {Name}, {DisplayName}, {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
+      ItemSent: "[{\"text\":\"вы отправили своему партнера \",\"color\":\"gold\"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\".\"}]"
+      # Placeholders: {Name}, {DisplayName}, {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
+      ItemReceived: "[{\"text\":\"ваш партнер отправил вам \",\"color\":\"gold\"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\".\"}]"
+      WorldNotAllowed: "&c&l| &fВаш партнер находится в мире, где нельзя получать подарки"
+      ItemNotAllowed: "&c&l| &fВам не разрешено дарить {ItemName} &cвашему партнеру!"
+      # Placeholders: {ItemAmount}, {ItemName}, {ItemMetaJSON} = Item as JSON for hover event
+      Request:
+        Notification: "[\"\",{\"text\":\"{DisplayName}&r хочет сделать вам подарок \"},{\"text\":\"{ItemAmount} {ItemName}\",\"hoverEvent\":{\"action\":\"show_item\",\"value\":\"{ItemMetaJSON}\"}},{\"text\":\". Примите подарок \"},{\"text\":\"/marry accept\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" или отказаться \"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\"}]"
+        WaitForConfirmation: "запрос на подарок отправлен партнеру"
+        Denied: "вы отказались от подарка партнера"
+        DeniedPartner: "партнер отказался от подарка. Ваш предмет возвращен"
+        Canceled: "вы отменили свой запрос на подарок"
+        CanceledPartner: "партнер отменил запрос подарка. Ваш предмет возвращен"
+        CanceledDisconnectRequester: "партнер вышел из сети. Запрос подарка отменен. Ваш предмет возвращен"
+        CanceledDisconnectTarget: "партнер вышел из сети. Запрос подарка отменен"
+        RefundInvFull: "&c&l| &fИнвентарь полон, оставшиеся подарки упали на землю!"
+        PartnerAlreadyHasAnOpenRequest: "&c&l| &fУ вашего партнера уже есть открытый запрос. Пожалуйста, подождите, пока примет или отклонит его"
+    Home:
+      Deleted: "&a&l| &fДомашняя точка &aуспешно &cудалена"
+      PlayerNoHome: "&c&l| &cУ игрока еще &cнет дома"
+      NoHome: "&6&l| &fУ вас еще &cнет дома"
+      TPed: "&a&l| &fВы были телепортированы в ваш дом"
+      Set: "&a&l| &fТочка дома сохранена"
+      BlockedFrom: "&c&l| &fОтсюда &cнельзя &fтелепортироваться домой"
+      BlockedTo: "&c&l| &fВы &cне можете &fтелепортироваться к себе домой. Пожалуйста, переместите его"
+    Kiss:
+      Kissed: "&a&l| &fВы поцеловали своего партнера!"
+      Kissed_SendMethod: "message"
+      GotKissed: "&a&l| &fВаш партнер поцеловал вас!"
+      GotKissed_SendMethod: "message"
+      TooFarAway: "&c&l| &fВы слишком &cдалеко&f, чтобы поцеловать своего партнера"
+      # Placeholders: &6{Time}&f, {TimeLeft} in seconds
+      Wait: "&6&l| &fПодождите &6{Time}&f &fсекунд, чтобы поцеловать своего партнера снова"
+    Hug:
+      Hugged: "&a&l| &fВы &aобняли &fсвоего партнера!"
+      Hugged_SendMethod: "message"
+      GotHugged: "&6&l| &fВаш партнер &aобнял&f вас!"
+      GotHugged_SendMethod: "message"
+      TooFarAway: "&a&l| &fВы слишком &cдалеко&f, чтобы обнять своего партнера"
+      # Placeholders: &6{Time}&f, {TimeLeft} in seconds
+      Wait: "&6&l| &fВам нужно подождать &6{Time}&f секунд, чтобы снова обнять своего партнера"
+    Seen:
+      # Placeholders: {Name}, {DisplayName}
+      CurrentlyOnline: "{DisplayName}&r сейчас &aв сети&r.&r"
+      # Placeholders: {Name}, {Date}, {Count}, {CountTotalDays}
+      LastSeen: "[\"\",{\"text\":\"{Name} последняя активность \",\"extra\":[{\"text\":\"{Date}\",\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"{Count} ago\"}},{\"text\":\".\"}]}]"
+      # No Json!!!
+      DateFormat: "dd-MM-yyyy 'at' HH:mm:ss"
+    List:
+      # Placeholders: {Player1Name}, {Player1DisplayName}, {Player2Name}, {Player2DisplayName}, {Surname}, {MagicHeart}
+      Format: "&2{Player1DisplayName} {MagicHeart} &2{Player2DisplayName}"
+      NoMarriedPlayers: "&cНет женатых игроков."
+      Headline: "&eСписок замужних игроков&r&f - &r&6страница {CurrentPage}/{MaxPage}"
+      Footer: "[\"\",{\"text\":\"<<< Предыдущая <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"}},{\"text\":\" Страница {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Следующая >>>\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"}}]"
+    Partners:
+      Headline: "&6&l| &fСписок партнеров &6{DisplayName}:"
+      Footer: ""
+      NotMarried: "&6&l| &fПартнер &6{DisplayName} &cне женат"
+      # Player1 is the player that was queried. Player2 is the partner
+      Format: "&6{Player1DisplayName} {MagicHeart} &6{Player2DisplayName}"
+    ListPriests:
+      Format: "&6{PriestDisplayName}"
+      NoPriestsOnline: "&c&l| &fВ сети нет священников"
+      Headline: "&6&l| &fОнлайн священники&f - &fстраница &6{CurrentPage}/{MaxPage}"
+      Footer: "[\"\",{\"text\":\"предыдущая <<<\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {PrevPage}\"}},{\"text\":\" Текущая страница {CurrentPage}/{MaxPage} \",\"color\":\"gold\"},{\"text\":\">>> Следующая \",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"/{MainCommand} {SubCommand} {NextPage}\"}}]"
+    PvP:
+      IsDisabled: "&c&l| &fВы не можете нанести урон своему партнеру, если у вас отключено PvP"
+      IsDisabled_SendMethod: "message"
+      On: "&6&l| &fВы &aвключили &6PvP &fсо своим партнером"
+      Off: "&6&l| &fВы &cотключили &6PvP &fсо своим партнером"
+    TP:
+      PartnerVanished: "&c&l| &fВы не можете использовать телепорт, если ваш партнер в ванише"
+      Teleport: "&6&l| &fТелепортация к партнеру.."
+      TeleportTo: "&a&l| &fВаш партнер телепортируется к вам.."
+      Unsafe: "&c&l| &fТелепортация &cотменена&f! Там не безопасно!"
+      ToUnsafe: "&6&l| &fВаш партнер собирался телепортироваться к вам, но мог &cумереть&f!"
+      WorldNotAllowed: "&6&l| &fВаш партнер находится в мире, где телепортация &cзапрещена"
+      Moved: "&6&l| &fТелепортация &cотменена&f! Вы двигались!"
+      DontMove: "&6&l| &fТелепортация через &6{Time}&f секунд! Не двигайтесь!"
+      BlockedFrom: "&c&l| &fОтсюда &cнельзя &fтелепортироваться к партнеру"
+      BlockedTo: "&6&l| &fВы &cне можете &fтелепортироваться туда, где находится ваш партнер"
+      Request:
+        Notification: "[\"\",{\"text\":\"{DisplayName}&r хочет телепортироваться к вам. Примите телепорт с помощью \"},{\"text\":\"/marry accept\",\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" or deny it with \"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\"}]"
+        WaitForConfirmation: "пожалуйста, подождите, пока ваш партнер примет телепорт."
+        Denied: "вы отклонили запрос телепортации вашего партнера."
+        DeniedPartner: "ваш партнер отклонил запрос на телепорт."
+        Canceled: "вы отменили запрос на телепорт."
+        CanceledPartner: "ваш партнер отменил запрос на телепорт."
+        CanceledDisconnectRequester: "ваш партнер вышел из сети. Запрос на телепорт отменен."
+        CanceledDisconnectTarget: "ваш партнер вышел из сети. Запрос на телепорт отменен."
+    SetColor:
+      UnknownColor: "&c&l| &fНевозможно определить цвет '{Input}'!"
+      Set: "установить цвет"
+      Selection: '["",{"text":"пожалуйста, нажмите, как бы вы хотели, чтобы сердце для вашего брака выглядело:"},{"text":"\n"},{"text":" ❤ ","color":"dark_red","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} dark_red"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &4dark red&r"}},{"text":" ❤ ","color":"red","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} red"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &cred&r"}},{"text":" ❤ ","color":"gold","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gold"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &6gold&r"}},{"text":" ❤ ","color":"yellow","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} yellow"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &eyellow&r"}},{"text":" ❤ ","color":"gold","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gold"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &6dark gold&r"}},{"text":" ❤ ","color":"gold","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gold"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &agold&r"}},{"text":" ❤ ","color":"gold","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gold"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &bgold&r"}},{"text":" ❤ ","color":"gold","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gold"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &3dark gold&r"}},{"text":" ❤ ","color":"dark_blue","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} dark_blue"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &1dark blue&r"}},{"text":" ❤ ","color":"blue","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} blue"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &9blue&r"}},{"text":" ❤ ","color":"light_purple","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} light_purple"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &dlight purple&r"}},{"text":" ❤ ","color":"dark_purple","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} dark_purple"},"hoverEvent":{"action":"show_text","value":"Sets the text of the heart to &5dark purple&r"}},{"text":" ❤ ","color":"white","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} white"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &fwhite&r"}},{"text":" ❤ ","color":"gray","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} gray"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &7gray&r"}},{"text":" ❤ ","color":"dark_gray","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} dark_gary"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на &8dark gray&r"}},{"text":" ❤ ","color":"black","clickEvent":{"action":"run_command","value":"/{MainCmdAlias} {SubCmdAlias} black"},"hoverEvent":{"action":"show_text","value":"устанавливает цвет сердца на black"}}]'
+    SetPriest:
+      # Placeholders: {Name}, {DisplayName}.    Keep in mind display names contain colors!
+      MadeYouAPriest: "&a&l| &6{DisplayName}&f сделал вас священником"
+      YouMadeAPriest: "&6&l| &6{DisplayName}&f теперь священник"
+      FiredYou: "&c&l| &6{DisplayName} &cуволил &fвас из священников"
+      YouFiredAPriest: "&c&l| &6{DisplayName}&f больше не священник"
+      PerPermission: "&6&l| &6{DisplayName}&f получил права священника. Вы &cне можете уволить &fего командой!"
+    Surname:
+      SetSuccessful: "&a&l| &fФамилия изменилась"
+      SetFailed: "&c&l| &fНе удалось изменить фамилию"
+      ToShort: "&c&l| &fДанная фамилия &cслишком короткая&f. Должно быть не менее {MinLength} символов"
+      ToLong: "&c&l| &fДанная фамилия &cслишком длинная&f. Она не может содержать больше {MaxLength} символов"
+      AlreadyUsed: "&c&l| &fДанная фамилия уже используется!"
+    Requests:
+      NothingToAccept: "&6&l| &fНет запроса на прием"
+      NothingToDeny: "&6&l| &fНет запроса об отказе"
+      NothingToCancel: "&6&l| &fНет запроса на отмену"
+    Marry:
+      # Placeholders: {Name}, {DisplayName}.    Keep in mind display names contain colors!
+      NotWithHimself: "&c&l| &fВы не можете жениться &6{DisplayName}&f с самим собой"
+      AlreadySamePair: "&c&l| &fВы не можете жениться на игроках, которые уже женаты друг на друге. &r&c{Player1DisplayName}&r&c уже женат на &r&c{Player2DisplayName}&r&c"
+      AlreadyMarried: "&c&l| &fВы не можете жениться на тех, кто уже женился. &6{DisplayName}&f уже состоит в браке"
+      SurnameNeeded: "&c&l| &fВам нужна фамилия для пары, чтобы жениться"
+      Married: "&a&l| &fВы поженились &6{Player1DisplayName}&f с &6{Player2DisplayName}&f"
+      HasMarried: "&6&l &6{PriestDisplayName}&f поженился с вами &r{PartnerDisplayName}&f"
+      Broadcast: "&6&l &6{PriestDisplayName}&f поженил {Player1DisplayName}&r с &r{Player2DisplayName}&r.&r"
+      NotInRange: "&c&l| &fИгрок далеко! Он должен быть в пределах {Range} блоков!"
+      AlreadyOpenRequest: "&6&l &6{DisplayName}&f&c никто не ответил на брак"
+      YouCalledOff: "&c&l| &fВы отменили свадьбу"
+      PlayerCalledOff: "&6&l &6{DisplayName} &rотменил свадьбу"
+      Confirm: "[\"\",{\"text\":\"{PriestDisplayName}&r\"},{\"text\":\" хочет женить вас \",\"color\":\"white\"},{\"text\":\"{PlayerDisplayName}&r\"},{\"text\":\". Принять предложение \",\"color\":\"white\"},{\"text\":\"/marry accept\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" или отклонить \",\"color\":\"white\"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\",\"color\":\"white\"}]"
+      PriestOff: "&c&l| &fСвященник &6{DisplayName}&f вышел из игры, свадьба отменена"
+      PlayerOff: "&c&l &6{DisplayName}&f вышел из игры, свадьба отменена"
+      MaxPartnersReached: "&6&l &6{DisplayName}&f уже достигнуто максимально допустимое количество партнеров ({MaxPartnerCount})"
+      Self:
+        NotYourself: "&c&l| &fВам не разрешают жениться на себе"
+        NotInRange: "&c&l| &fИгрок далеко! Он должен быть в пределах {Range} блоков!"
+        AlreadySamePair: "&c&l| &fМы уже женаты с &6{DisplayName}&f!"
+        AlreadyMarried: "&c&l| &fВы уже состоите в браке с&6{DisplayName}&f!"
+        OtherAlreadyMarried: "&c&l| &f&6{DisplayName}&f уже состоит в браке!"
+        AlreadyOpenRequest: "&c&l| &fВы не ответили на заключение брака"
+        Married: "&a&l| &fВы поженились &f{DisplayName}&f"
+        Broadcast: "&a&l| &f&6{Player1DisplayName}&f поженился &6{Player2DisplayName}&f"
+        YouCalledOff: "вы отменили свадьбу"
+        PlayerCalledOff: "&6&l &6{DisplayName}&f отменил свадьбу"
+        Confirm: "[\"\",{\"text\":\"{DisplayName}&r\"},{\"text\":\" хочет жениться на вас. Принять предложение \",\"color\":\"white\"},{\"text\":\"/marry accept\",\"color\":\"gold\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" или отклонить \",\"color\":\"white\"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\",\"color\":\"white\"}]"
+        RequestSent: "запрос на брак отправлен"
+        PlayerOff: "&6&l &6{DisplayName}&f вышел из игры, свадьба отменена"
+        NotOnYourOwn: "&c&l| &fВы не можете провести собственную свадьбу. Пожалуйста, попросите священника провести для вас венчание"
+        MaxPartnersReached: "вы уже достигли максимально допустимого количества партнеров ({MaxPartnerCount})"
+        MaxPartnersReachedOther: "&6&l &6{DisplayName}&f уже достигнуто максимально допустимое количество партнеров ({MaxPartnerCount})"
+    Divorce:
+      Broadcast: "&a&l| &f&f{PriestDisplayName}&f развел &6{Player1DisplayName}&f с &6{Player2DisplayName}&f"
+      DivorcedPlayer: "&a&l| &f&f{PriestDisplayName}&f развел ваш брак с &f{PartnerDisplayName}&f"
+      Divorced: "&a&l| &fВы развелись &6{Player1DisplayName}&f и &6{Player2DisplayName}&f"
+      PlayerOff: "&6&l &6{DisplayName}&f вышел из игры, развод отменен"
+      PriestOff: "Priest &6{DisplayName}&f вышел из игры, развод отменен"
+      PlayerCancelled: "&c&l| &f&r&c{PlayerDisplayName}&r&c отменил развод с &r&c{PartnerDisplayName}&r&c!"
+      PriestCancelled: "&c&l| &f&r&c{PriestDisplayName}&r&c отменил развод вас и &r&c{PartnerDisplayName}&r&c!"
+      YouCancelled: "&a&l| &fВы отменили развод с &f{DisplayName}&f!"
+      YouCancelledPriest: "&a&l| &fВы отменили развод &6{Player1DisplayName}&f и &6{Player2DisplayName}&f!"
+      Deny: "&6&l &6{DisplayName}&f&c отменили развод!"
+      YouDeny: "&a&l| &fВы отменили развод с &f{DisplayName}&f"
+      Confirm: "[\"\",{\"text\":\"{PriestDisplayName}&r\"},{\"text\":\" хочет развести вас с \",\"color\":\"white\"},{\"text\":\"{PartnerDisplayName}&r\"},{\"text\":\". Принять развод \",\"color\":\"white\"},{\"text\":\"/marry accept\",\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" или отклонить \",\"color\":\"white\"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\",\"color\":\"white\"}]"
+      NotInRange: "&a&l| &fИгрок далеко! Он должен быть в пределах {Range} блоков!"
+      Self:
+        Divorced: "&a&l| &fВы развелись &f{DisplayName}&f. Теперь вы свободны"
+        DivorcedPlayer: "&6&l &6{DisplayName}&f развёлся с вами. Теперь вы свободны"
+        Broadcast: "&a&l| &f&6{Player1DisplayName}&f развёлся с &6{Player2DisplayName}&f"
+        PlayerOff: "&6&l &6{DisplayName}&f вышел из игры, развод отменен"
+        RequestSent: "запрос на развод отправлен игроку &6{DisplayName}&f"
+        Confirm: "[\"\",{\"text\":\"{DisplayName}&r\"},{\"text\":\" хочет развестись с вами. Принять развод \",\"color\":\"white\"},{\"text\":\"/marry accept\",\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry accept\"}},{\"text\":\" или отклонить  \",\"color\":\"white\"},{\"text\":\"/marry deny\",\"color\":\"red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/marry deny\"}},{\"text\":\".\",\"color\":\"white\"}]"
+        Deny: "&6&l &6{DisplayName}&f&c отклонил ваш запрос на развод!"
+        YouDeny: "&a&l| &fВы отклонили игроку &f{DisplayName}&f запрос на развод"
+        Cancelled: "&6&l &6{DisplayName}&f&c отклонил запрос на развод"
+        YouCancelled: "&a&l| &fВы отменили запрос на развод с &f{DisplayName}&f!"
+        NotInRange: "&a&l| &fВаш партнёр далеко! Он должен быть в пределах {Range} блоков!"
+    Economy:
+      NotEnough: "&c&l| &fУ вас недостаточно денег! Вам нужно {Cost} {CurrencyName}"
+      PartnerNotEnough: "&c&l| &fУ вашего партнёра недостаточно денег!"
+      PriestMarryNotEnough: "&c&l| &fУ игроков, с которыми вы пытаетесь вступить в брак, не хватает денег"
+      PriestDivorceNotEnough: "&c&l| &fИгрокам, которых вы пытаетесь развести, не хватает денег"
+      MarriagePaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за свою свадьбу (осталось {Remaining} {Currency Name})"
+      DivorcePaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за развод (осталось {Remaining} {Currency Name})"
+      HomeTPPaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за телепортацию домой (осталось {Remaining} {Currency Name})"
+      SetHomePaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за установку точки дома (осталось {Remaining} {Currency Name})"
+      TpPaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за телепортацию (осталось {Remaining} {Currency Name})"
+      GiftPaid: "&a&l| &fВы заплатили {Cost} {CurrencyName} за подарок партнеру (осталось {Remaining} {Currency Name})"
+      SurnameChangePaid: "&a&l| &fВы заплатили {Cost} {Currency Name} за смену фамилии (осталось {Remaining} {Currency Name})"
+    Admin:
+      Reloading: "&6&l| &fПерезагрузка.."
+      Reloaded: "&6&l| &fПерезагружен!"
+      ReloadingDatabase: "&6&l| &fПерезагрузка базы данных &6.&r&c.&f.&r"
+      CheckingForUpdates: "&6&l| &fПроверка обновления .."
+      Updated: "&6&l| &fПлагин обновлён и будет загружен после restart или reload"
+      NoUpdate: "&6&l| &fНет обновления плагина"
+      UpdateFail: "&c&l| &fНе удалось найти обновления! Пожалуйста, проверьте консоль!"
+      # You can change this message if you like to, but don't cry if the link isn't linking to the plugin anymore!
+      UpdateAvailable: "[{\"text\":\"Доступно обновление! Пожалуйста, перейдите по ссылке \\\"\",\"color\":\"green\"},{\"text\":\"https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-9.19273/\",\"color\":\"yellow\",\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-9.19273/\"}},{\"text\":\"\\\" для загрузки!\"}]"
+    Help:
+      Header: "&6&lСвадьбы                                                                                            "
+      Footer: ""
+      # Allows you to define messages that should be sent if the player uses the "/marry" command without any parameters (HelpMode must be set to CustomHelp in the config)
+      CustomHelp:
+        # Will be used if the player is married
+        Married:
+          - "&6&lСвадьбы"
+          - ""
+          - "&6&l| &6/marry kiss &f- поцелуй своего партнера"
+          - "&6&l| &6/marry tp &f- тп к партнеру"
+          - "&6&l| &6/marry chat toggle &f- поговорить наедине со своим партнером"
+          - "&6&l| &6/marry gift &f- дарите своим партнерам вещи"
+          - "&6&l| &6/marry help &f- полный список всех команд"
+        # Will be used if the player is a priest
+        Priest:
+          - "&6&lСвадьбы"
+          - ""
+          - "&6&l| &fВы можете жениться на игроках, используя команду /marry marry <игрок_1> <игрок_2>"
+          - "&6&l| &6/marry help &f- полный список всех команд"
+        # Will be used if the player is neither married nor a priest
+        Default:
+          - "&6&lСвадьбы"
+          - ""
+          - "&c&l| &fВы должны быть женаты, чтобы использовать эту команду"
+
+  Commands:
+    HelpFormat: "&6&l| &6/{MainCommand} {SubCommand} &f- {Description}"
+    # No color codes please
+    PlayerNameVariable: "player_name"
+    PartnerNameVariable: "partner_name"
+    SurnameVariable: "surname"
+    MessageVariable: "message"
+    Description:
+      Backpack: "открывает рюкзак партнера."
+      BackpackOn: "позволяет партнеру использовать ваш рюкзак."
+      BackpackOff: "запрещает партнеру использовать ваш рюкзак."
+      Chat: "приватный чат с партнером."
+      ChatSetTarget: "Изменяет цель личного сообщения."
+      ChatToggle: "переключает чат на приватный."
+      ChatListen: "показывает все сообщения чата, отправленные от партнеров."
+      Gift: "подарите предмет своему партнеру."
+      Home: "телепортирует вас к вашей точке дома."
+      HomeOther: "телепортирует вас к женатым игрокам домой."
+      SetHome: "устанавливает вашу точку дома."
+      SetHomeOther: "устанавливает дом замужнего игрока."
+      DelHome: "удаляет вашу точку дома."
+      DelHomeOther: "удаляет дом замужнего игрока."
+      Help: "показывает все доступные команды."
+      List: "перечисляет всех замужних игроков."
+      ListPriests: "список всех священников онлайн."
+      Partners: "список всех партнеров игрока"
+      PvP: "статус PvP с партнером."
+      PvPOn: "включает PvP с партнером."
+      PvPOff: "выключает PvP с партнером."
+      Tp: "телепортирует вас к партнеру."
+      Kiss: "поцеловать своего партнера."
+      Hug: "обнять своего партнера."
+      Seen: "показывает, когда партнер был в сети."
+      Marry: "женить двух игроков."
+      MarrySelf: "отправляет запрос на брак другому игроку."
+      Divorce: "Разводит двух игроков."
+      DivorceSelf: "оставить своего партнера."
+      Surname: "Изменяет фамилию пары."
+      SurnameSelf: "Изменяет фамилию вашего партнера и вас."
+      Update: "проверяет наличие обновления."
+      Accept: "принимает текущий запрос."
+      Cancel: "отменяет текущий запрос."
+      Deny: "отклоняет текущий запрос."
+      SetColor: "устанавливает цвет."
+      SetPriest: "назначить или уволить священника"
+      Reload: "перезагружает конфигурацию плагина."
+      Version: "версии плагина и его зависимостях."
+# The fist option in the list will be the one displayed in the commands help
+Command:
+  Switches:
+    On:
+      - on
+      - true
+      - yes
+    Off:
+      - off
+      - false
+      - no
+    Toggle:
+      - toggle
+      - switch
+    All:
+      - all
+    Remove:
+      - remove
+      - rm
+      - delete
+      - del
+      - clear
+      - clean
+  Main:
+    - marry
+  Backpack:
+    - backpack
+    - bp
+  Chat:
+    - chat
+  ChatSetTarget:
+    - settarget
+    - target
+  ChatToggle:
+    - chattoggle
+  ChatListen:
+    - listenchat
+    - chatlisten
+  Gift:
+    - gift
+    - send
+    - give
+  Help:
+    - help
+  Home:
+    - home
+  SetHome:
+    - sethome
+  DelHome:
+    - delhome
+  PvP:
+    - pvp
+  Kiss:
+    - kiss
+  Hug:
+    - hug
+  Seen:
+    - seen
+  PvPOn:
+    - pvpon
+  PvPOff:
+    - pvpoff
+  List:
+    - list
+  ListPriests:
+    - listpriests
+  Partners:
+    - partners
+    - listpartners
+    - partnerlist
+  Tp:
+    - tp
+  SetColor:
+    - setcolor
+  Marry:
+    - [игрок]
+  Divorce:
+    - divorce
+  SetPriest:
+    - setpriest
+  Update:
+    - update
+  Version:
+    - version
+  Accept:
+    - accept
+  Cancel:
+    - cancel
+  Deny:
+    - deny
+Dialog:
+  # Placeholders: {Planer1Name}, {Player1DisplayName}, {Planer2Name}, {Player2DisplayName}
+  DoYouWant: "&f{Player1Name} вы хотите жениться на {Player2Name} ?"
+  # Placeholders: {Planer1Name}, {Player1DisplayName}, {Planer2Name}, {Player2DisplayName}
+  AndDoYouWant: "&fИ вы {Player2Name} хотите жениться на {Player1Name} ?"
+  # Placeholders: {Planer1Name}, {Player1DisplayName}, {Planer2Name}, {Player2DisplayName}
+  Married: "&fобъявляю вас, мужем и женой. Теперь вы можешь поцеловать друг друга."
+  YesIWant: "&fДа, я согласен!"
+  NoIDontWant: "&fнет, я не согласен!"
+# This selection allows to change the placeholder return values. You can change them if you like. https://github.com/GeorgH93/MarriageMaster/wiki/Placeholders
+Placeholders:
+  # The default formatting data that should be used if nothing else is specified
+  Default:
+    Boolean:
+      True: true
+      False: false
+    NotMarried: "не состоит в браке"
+    NoHome: "нет дома"
+    Separator: "&r, "
+    NoPartnerForSlot: ""
+  Heart:
+    Married: "&c<heart>&f"
+    NotMarried: ""
+  MagicHeart:
+    Married: "<heart>&f"
+    NotMarried: ""
+  Prefix:
+    NotMarried: ""
+  Suffix:
+    NotMarried: ""
+  StatusHeart:
+    Married: "&c<heart>&f"
+    NotMarried: "&7<heart>&f"
+  Home:
+    # Order: world, x, y, z
+    Married: "%1$s %2$.1f %3$.1f %4$.1f"
+  HomeCoordinates:
+    # Order: x, y, z
+    Married: "%1$.1f %2$.1f %3$.1f"
+  NearestHome:
+    # Order: world, x, y, z
+    Married: "%1$s %2$.1f %3$.1f %4$.1f"
+  NearestHomeCoordinates:
+    # Order: x, y, z
+    Married: "%1$.1f %2$.1f %3$.1f"
+
+
+# The name of the language represented by the language file
+LanguageName: "Russian"
+# The author of the language file
+Author: "maz1lovo (Semyon)"
+
+# Language file version. Don't touch it!
+Version: 113
+Revision: 1

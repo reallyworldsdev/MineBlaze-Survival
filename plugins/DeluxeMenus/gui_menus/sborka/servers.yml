@@ -1,0 +1,344 @@
+menu_title: '&0Выбор режима'
+register_command: true
+open_command: servers
+size: 53
+items:
+  # Выживания
+  'epsilon':
+    display_name: '&#55ffff&lЭпсилон'
+    slot: 10
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#55ffff%server_online%&8/&#55ffff400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'iota':
+    display_name: '&#ffff55&lЙота'
+    slot: 11
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#ffff55%server_online%&8/&#ffff55400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'delta':
+    display_name: '&#ff5555&lДельта'
+    slot: 12
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#ff5555%server_online%&8/&#ff5555400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'sigma':
+    display_name: '&#55ff55&lСигма'
+    slot: 13
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#55ff55%server_online%&8/&#55ff55400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'alfa':
+    display_name: '&#ff55ff&lАльфа'
+    slot: 14
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#ff55ff%server_online%&8/&#ff55ff400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'beta':
+    display_name: '&#ffaa00&lБета'
+    slot: 15
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#ffaa00%server_online%&8/&#ffaa00400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'gamma':
+    display_name: '&#aa00aa&lГамма'
+    slot: 16
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#aa00aa%server_online%&8/&#aa00aa400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'omega':
+    display_name: '&3&lОмега'
+    slot: 21
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &e%server_online%&8/&#ffff55400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'gidra':
+    display_name: '&#5555ff&lГидра'
+    slot: 22
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &#5555ff%server_online%&8/&#5555ff400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'omikron':
+    display_name: '&f&lОмикрон'
+    slot: 23
+    material: diamond_pickaxe
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стандартное выживание на котором можно'
+    - '&7повыживать и повеселиться с друзьями.'
+    - ''
+    - '&7Онлайн: &f%server_online%&8/&f400'
+    - '&7Поддержка блоков/мобов 1.21.x'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  # Мини-игры
+  'mm':
+    display_name: '&#ff5555Ищейка &7(Murder Mystery)'
+    slot: 39
+    material: bow
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Среди вашей компании появился маньяк.   '
+    - '&7Попробуй вычислить его и убить первее,   '
+    - '&7чем он перебьет всех Вас!'
+    - ''
+    - '&#55ff55► Присоединиться '
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'kitpvp':
+    display_name: '&#ff5555Война наборов &7(Kit PvP)'
+    slot: 41
+    material: leather_chestplate
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Попробуй накопить монет для покупки   '
+    - '&7новых наборов и начинай убивать школоту.   '
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'skywars':
+    display_name: '&#ff5555Битвы на островах &7(SkyWars)'
+    slot: 42
+    material: ender_pearl
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Останься победителем в битве на островах!'
+    - '&7Собери предметы из сундуков и уничтожь'
+    - '&7остальных игроков для победы.'
+    - ''
+    - '&#55ff55► Присоединиться '
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'bedwars':
+    display_name: '&#ff5555Кроватные войны &7(BedWars)'
+    slot: 37
+    material: red_bed
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Разрушь все кровати соперников и стань'
+    - '&7победителем арены. Почувствуй важность'
+    - '&7этой войны за кровать! Мы ждем тебя..'
+    - ''
+    - '&#55ff55► Присоединиться '
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  # Новые режимы
+  'duels':
+    display_name: '&#ff5555Дуэли &7(Новинка)'
+    slot: 43
+    material: fishing_rod
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Стань мастером дуэлей, сразившись с игроками'
+    - '&7в различных режимах: от классического PvP'
+    - '&7до сражений на TheBridge, FireBall Fight,'
+    - '&7StickFight и Sumo!'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'
+  'grief':
+    display_name: '&#ffff55&lГриферский'
+    slot: 38
+    material: tnt
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Гриферите, обманывайте и стройте ловушки'
+    - '&7воплощайте самые дикие идеи на ЭТОМ сервере'
+    - ''
+    - '&#ff5555Поддержка блоков/мобов 1.21.x'
+    - '&#ff5555Гриферство поршнями и тнт работают.'
+    - ''
+    - '&#55ff55► Присоединиться '
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    enchantments:
+    - KNOCKBACK;1
+    click_commands:
+    - '[message] &cВы уже на сервере'
+    - '[close]'

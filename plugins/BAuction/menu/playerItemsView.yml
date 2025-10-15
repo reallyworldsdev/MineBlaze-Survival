@@ -1,0 +1,149 @@
+menu_title: "&7Предметы игрока: {user_name}"
+size: 54
+type: CHEST
+provider: playerItemsView
+id: playerItemsView
+
+items-slots:
+  - 0-44
+
+
+if-shulker:
+  lore:
+    - ''
+    - '&7Нажмите &aШифт + Пкм'
+    - '&7чтобы посмотреть содержимое шалкера'
+    - ''
+  shift_right_click_commands:
+    - '[OPEN_MENU] viewShulker'
+
+if-admin:
+  lore:
+    - ''
+    - '&7Удалять нельзя!'
+  middle_click_commands:
+    - '[REMOVE_SELL_ITEM] {id}'
+# Когда продаваемый предмет один
+
+selling-item-one:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+
+# Когда игрок owner предмета
+take-item:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  click_commands:
+    - '[TAKE_ITEM]'
+
+# Когда продаваемый предмет не один и его можно купить поштучно
+selling-item:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  right_click_commands:
+    - '[OPEN_MENU] buyCount'
+
+# Когда продаваемый предмет не один и его нельзя купить поштучно
+selling-item-only-full:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  right_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  shift_right_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+items:
+
+  not-sold-item:
+    material: ENDER_CHEST
+    slot: 46
+    amount: 1
+    display_name: "&#FF2121[🧪] &#FB871BХранилище"
+    lore:
+      - '&7Здесь хранятся товары,'
+      - '&7которые Вы продаете, или'
+      - '&7ваши купленные предметы'
+    click_commands:
+      - '[OPEN_MENU] unsoldItems'
+  update-menu:
+    material: EMERALD
+    slot: 49
+    amount: 1
+    display_name: "&#FF2121[⟲] &#FB871BОбновить Аукцион"
+    lore:
+      - '&7Эта кнопка позволяет'
+      - '&7обновить список товаров'
+    click_commands:
+      - '[REFRESH]'
+
+  previous-page:
+    material: ARROW
+    slot: 48
+    amount: 1
+    display_name: "&e« Предыдущая страница"
+    lore: [ ]
+    click_commands:
+      - '[PREVIOUS_PAGE]'
+
+  next-page:
+    material: ARROW
+    slot: 50
+    amount: 1
+    display_name: "&e» Следующая страница"
+    lore: [ ]
+    click_commands:
+      - '[NEXT_PAGE]'
+
+
+  categories:
+    material: CHEST
+    slot: 52
+    amount: 1
+    display_name: "&a✧ &fКатегории"
+    lore:
+      - '{categories}'
+    left_click_commands:
+      - '[CATEGORIES_NEXT]'
+    right_click_commands:
+      - '[CATEGORIES_PREVIOUS]'
+  back:
+    material: BARRIER
+    slot: 47
+    amount: 1
+    display_name: "&cНазад в общий аукцион"
+    lore: []
+    click_commands:
+      - '[OPEN_MENU] home'

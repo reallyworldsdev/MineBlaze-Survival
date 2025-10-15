@@ -1,0 +1,18 @@
+location: world:-12,457:70,500:-30,508
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&l&nВеселые батуты'
+    height: 0.3
+  - content: '&fПопрыгай с друзьями на батутах'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: diamond_block'
+    height: 0.3
+  actions: {}

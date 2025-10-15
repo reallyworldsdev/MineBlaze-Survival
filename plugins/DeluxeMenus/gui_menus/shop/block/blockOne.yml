@@ -1,0 +1,1686 @@
+menu_title: '&0&nМагазин&#555555 › &0Блоки (Стр. 1)'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  'up':
+    display_name: '&#ff5555Вперед'
+    slot: 50
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopBlockTwo'
+  # Слоты магазина
+  '0':
+    display_name: ''
+    slot: 0
+    material: budding_amethyst
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(900$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(450$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 900
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 900'
+    - '[console] give %player_name% budding_amethyst 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: budding_amethyst
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 450'
+      - '[refresh]'
+      - '[console] clear %player_name% budding_amethyst 64'
+  '1':
+    display_name: ''
+    slot: 1
+    material: andesite
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(250$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(125$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250'
+    - '[console] give %player_name% andesite 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: andesite
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 125'
+      - '[refresh]'
+      - '[console] clear %player_name% andesite 64'
+  '2':
+    display_name: ''
+    slot: 2
+    material: polished_andesite
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(800$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(400$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 800
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 800'
+    - '[console] give %player_name% polished_andesite 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: polished_andesite
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 400'
+      - '[refresh]'
+      - '[console] clear %player_name% polished_andesite 64'
+  '3':
+    display_name: ''
+    slot: 3
+    material: basalt
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(950$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(475$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 950
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 950'
+    - '[console] give %player_name% polished_andesite 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: polished_andesite
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 475'
+      - '[refresh]'
+      - '[console] clear %player_name% polished_andesite 64'
+  '4':
+    display_name: ''
+    slot: 4
+    material: polished_basalt
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(200$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(100$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 200
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 200'
+    - '[console] give %player_name% polished_basalt 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: polished_basalt
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 100'
+      - '[refresh]'
+      - '[console] clear %player_name% polished_basalt 64'
+  '5':
+    display_name: ''
+    slot: 5
+    material: smooth_basalt
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(400$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(200$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 400
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 400'
+    - '[console] give %player_name% smooth_basalt 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: smooth_basalt
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 100'
+      - '[refresh]'
+      - '[console] clear %player_name% smooth_basalt 64'
+  '6':
+    display_name: ''
+    slot: 6
+    material: blackstone
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(950$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(475$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 950
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 950'
+    - '[console] give %player_name% blackstone 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: blackstone
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 475'
+      - '[refresh]'
+      - '[console] clear %player_name% blackstone 64'
+  '7':
+    display_name: ''
+    slot: 7
+    material: gilded_blackstone
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(950$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(475$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 950
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 950'
+    - '[console] give %player_name% gilded_blackstone 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: gilded_blackstone
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 475'
+      - '[refresh]'
+      - '[console] clear %player_name% gilded_blackstone 64'
+  '8':
+    display_name: ''
+    slot: 8
+    material: polished_blackstone
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(550$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(275$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 550
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 550'
+    - '[console] give %player_name% polished_blackstone 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: polished_blackstone
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 275'
+      - '[refresh]'
+      - '[console] clear %player_name% polished_blackstone 64'
+  '9':
+    display_name: ''
+    slot: 9
+    material: chiseled_polished_blackstone
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(900$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(450$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 900
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 900'
+    - '[console] give %player_name% chiseled_polished_blackstone 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: chiseled_polished_blackstone
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 450'
+      - '[refresh]'
+      - '[console] clear %player_name% chiseled_polished_blackstone 64'
+  '10':
+    display_name: ''
+    slot: 10
+    material: amethyst_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(100$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(50$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100'
+    - '[console] give %player_name% amethyst_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: amethyst_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 50'
+      - '[refresh]'
+      - '[console] clear %player_name% amethyst_block 64'
+  '11':
+    display_name: ''
+    slot: 11
+    material: bone_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(500$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(250$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500'
+    - '[console] give %player_name% bone_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: bone_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 250'
+      - '[refresh]'
+      - '[console] clear %player_name% bone_block 64'
+  '12':
+    display_name: ''
+    slot: 12
+    material: coal_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(250$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(125$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250'
+    - '[console] give %player_name% coal_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: coal_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 125'
+      - '[refresh]'
+      - '[console] clear %player_name% coal_block 64'
+  '13':
+    display_name: ''
+    slot: 13
+    material: copper_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(350$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(175$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 350
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 350'
+    - '[console] give %player_name% copper_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: copper_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 175'
+      - '[refresh]'
+      - '[console] clear %player_name% copper_block 64'
+  '14':
+    display_name: ''
+    slot: 14
+    material: raw_copper_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(50$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(25$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 50
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 50'
+    - '[console] give %player_name% raw_copper_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: raw_copper_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 25'
+      - '[refresh]'
+      - '[console] clear %player_name% raw_copper_block 64'
+  '15':
+    display_name: ''
+    slot: 15
+    material: brain_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(150$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(75$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 150
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 150'
+    - '[console] give %player_name% brain_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: brain_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 75'
+      - '[refresh]'
+      - '[console] clear %player_name% brain_coral_block 64'
+  '16':
+    display_name: ''
+    slot: 16
+    material: dead_brain_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(100$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(50$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100'
+    - '[console] give %player_name% dead_brain_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dead_brain_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 50'
+      - '[refresh]'
+      - '[console] clear %player_name% dead_brain_coral_block 64'
+  '17':
+    display_name: ''
+    slot: 17
+    material: bubble_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(900$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(450$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 900
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 900'
+    - '[console] give %player_name% bubble_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: bubble_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 450'
+      - '[refresh]'
+      - '[console] clear %player_name% bubble_coral_block 64'
+  '18':
+    display_name: ''
+    slot: 18
+    material: dead_bubble_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(950$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(475$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 950
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 950'
+    - '[console] give %player_name% dead_bubble_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dead_bubble_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 475'
+      - '[refresh]'
+      - '[console] clear %player_name% dead_bubble_coral_block 64'
+  '19':
+    display_name: ''
+    slot: 19
+    material: fire_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300'
+    - '[console] give %player_name% fire_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: fire_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150'
+      - '[refresh]'
+      - '[console] clear %player_name% fire_coral_block 64'
+  '20':
+    display_name: ''
+    slot: 20
+    material: dead_fire_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(100$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(50$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100'
+    - '[console] give %player_name% dead_fire_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dead_fire_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 50'
+      - '[refresh]'
+      - '[console] clear %player_name% dead_fire_coral_block 64'
+  '21':
+    display_name: ''
+    slot: 21
+    material: horn_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(500$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(250$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500'
+    - '[console] give %player_name% horn_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: horn_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 250'
+      - '[refresh]'
+      - '[console] clear %player_name% horn_coral_block 64'
+  '22':
+    display_name: ''
+    slot: 22
+    material: dead_horn_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(800$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(400$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 800
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 800'
+    - '[console] give %player_name% dead_horn_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dead_horn_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 400'
+      - '[refresh]'
+      - '[console] clear %player_name% dead_horn_coral_block 64'
+  '23':
+    display_name: ''
+    slot: 23
+    material: tube_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(350$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(175$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 350
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 350'
+    - '[console] give %player_name% tube_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: tube_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 175'
+      - '[refresh]'
+      - '[console] clear %player_name% tube_coral_block 64'
+  '24':
+    display_name: ''
+    slot: 24
+    material: dead_tube_coral_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(750$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(375$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 750
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 750'
+    - '[console] give %player_name% dead_tube_coral_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dead_tube_coral_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 375'
+      - '[refresh]'
+      - '[console] clear %player_name% dead_tube_coral_block 64'
+  '25':
+    display_name: ''
+    slot: 25
+    material: diamond_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(500$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(250$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500'
+    - '[console] give %player_name% diamond_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 250'
+      - '[refresh]'
+      - '[console] clear %player_name% diamond_block 64'
+  '26':
+    display_name: ''
+    slot: 26
+    material: dripstone_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(450$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(225$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 450
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 450'
+    - '[console] give %player_name% diamond_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 225'
+      - '[refresh]'
+      - '[console] clear %player_name% diamond_block 64'
+  '27':
+    display_name: ''
+    slot: 27
+    material: emerald_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(400$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(200$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 400
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 400'
+    - '[console] give %player_name% emerald_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: emerald_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 200'
+      - '[refresh]'
+      - '[console] clear %player_name% emerald_block 64'
+  '28':
+    display_name: ''
+    slot: 28
+    material: gold_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(450$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(225$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 450
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 450'
+    - '[console] give %player_name% gold_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: gold_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 225'
+      - '[refresh]'
+      - '[console] clear %player_name% gold_block 64'
+  '29':
+    display_name: '&#ffffff1.17 Raw Gold Block'
+    slot: 29
+    material: raw_gold_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(550$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(275$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 550
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 550'
+    - '[console] give %player_name% raw_gold_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: raw_gold_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 275'
+      - '[refresh]'
+      - '[console] clear %player_name% raw_gold_block 64'
+  '30':
+    display_name: ''
+    slot: 30
+    material: grass_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(250$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(125$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250'
+    - '[console] give %player_name% grass_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: grass_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 125'
+      - '[refresh]'
+      - '[console] clear %player_name% grass_block 64'
+  '31':
+    display_name: ''
+    slot: 31
+    material: hay_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(700$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(350$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 700
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 700'
+    - '[console] give %player_name% hay_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: hay_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 350'
+      - '[refresh]'
+      - '[console] clear %player_name% hay_block 64'
+  '32':
+    display_name: ''
+    slot: 32
+    material: iron_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300'
+    - '[console] give %player_name% iron_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: iron_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150'
+      - '[refresh]'
+      - '[console] clear %player_name% iron_block 64'
+  '33':
+    display_name: ''
+    slot: 33
+    material: raw_iron_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(50$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(25$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 50
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 50'
+    - '[console] give %player_name% raw_iron_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: raw_iron_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 25'
+      - '[refresh]'
+      - '[console] clear %player_name% raw_iron_block 64'
+  '34':
+    display_name: ''
+    slot: 34
+    material: dried_kelp_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(850$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(425$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 850
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 850'
+    - '[console] give %player_name% dried_kelp_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: dried_kelp_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 425'
+      - '[refresh]'
+      - '[console] clear %player_name% dried_kelp_block 64'
+  '35':
+    display_name: ''
+    slot: 35
+    material: lapis_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(950$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(475$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 950
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 950'
+    - '[console] give %player_name% lapis_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: lapis_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 475'
+      - '[refresh]'
+      - '[console] clear %player_name% lapis_block 64'
+  '36':
+    display_name: ''
+    slot: 36
+    material: magma_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300'
+    - '[console] give %player_name% magma_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: magma_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150'
+      - '[refresh]'
+      - '[console] clear %player_name% magma_block 64'
+  '37':
+    display_name: ''
+    slot: 37
+    material: netherite_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(750$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(375$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 750
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 750'
+    - '[console] give %player_name% netherite_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: netherite_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 375'
+      - '[refresh]'
+      - '[console] clear %player_name% netherite_block 64'
+  '38':
+    display_name: ''
+    slot: 38
+    material: purpur_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(800$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(400$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 800
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 800'
+    - '[console] give %player_name% purpur_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: purpur_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 400'
+      - '[refresh]'
+      - '[console] clear %player_name% purpur_block 64'
+  '39':
+    display_name: ''
+    slot: 39
+    material: quartz_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(700$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(350$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 700
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 700'
+    - '[console] give %player_name% quartz_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: quartz_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 350'
+      - '[refresh]'
+      - '[console] clear %player_name% quartz_block 64'
+  '40':
+    display_name: ''
+    slot: 40
+    material: chiseled_quartz_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300'
+    - '[console] give %player_name% chiseled_quartz_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: chiseled_quartz_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150'
+      - '[refresh]'
+      - '[console] clear %player_name% chiseled_quartz_block 64'
+  '41':
+    display_name: ''
+    slot: 41
+    material: snow_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(850$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(425$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 850
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 850'
+    - '[console] give %player_name% snow_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: snow_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 425'
+      - '[refresh]'
+      - '[console] clear %player_name% snow_block 64'
+  '42':
+    display_name: ''
+    slot: 42
+    material: nether_wart_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300'
+    - '[console] give %player_name% nether_wart_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: nether_wart_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150'
+      - '[refresh]'
+      - '[console] clear %player_name% nether_wart_block 64'
+  '43':
+    display_name: ''
+    slot: 43
+    material: warped_wart_block
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(400$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(200$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 400
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 400'
+    - '[console] give %player_name% warped_wart_block 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: warped_wart_block
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 200'
+      - '[refresh]'
+      - '[console] clear %player_name% warped_wart_block 64'
+  '44':
+    display_name: ''
+    slot: 44
+    material: bookshelf
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(100$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(50$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100'
+    - '[console] give %player_name% bookshelf 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: bookshelf
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 50'
+      - '[refresh]'
+      - '[console] clear %player_name% bookshelf 64'

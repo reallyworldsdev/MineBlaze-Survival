@@ -1,0 +1,30 @@
+#
+# This is the file for configuring ajParkour's jumps.
+#
+
+
+# Don't touch this number.
+config-version: 0
+
+
+# For the balanced difficulty, at what score should we start the difficulties at?
+# It always starts easy at 0, which is why its not listed here.
+balanced-start-medium: 10
+balanced-start-hard: 30
+balanced-start-expert: 70
+
+
+# These are the values for jumps in each difficulty.
+# I do not really recommend changing these, but you can if you really want to.
+# 2 = gap of 1 block between.
+easy-min: 1
+easy-max: 2
+
+medium-min: 1
+medium-max: 2
+
+hard-min: 2
+hard-max: 2
+
+expert-min: 3
+expert-max: 3

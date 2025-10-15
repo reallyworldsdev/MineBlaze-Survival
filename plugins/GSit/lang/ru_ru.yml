@@ -1,0 +1,50 @@
+Plugin:
+  
+  plugin-enabled: '&6&l| &r&fПлагин был включен.'
+  plugin-link: '&6&l| &r&fСоединение с &6%Link%&a Успешно!'
+  plugin-update: '&6&l| &r&fДоступна новая версия:&6 %NewVersion%&a! &6&l| &r&fВаша версия:&6 %Version%&a! &6&l| &r&fСкачайте последнюю версию: [P]&6 %Path%'
+  plugin-data: '&c&l| &fA connection to the data storage could not be established. Please check the server console!'
+  plugin-version: '&c&l| &fПлагин не может быть использован с этой версией сервера! (&b%Version%&c)'
+  plugin-reload: '&6&l| &r&fПлагин был успешно перезагружен.'
+  plugin-disabled: '&6&l| &r&fПлагин был успешно отключен.'
+  plugin-prefix: '&7[&6GSit&7]'
+
+Messages:
+  
+  command-permission-error: '&c&l| &r&fУ вас нет права для использования этой команды!'
+  command-sender-error: '&c&l| &r&fЭтот отправитель не может выполнить эту команду!'
+  command-version-error: '&c&l| &r&fУстаревшая версия сервера! (&b%Version%&c) &c&l| &fОбновите версию для использования!'
+  
+  command-gsit-toggle-on: '&6&l| &r&fТеперь вы можете сесть, нажав.'
+  command-gsit-toggle-off: '&6&l| &r&fВы больше не можете сесть, нажав.'
+  command-gsit-playertoggle-on: '&6&l| &r&fТеперь вы можете сесть на игрока, нажав.'
+  command-gsit-playertoggle-off: '&6&l| &r&fВы больше не можете сесть на игрока, нажав.'
+  command-gcrawl-toggle-on: '&6&l| &r&fВы включили возможность ползания через двойное приседание.'
+  command-gcrawl-toggle-off: '&6&l| &r&fВы выключили возможность ползания через двойное приседание.'
+  
+  action-sit-now-error: '&c&l| &r&fВы не можете сидеть сейчас!'
+  action-sit-world-error: '&c&l| &r&fВы не можете сидеть в этом мире!'
+  action-sit-location-error: '&c&l| &r&fТы не можешь здесь сидеть!'
+  action-sit-safe-error: '&c&l| &r&fЗдесь сидеть небезопасно!'
+  action-sit-region-error: '&c&l| &r&fВы не можете сидеть в этом регионе!'
+  action-sit-kick-error: '&c&l| &r&fКто-то уже сидит здесь!'
+  action-sit-error: '&c&l| &r&fDue to an error you can''t sit here!'
+  action-sit-info: '&a&l| &r&fИспользуйте &6<lang:key.sneak>&f, чтобы встать.'
+  
+  action-playersit-info: '&a&l| &r&fИспользуйте &6<lang:key.sneak>&f, чтобы встать.'
+  
+  action-pose-now-error: '&c&l| &r&fВы не можете использовать эту команду сейчас!'
+  action-pose-world-error: '&c&l|&r &fВы не можете использовать эту команду в этом мире!'
+  action-pose-location-error: '&c&l|&r &fЗдесь нельзя использовать эту команду!'
+  action-pose-safe-error: '&c&l| &r&fЗдесь небезопасно использовать эту команду!'
+  action-pose-region-error: '&c&l| &r&fВы не можете использовать эту команду в этом регионе!'
+  action-pose-kick-error: '&c&l| &r&fКто-то уже здесь использует эту команду!'
+  action-pose-error: '&c&l| &r&fDue to an error you can''t pose here!'
+  action-pose-info: '&a&l| &r&fИспользуйте &6<lang:key.sneak>&f, чтобы встать.'
+  
+  action-crawl-now-error: '&c&l|&r &fВы не можете ползать сейчас!'
+  action-crawl-world-error: '&c&l| &r&fВы не можете ползать в этом мире!'
+  action-crawl-region-error: '&c&l| &r&fВы не можете ползать в этом регионе!'
+  action-crawl-info: '&a&l| &r&fИспользуйте &6<lang:key.sneak>&f, чтобы встать.'
+  
+  action-blocked-error: '&c&l| &r&fВам не разрешено выполнять эту команду прямо сейчас!'

@@ -1,0 +1,48 @@
+menu_title: "&#FF2121[🧪] &6Аукционы"
+type: CHEST
+size: 9
+
+id: confirmBuyItem
+provider: itemViewer
+
+item:
+  slot: 4
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  click_commands:
+    - '[BUY_ITEM_FULL]'
+    - '[BACK_OR_CLOSE]'
+
+
+items:
+  accept:
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+      - 5-8
+    display_name: "&aПодтвердить"
+    lore: [ ]
+    click_commands:
+      - '[BUY_ITEM_FULL] {id}'
+      - '[BACK_OR_CLOSE]'
+
+  deny:
+    material: RED_STAINED_GLASS_PANE
+    slots:
+      - 0-4
+    display_name: "&cОтклонить"
+    lore: [ ]
+    click_commands:
+      - '[BACK_OR_CLOSE]'
+
+  decor:
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 4
+      - 22
+    display_name: " "
+    lore: [ ]

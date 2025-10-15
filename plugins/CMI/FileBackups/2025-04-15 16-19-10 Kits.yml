@@ -1,0 +1,10 @@
+Ad2:
+  CommandName: Ad
+  Weight: 2
+  Delay: 36060
+  Group: resources
+  Items:
+    '1':
+      v: 4189
+      type: OAK_PLANKS
+      amount: 10

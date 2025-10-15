@@ -1,0 +1,32 @@
+location: world:-19,519:72,000:-44,498
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&l&nСупер КЕЙСЫ с донатом'
+    height: 0.3
+  - content: '&fАвто-донат: &e&lwww.31fDev.ru'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '&e• 5 &fдонат ключей &7/ &e25 рублей'
+    height: 0.3
+  - content: '&6• 10 &fдонат ключей &7/ &e42 рублей'
+    height: 0.3
+  - content: '&c• 20 &fдонат ключей &7/ &e89 рублей'
+    height: 0.3
+  - content: '&a• 30 &fдонат ключей &7/ &e139 рублей'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '&fДонат &eнавсегда &fи &eне исчезает &fникогда'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: ender_chest'
+    height: 0.3
+  actions: {}

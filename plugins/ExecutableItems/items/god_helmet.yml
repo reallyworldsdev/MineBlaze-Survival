@@ -1,0 +1,145 @@
+name: ''
+glow: false
+disableEnchantGlide: false
+lore: []
+material: NETHERITE_HELMET
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+isDurabilityBasedOnUsage: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+glider: false
+keepDefaultAttributes: true
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment11:
+    enchantment: Luck_of_the_sea
+    level: 3
+  enchantment10:
+    enchantment: Looting
+    level: 3
+  enchantment15:
+    enchantment: Respiration
+    level: 3
+  enchantment0:
+    enchantment: Aqua_affinity
+    level: 1
+  enchantment14:
+    enchantment: Protection
+    level: 4
+  enchantment1:
+    enchantment: Bane_of_arthropods
+    level: 5
+  enchantment13:
+    enchantment: Mending
+    level: 1
+  enchantment2:
+    enchantment: Depth_strider
+    level: 3
+  enchantment12:
+    enchantment: Lure
+    level: 3
+  enchantment3:
+    enchantment: Efficiency
+    level: 3
+  enchantment19:
+    enchantment: Unbreaking
+    level: 3
+  enchantment4:
+    enchantment: Feather_falling
+    level: 4
+  enchantment18:
+    enchantment: Thorns
+    level: 3
+  enchantment5:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment17:
+    enchantment: Smite
+    level: 5
+  enchantment6:
+    enchantment: Fire_protection
+    level: 4
+  enchantment16:
+    enchantment: Sharpness
+    level: 5
+  enchantment7:
+    enchantment: Flame
+    level: 1
+  enchantment8:
+    enchantment: Infinity
+    level: 1
+  enchantment9:
+    enchantment: Knockback
+    level: 2
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: true
+  hideAttributes: true
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: true
+  hideArmorTrim: true
+  hideAdditionalTooltip: true
+  hideToolTip: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+food:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+consumableFeatures:
+  enable: false
+  animation: EAT
+  hasConsumeParticles: false
+  consumeSeconds: 3
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+attributes: {}
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE

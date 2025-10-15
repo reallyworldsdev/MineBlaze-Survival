@@ -1,0 +1,606 @@
+menu_title: '&0Украшения, Мебель!'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  'up':
+    display_name: '&#ff5555Вперед'
+    slot: 50
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19"}]},Name:"OSUCIA0AO7YLQ1XL"},display:{Name:'{"text":"Вперед","color":"red","italic":false}'},AttributeModifiers:[{Amount:0.0d,AttributeName:"generic.armor",Operation:0,UUID:[I;1741207714,-47496495,-1406090190,-1694745152],Name:"minecraft:67c8b8a2-fd2b-42d1-ac30-c4329afc3dc0"}]}
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopFurnitureTwo'
+  # Слоты магазина
+  '0':
+    display_name: '&#55ff55Большой стол'
+    slot: 0
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '1':
+    display_name: '&#55ff55Маленький cтол'
+    slot: 1
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '2':
+    display_name: '&#55ff55Раскладной cтул'
+    slot: 2
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '3':
+    display_name: '&#55ff55Стул'
+    slot: 3
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '4':
+    display_name: '&#55ff55Диван'
+    slot: 4
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '5':
+    display_name: '&#55ff55Телевизор'
+    slot: 5
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '6':
+    display_name: '&#55ff55Камин'
+    slot: 6
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '7':
+    display_name: '&#55ff55Компьютер'
+    slot: 7
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '8':
+    display_name: '&#55ff55Мусорка'
+    slot: 8
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '9':
+    display_name: '&#55ff55Свечка'
+    slot: 9
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '10':
+    display_name: '&#55ff55Стенд для брони'
+    slot: 10
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '11':
+    display_name: '&#55ff55Школьный стул'
+    slot: 11
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '12':
+    display_name: '&#55ff55Школьная парта'
+    slot: 12
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '13':
+    display_name: '&#55ff55Школьная доска'
+    slot: 13
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '14':
+    display_name: '&#55ff55Спальный мешок'
+    slot: 14
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '15':
+    display_name: '&#55ff55Палатка #2'
+    slot: 15
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '16':
+    display_name: '&#55ff55Палатка #3'
+    slot: 16
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '17':
+    display_name: '&#55ff55Бревно'
+    slot: 17
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '18':
+    display_name: '&#55ff55Камера'
+    slot: 18
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '19':
+    display_name: '&#55ff55Горшок для цветка'
+    slot: 19
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '20':
+    display_name: '&#55ff55Могила'
+    slot: 20
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '21':
+    display_name: '&#55ff55Гильотина'
+    slot: 21
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '22':
+    display_name: '&#55ff55Гамак'
+    slot: 22
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '23':
+    display_name: '&#55ff55Скелет'
+    slot: 23
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '24':
+    display_name: '&#55ff55Лампа'
+    slot: 24
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '25':
+    display_name: '&#55ff55Почтовый ящик'
+    slot: 25
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '26':
+    display_name: '&#55ff55Уличный фонарь'
+    slot: 26
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '27':
+    display_name: '&#55ff55Качели'
+    slot: 27
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '28':
+    display_name: '&#55ff55Пляжный зонтик'
+    slot: 28
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '29':
+    display_name: '&#55ff55Ловушка'
+    slot: 29
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '30':
+    display_name: '&#55ff55Кактус'
+    slot: 30
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '31':
+    display_name: '&#55ff55Флаг'
+    slot: 31
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '32':
+    display_name: '&#55ff55Катапульта'
+    slot: 32
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '33':
+    display_name: '&#55ff55Арбалетная Установка'
+    slot: 33
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '34':
+    display_name: '&#55ff55Запускатор Фейерверка '
+    slot: 34
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '35':
+    display_name: '&#55ff55Леденец'
+    slot: 35
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '36':
+    display_name: '&#55ff55Елка'
+    slot: 36
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '37':
+    display_name: '&#55ff55Снеговик'
+    slot: 37
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '38':
+    display_name: '&#55ff55Стеллаж'
+    slot: 38
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '39':
+    display_name: '&#55ff55Пляжная лежанка'
+    slot: 39
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '40':
+    display_name: '&#55ff55Школьная парта и стул'
+    slot: 40
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '41':
+    display_name: '&#55ff55Железная лавочка'
+    slot: 41
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '42':
+    display_name: '&#55ff55Деревянная лавочка'
+    slot: 42
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '43':
+    display_name: '&#55ff55Деревянный диван'
+    slot: 43
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '44':
+    display_name: '&#55ff55Зеленая домашний светильник'
+    slot: 44
+    material: zombie_spawn_egg
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes

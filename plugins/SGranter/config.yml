@@ -1,0 +1,38 @@
+groupSettings:
+
+  griefer: #Группа, которая выдаёт.
+    vip: #Группа, которую выдаём.
+      amount: 3 #Кол-во раз.
+      commands:  #Команды, которые выполняются из консоли, при успешной выдаче доната.
+        - "lp user (playerName) parent add vip"
+    premium:
+      amount: 1
+      commands:
+        - "lp user (playerName) parent add premium"
+
+  lord: #Группа, которая выдаёт.
+    vip: #Группа, которую выдаём.
+      amount: 5  #Кол-во раз.
+      commands:  #Команды, которые выполняются из консоли, при успешной выдаче доната.
+        - "lp user (playerName) parent add vip"
+    premium:
+      amount: 2
+      commands:
+        - "lp user (playerName) parent add premium"
+
+  fakeowner: #Группа, которая выдаёт.
+    vip: #Группа, которую выдаём.
+      amount: 10 #Кол-во раз.
+      commands:  #Команды, которые выполняются из консоли, при успешной выдаче доната.
+        - "lp user (playerName) parent add vip"
+    premium:
+      amount: 5
+      commands:
+        - "lp user (playerName) parent add premium"
+
+#Приоритеты для групп, чтобы игроки не могли понижать донаты другим игрокам.
+#Если группы нет в этом списке - ей выдаётся максимальный приоритет.
+groupPriorities:
+  default: 1
+  vip: 2
+  premium: 3

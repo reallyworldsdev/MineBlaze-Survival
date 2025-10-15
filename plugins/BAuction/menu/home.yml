@@ -1,0 +1,171 @@
+menu_title: "&0Список всех категорий"
+size: 54
+type: CHEST
+provider: home
+id: home
+
+items-slots:
+  - 0-44
+
+
+if-shulker:
+  lore:
+    - ''
+  shift_right_click_commands:
+    - '[OPEN_MENU] viewShulker'
+
+if-admin:
+  lore:
+    - ''
+  middle_click_commands:
+    - '[REMOVE_SELL_ITEM]'
+# Когда продаваемый предмет один
+
+selling-item-one:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}$'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+
+# Когда игрок owner предмета
+take-item:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}$'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[TAKE_ITEM]'
+  shift_left_click_commands:
+    - '[TAKE_ITEM]'
+
+# Когда продаваемый предмет не один и его можно купить поштучно
+selling-item:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}$'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  right_click_commands:
+    - '[OPEN_MENU] buyCount'
+
+# Когда продаваемый предмет не один и его нельзя купить поштучно
+selling-item-only-full:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}$'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+    - '[OPEN_MENU] confirmBuyItem'
+  right_click_commands:
+    - '[OPEN_MENU] confirmBuyItem'
+  shift_left_click_commands:
+    - '[BUY_ITEM_FULL]'
+  shift_right_click_commands:
+    - '[BUY_ITEM_FULL]'
+
+items:
+
+  not-sold-item:
+    material: ENDER_CHEST
+    slot: 45
+    amount: 1
+    display_name: "&fВаши&a завершенные&f лоты"
+    lore:
+      - '&7Кликни чтобы увидеть'
+      - '&7список всех лотов'
+      - '&7находящихся в продаже'
+      - ''
+      - '&fВаших завершенных лотов:&a '
+    click_commands:
+      - '[OPEN_MENU] unsoldItems'
+#  not-sold-item2:
+#    material: CHEST
+#    slot: 46
+#    amount: 1
+#    display_name: "&fВаши&a завершенные&f лоты"
+#    lore:
+#      - '&7Кликни чтобы увидеть'
+#      - '&7список закончившихся'
+#      - '&7или отмененных лотов'
+#      - '&7лотов'
+#      - ''
+#      - '&fВаших закончившихся лотов:&a '
+#    click_commands:
+#      - '[OPEN_MENU] itemsForSale'
+  update-menu:
+    material: SUNFLOWER
+    slot: 49
+    amount: 1
+    display_name: "&a⟲ Обновить страницу"
+    lore: [ ]
+    click_commands:
+      - '[REFRESH]'
+
+  previous-page:
+    material: ARROW
+    slot: 48
+    amount: 1
+    display_name: "&e« Предыдущая страница"
+    lore: [ ]
+    click_commands:
+      - '[PREVIOUS_PAGE]'
+
+  next-page:
+    material: ARROW
+    slot: 50
+    amount: 1
+    display_name: "&eСледующая страница »"
+    lore: [ ]
+    click_commands:
+      - '[NEXT_PAGE]'
+
+
+  categories:
+    material: PAPER
+    slot: 52
+    amount: 1
+    display_name: "&aВсе категории аукциона"
+    lore:
+      - '{categories}'
+    left_click_commands:
+      - '[CATEGORIES_NEXT]'
+    right_click_commands:
+      - '[CATEGORIES_PREVIOUS]'
+
+
+  what:
+    material: BOOK
+    slot: 53
+    amount: 1
+    display_name: "&fЧто тут делать?"
+    lore:
+      - ''
+      - '&7Здесь можно купить или выставить'
+      - '&7на продажу любой предмет.'
+      - ''
+      - '&7Чтобы продать предмет, возьмите'
+      - '&7его в руку и напишите команду:'
+      - ''
+      - '&a/ah sell &l[цена]'
+      - ''
+      - '&7Чтобы купить предмет, просто'
+      - '&7кликните на него.'

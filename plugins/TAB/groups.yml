@@ -1,0 +1,133 @@
+#Owner:
+#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
+#  tagprefix: "&2&lOwner &a"
+Player:
+  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  tagprefix: "&2&lPlayer &3"
+example_group:
+  header:
+    - "This is an example of per-group header/footer"
+  footer:
+    - "applied to a group"
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "&7"
+  tagprefix: "&7"
+  customtabname: "%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+vip:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+premium:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+creative:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+legend:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+moder:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+admin:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+sadmin:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+enigma:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+emperor:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+deluxe:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+help:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+fakeop:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+helper:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+blaze:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+griefer:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+lord:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+fakeowner:
+  tabprefix: "%luckperms-prefix% "
+  tagprefix: "%luckperms-prefix% "
+  customtabname: "&f%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

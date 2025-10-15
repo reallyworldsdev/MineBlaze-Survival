@@ -1,0 +1,13 @@
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://minecraft-heads.com/csv/2018-11-08-VOywseYMIqzMruyduobO/Custom-Head-DB.csv
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1985)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1577)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at me.arcaniax.hdb.HeadDatabaseManager.loadDatabase(HeadDatabaseManager.java:252)
+	at me.arcaniax.hdb.HeadDatabaseManager.access$000(HeadDatabaseManager.java:35)
+	at me.arcaniax.hdb.HeadDatabaseManager$4.run(HeadDatabaseManager.java:333)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+	at org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:58)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)

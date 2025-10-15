@@ -1,0 +1,208 @@
+name: ''
+glow: false
+disableEnchantGlide: false
+lore: []
+material: NETHERITE_HOE
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+isDurabilityBasedOnUsage: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+glider: false
+keepDefaultAttributes: true
+ignoreKeepDefaultAttributesFeature: false
+armorTrim:
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: EYE
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 0
+  isRefreshableClean: true
+  usageLimit: -1
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment11:
+    enchantment: Luck_of_the_sea
+    level: 3
+  enchantment10:
+    enchantment: Looting
+    level: 3
+  enchantment15:
+    enchantment: Respiration
+    level: 3
+  enchantment0:
+    enchantment: Aqua_affinity
+    level: 1
+  enchantment14:
+    enchantment: Protection
+    level: 4
+  enchantment1:
+    enchantment: Bane_of_arthropods
+    level: 5
+  enchantment13:
+    enchantment: Mending
+    level: 1
+  enchantment2:
+    enchantment: Depth_strider
+    level: 3
+  enchantment12:
+    enchantment: Lure
+    level: 3
+  enchantment3:
+    enchantment: Efficiency
+    level: 3
+  enchantment19:
+    enchantment: Unbreaking
+    level: 3
+  enchantment4:
+    enchantment: Feather_falling
+    level: 4
+  enchantment18:
+    enchantment: Thorns
+    level: 3
+  enchantment5:
+    enchantment: Fire_aspect
+    level: 2
+  enchantment17:
+    enchantment: Smite
+    level: 5
+  enchantment6:
+    enchantment: Fire_protection
+    level: 4
+  enchantment16:
+    enchantment: Sharpness
+    level: 5
+  enchantment7:
+    enchantment: Flame
+    level: 1
+  enchantment8:
+    enchantment: Infinity
+    level: 1
+  enchantment9:
+    enchantment: Knockback
+    level: 2
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: true
+  hideUsage: false
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hideAdditionalTooltip: true
+  hideToolTip: false
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+food:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+consumableFeatures:
+  enable: false
+  animation: EAT
+  hasConsumeParticles: false
+  consumeSeconds: 3
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+attributes:
+  attribute0:
+    attribute: ARMOR
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    name: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+    uuid: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+  attribute1:
+    attribute: ARMOR
+    operation: ADD_NUMBER
+    amount: 8.0
+    slot: CHEST
+    name: e63f290b-0c71-3271-935b-5f3510bd4140
+    uuid: e63f290b-0c71-3271-935b-5f3510bd4140
+  attribute2:
+    attribute: ARMOR
+    operation: ADD_NUMBER
+    amount: 6.0
+    slot: LEGS
+    name: armor.leggings
+    uuid: f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+  attribute3:
+    attribute: ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    name: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+    uuid: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+  attribute4:
+    attribute: ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: CHEST
+    name: e63f290b-0c71-3271-935b-5f3510bd4140
+    uuid: e63f290b-0c71-3271-935b-5f3510bd4140
+  attribute5:
+    attribute: ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: LEGS
+    name: armor.leggings
+    uuid: f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+  attribute6:
+    attribute: KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 0.10000000149011612
+    slot: HEAD
+    name: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+    uuid: 80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+  attribute7:
+    attribute: KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 0.10000000149011612
+    slot: CHEST
+    name: e63f290b-0c71-3271-935b-5f3510bd4140
+    uuid: e63f290b-0c71-3271-935b-5f3510bd4140
+  attribute8:
+    attribute: KNOCKBACK_RESISTANCE
+    operation: ADD_NUMBER
+    amount: 0.10000000149011612
+    slot: LEGS
+    name: armor.leggings
+    uuid: f4a0d71b-7d96-3f87-863c-cf4ea90e700a

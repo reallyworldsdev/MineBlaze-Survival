@@ -1,0 +1,102 @@
+menu_title: '&#555555Магазин метелок'
+size: 26
+items:
+  '11':
+    display_name: '&#55ff55Метла Comet 140'
+    slot: 11
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$1500'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 1500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 1500' #
+    - '[console] givebroom %player_name% B1'
+  '13':
+    display_name: '&#ffff55Метла Nimbus 2001'
+    slot: 13
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$3000'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] givebroom %player_name% B2'
+  '15':
+    display_name: '&#ff5555Метла Firebolt'
+    slot: 15
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$5000'
+    - ''
+    - ' &#ff5555Чтобы подниматься вверх используйте пробел'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55A &#aaaaaa- влево'
+    - ' &#55ff55D &#aaaaaa- вправо'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 5000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 5000' #
+    - '[console] givebroom %player_name% B3'

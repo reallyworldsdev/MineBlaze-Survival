@@ -1,0 +1,155 @@
+# DeluxeMenus 1.14.1-DEV-PR--89bdb2a0 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+
+check_updates: true
+# DeluxeMenus 1.14.1-DEV-PR--89bdb2a0 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/helpchat-plugins/deluxemenus
+metas_list_page_size: 15
+use_admin_commands_in_menus_list: false
+menus_list_page_size: 10
+debug: HIGHEST
+gui_menus:
+  # Донат меню
+  freeair:
+    file: general/freeair.yml
+  # Систем
+  sborkaServers:
+    file: sborka/servers.yml
+  generalDonate:
+    file: general/donate.yml
+  generalMenu:
+    file: general/menu.yml
+  generalNano:
+    file: general/nano.yml
+  ShopSelector:
+    file: shop/shopSelector.yml
+  # Донат меню
+  DonateShopSelector:
+    file: general/FakeOp/donatemenu.yml
+  DonateShopMagic:
+    file: general/FakeOp/magic.yml
+  DonateConsole:
+    file: general/FakeOp/console.yml
+  DonateGudjet:
+    file: general/FakeOp/gudjet.yml
+  DonateChangeEffect:
+    file: general/FakeOp/changeEffect.yml
+  # Морфы
+  DonateMorphOne:
+    file: general/FakeOp/morph/MorphOne.yml
+  DonateMorphTwo:
+    file: general/FakeOp/morph/MorphTwo.yml
+  DonateMorphThree:
+    file: general/FakeOp/morph/MorphThree.yml
+  # Блоки
+  ShopBlockOne:
+    file: shop/block/blockOne.yml
+  ShopBlockTwo:
+    file: shop/block/blockTwo.yml
+  ShopBlockThree:
+    file: shop/block/blockThree.yml
+  ShopBlockFour:
+    file: shop/block/blockFour.yml
+  ShopBlockFive:
+    file: shop/block/blockFive.yml
+  ShopBlockSix:
+    file: shop/block/blockSix.yml
+  ShopBlockSeven:
+    file: shop/block/blockSeven.yml
+  ShopBlockEight:
+    file: shop/block/blockEight.yml
+  ShopBlockNine:
+    file: shop/block/blockNine.yml
+  ShopBlockTen:
+    file: shop/block/blockTen.yml
+  ShopBlockEleven:
+    file: shop/block/blockEleven.yml
+  # Декор. блоки
+  ShopDesignOne:
+    file: shop/design/designOne.yml
+  ShopDesignTwo:
+    file: shop/design/designTwo.yml
+  ShopDesignThree:
+    file: shop/design/designThree.yml
+  ShopDesignFour:
+    file: shop/design/designFour.yml
+  ShopDesignFive:
+    file: shop/design/designFive.yml
+  ShopDesignSix:
+    file: shop/design/designSix.yml
+  ShopDesignSeven:
+    file: shop/design/designSeven.yml
+  # Механизмы
+  ShopMechanismOne:
+    file: shop/mechanism/mechanismOne.yml
+  ShopMechanismTwo:
+    file: shop/mechanism/mechanismTwo.yml
+  # Еда
+  ShopEatOne:
+    file: shop/eat/eatOne.yml
+  # Броня
+  ShopArmorOne:
+    file: shop/armor/armorOne.yml
+  # Кейсы
+  ShopCasesOne:
+    file: shop/cases/casesOne.yml
+  # Зелья
+  ShopPotionOne:
+    file: shop/potion/potionOne.yml
+  # Уник. вещи
+  ShopUnicitemsOne:
+    file: shop/unicitems/unicitemsOne.yml
+  # Инструменты
+  ShopToolOne:
+    file: shop/tool/toolOne.yml
+  ShopToolTwo:
+    file: shop/tool/toolTwo.yml
+  # Разное
+  ShopOtherOne:
+    file: shop/other/otherOne.yml
+  ShopOtherTwo:
+    file: shop/other/otherTwo.yml
+  ShopOtherThree:
+    file: shop/other/otherThree.yml
+  ShopOtherFour:
+    file: shop/other/otherFour.yml
+  # Вещи бога
+  ShopGoditemsOne:
+    file: shop/goditems/goditemsOne.yml
+  # Мебель
+  ShopFurnitureOne:
+    file: shop/furniture/furnitureOne.yml
+  ShopFurnitureTwo:
+    file: shop/furniture/furnitureTwo.yml
+  # Декор
+  ShopDecorOne:
+    file: shop/schem/decorOne.yml
+  # Vehicles 
+  vehicleSelector:
+    file: vehicle/vehicleSelector.yml
+  VehicleVertolet:
+    file: vehicle/impl/vertolet.yml
+  VehicleTraktor:
+    file: vehicle/impl/traktor.yml
+  VehicleTanki:
+    file: vehicle/impl/tanki.yml
+  VehicleSamolet:
+    file: vehicle/impl/samolet.yml
+  VehicleParashut:
+    file: vehicle/impl/parashut.yml
+  VehicleMetelki:
+    file: vehicle/impl/metelki.yml
+  VehicleLodka:
+    file: vehicle/impl/lodka.yml
+  VehicleBur:
+    file: vehicle/impl/bur.yml
+  VehicleAuto:
+    file: vehicle/impl/auto.yml
+  VehiclePlot:
+    file: vehicle/impl/plots.yml
+  VehiclePoezd:
+    file: vehicle/impl/poezd.yml

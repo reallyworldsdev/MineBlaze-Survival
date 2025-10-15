@@ -1,0 +1,89 @@
+[21:00:01] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:00:20] [Server thread/INFO]: Enabling BAuction v1.3.3
+[21:00:20] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[21:00:20] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[21:00:20] [Server thread/SEVERE]: Failed to load menu 'plugins/BAuction/menu/itemForSale.yml'
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+ in 'reader', line 39, column 7:
+          - '&7Кликай по воронке чтобы сгр ... 
+          ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 41, column 10:
+          - '&f'
+             ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.bmenu.menu.MenuLoader.load(MenuLoader.java:58)
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$0(Main.java:122)
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49)
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606)
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743)
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: while parsing a block collection
+ in 'reader', line 39, column 7:
+          - '&7Кликай по воронке чтобы сгр ... 
+          ^
+expected <block end>, but found '<anchor>'
+ in 'reader', line 41, column 10:
+          - '&f'
+             ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey.produce(ParserImpl.java:548)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105)
+	... 18 more
+
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load db cfg
+[21:00:20] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load cfg
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load lang
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load logger
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load event manager
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load time util
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load econ
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load black list
+[21:00:20] [Server thread/INFO]: [DEBUG] enable load db
+[21:00:20] [Server thread/INFO]: [DEBUG] enable check version
+[21:00:20] [Server thread/INFO]: [DEBUG] enable init commands
+[21:00:20] [bauc File Db loader/INFO]: Успешно загружено 1 предметов за 10 мс.
+[21:00:31] [Server thread/INFO]: [DEBUG] CraftPlayer{name=31f1ee} use command ah 

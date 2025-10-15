@@ -1,0 +1,48 @@
+menu_title: '&0Магические штучки'
+open_command: magic
+register_command: true
+size: 26
+items:
+  'get':
+    display_name: '&#55ff55&lПолучение волшебной палочки'
+    slot: 12
+    material: blaze_rod
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Нажав, вы сможете получить'
+    - '&7себе волшебную палочку.'
+    - ''
+    - '&fДоступно от: &#ffaa00[Опка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_enchants
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffaa00[&lОпка&#ffaa00]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  'help':
+    display_name: '&#ffff55&lОбучение магии'
+    slot: 14
+    material: writable_book
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Чтобы использовать магию, нажмите'
+    - '&#55ff55ПКМ &7по палочке. Чтобы выбрать &#55ff55заклинание&7,'
+    - '&7нажмите &#55ff55ЛКМ &7по палочке'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_enchants
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffaa00[&lОпка&#ffaa00]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 

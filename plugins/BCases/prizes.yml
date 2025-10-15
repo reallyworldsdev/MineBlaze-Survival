@@ -1,0 +1,199 @@
+# Команды
+# [TAKE_KEY] <key> - забрать у игрока один указанный ключ
+# [PLAY] <animation> <prizes> - запустить анимацию
+# [MESSAGE] <msg> - отправить игроку сообщение
+# [BROADCAST] <msg> - отправить сообщение всем игрокам на сервере
+# [CONSOLE] <cmd> - выполнить команду от консоли
+# [GIVE] <item base64> <?min> <?max> - выдать игроку предмет. Чтобы получить предмет в виде base64 используйте команду /bcases dump
+# [TITLE] <"Title\nSubTitle"> <?fadeIn> <?stay> <?fadeOut> - отправить title игроку
+# [ACTION_BAR] <msg> - отправить action bar игрокsу
+
+prizes:
+  donate: # Набор призов default
+    # первый приз
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: wooden_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &9[Вип] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set vip'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true' 
+      display_name: '&9[Вип]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: wooden_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &b[Премиум] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set premium'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&b[Премиум]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: stone_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &e[Креатив] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set creative'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&e[Креатив]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: stone_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &6[Легенда] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set legend'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&6[Легенда]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: iron_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &a[Модер] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set moder'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&a[Модер]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: iron_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &2[Админ] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set admin'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&2[Админ]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: golden_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &4[Гл.Админ] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set sadmin'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&4[Гл.Админ]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: golden_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &e[Энигма] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set enigma'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&e[Энигма]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: diamond_sword # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &c[Император] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set emperor'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&c[Император]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: iron_chestplate # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &a[&lДелюкс&a] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set deluxe'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&a[&lДелюкс&a]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: iron_chestplate # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &b[&lПомощник&b] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set help'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&b[&lПомощник&b]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: false # эффект зачарования
+      material: golden_chestplate # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &6[&lОпка&6] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set fakeop'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.sword true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&6[&lОпка&6]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: golden_chestplate # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &e[&lХелпер&e] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set helper'
+        - '[CONSOLE] lp user %player_name% permission set menu.helper.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.sword true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&e[&lХелпер&e]'
+    - chance: 100.0 # "вес" шанс появления
+      enchanted: true # эффект зачарования
+      material: diamond_chestplate # материал
+      give_commands: # команды выдачи
+        - '[BROADCAST] &r'
+        - '[BROADCAST] &6&l| &fВыиграл &c[&lБлейз&c] &fв донат кейсе'
+        - '[BROADCAST] &6&l| &fПокупка кейса производится на сайте > &6&lwww.31fDev.ru'
+        - '[BROADCAST] &r'
+        - '[CONSOLE] lp user %player_name% parent set blaze'
+        - '[CONSOLE] lp user %player_name% permission set menu.blaze.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.blaze.morph true'
+        - '[CONSOLE] lp user %player_name% permission set menu.blaze.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.helper.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.opka.sword true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.effects true'
+        - '[CONSOLE] lp user %player_name% permission set menu.help.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.premium.auto true'
+        - '[CONSOLE] lp user %player_name% permission set menu.vip.auto true'
+      display_name: '&c[&lБлейз&c]'

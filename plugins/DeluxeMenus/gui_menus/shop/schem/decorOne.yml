@@ -1,0 +1,879 @@
+menu_title: '&0Постройки, дома, декор'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  # Слоты магазина
+  '0':
+    display_name: '&#55ff55Уютный Домик'
+    slot: 0
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaНебольшой уютный домик с высокой крышей,'
+    - '&#aaaaaaдымящей трубой и цветущим садом,'
+    - '&#aaaaaaокруженный каменной обводкой.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffС чердаком'
+    - '&#555555▪ &#ffffffКомпактный'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '1':
+    display_name: '&#55ff55Деревянный Уютный Дом'
+    slot: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0\
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaТёплый деревянный дом с фонарями и цветами.'
+    - '&#aaaaaaОтличное место для спокойной жизни.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffС чердаком'
+    - '&#555555▪ &#ffffffКомпактный'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '2':
+    display_name: '&#55ff55Современный Особняк'
+    slot: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaСовременный двухэтажный дом'
+    - '&#aaaaaaс уникальным дизайном. Открытая'
+    - '&#aaaaaaтерраса, панорамные стеклянные'
+    - '&#aaaaaaстены и озелененная крыша.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffС байссейном'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '3':
+    display_name: '&#55ff55Розовый Домик'
+    slot: 3
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY5M2E2MTllYTU3OGJmMjE5YmJjMTNlNGNiYzcyZDEyMGQ4MzFhOWNjMjg4MDEzMzY1OGIwNzQzMWIzOTI2ZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВ розовых тонах с белой'
+    - '&#aaaaaaкрышей, украшенный лианами'
+    - '&#aaaaaaи окружённый цветами.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - '&#555555▪ &#ffffffКомпактный'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '4':
+    display_name: '&#55ff55Загородное Поместье'
+    slot: 4
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NzI3MjUzODEyMTdmOGRjYjYxNjRlNjEwNjI1YTU2ZTM5NGEyMzQ4NWFlOWJjNWMwZTc4NGNlMTY0YmUxNyJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУютный дом с выразительной крышей,'
+    - '&#aaaaaaухоженным садом и фонарями.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '5':
+    display_name: '&#55ff55Розовый Уют'
+    slot: 5
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY5M2E2MTllYTU3OGJmMjE5YmJjMTNlNGNiYzcyZDEyMGQ4MzFhOWNjMjg4MDEzMzY1OGIwNzQzMWIzOTI2ZCJ9fX0=
+    lore: 
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМаленький домик в розовых тонах'
+    - '&#aaaaaaс крыльцом и загоном для животного.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffМаленький'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '6':
+    display_name: '&#55ff55Красти Краб'
+    slot: 6
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗнаменитый ресторан фастфуда'
+    - '&#aaaaaaиз губки боба. Отличное место'
+    - '&#aaaaaaдля вашего бизнеса.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffC мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l3,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '7':
+    display_name: '&#55ff55Тыквенный Дом #1'
+    slot: 7
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaОригинальный дом в форме вытянутой'
+    - '&#aaaaaaтыквы, идеально впишется в осеннюю'
+    - '&#aaaaaaтематику.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '8':
+    display_name: '&#55ff55Тыквенный Дом #2'
+    slot: 8
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaОригинальный дом в форме обычной'
+    - '&#aaaaaaтыквы, идеально впишется в осеннюю'
+    - '&#aaaaaaтематику.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '9':
+    display_name: '&#55ff55Черепаший Домик'
+    slot: 9
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaОчаровательный дом в'
+    - '&#aaaaaaформе черепахи.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1.500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '10':
+    display_name: '&#55ff55Дом Йоды'
+    slot: 10
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NzI3MjUzODEyMTdmOGRjYjYxNjRlNjEwNjI1YTU2ZTM5NGEyMzQ4NWFlOWJjNWMwZTc4NGNlMTY0YmUxNyJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУникальный дом в форме известного'
+    - '&#aaaaaaперсонажа из звездных войн'
+    - '&#aaaaaaс ушами и кружкой.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1.500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '11':
+    display_name: '&#55ff55Эльфийское Поместье'
+    slot: 11
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВолшебный дом с бирюзовой крышей,'
+    - '&#aaaaaaбалконами и растительностью.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff4 этажа'
+    - '&#555555▪ &#ffffffC мебелью'
+    - '&#555555▪ &#ffffffБольшой'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l5,500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '12':
+    display_name: '&#55ff55Лесной Дом'
+    slot: 12
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВысокий дом с бирюзовой крышей,'
+    - '&#aaaaaaпоросший лианами и травой. '
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffСредний'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l3,500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '13':
+    display_name: '&#55ff55Древесное Убежище'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaБольшой уютный дом с бирюзовой крышей,'
+    - '&#aaaaaaрастительностью и дымящимся камином. '
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - '&#555555▪ &#ffffffСредний'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l4,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '14':
+    display_name: '&#55ff55Лесная Мельница'
+    slot: 14
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NzI3MjUzODEyMTdmOGRjYjYxNjRlNjEwNjI1YTU2ZTM5NGEyMzQ4NWFlOWJjNWMwZTc4NGNlMTY0YmUxNyJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВысокая деревянная мельница с бирюзовой'
+    - '&#aaaaaaкрышей и вращающимися лопастями.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l700,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '15':
+    display_name: '&#55ff55Магический Маяк'
+    slot: 15
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВысокая башня с флагом'
+    - '&#aaaaaaи уютным интерьером. '
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l700,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '16':
+    display_name: '&#55ff55Лесной Амбар'
+    slot: 16
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПросторный сарай с бирюзовой'
+    - '&#aaaaaaкрышей и открытым входом.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '17':
+    display_name: '&#55ff55Небольшая ферма'
+    slot: 17
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiNDJkNDA3MWIyNThmYjY1ZDI2YjY0OTE2MzAwMWY5MWQ5MjQ4NzU0NzUzYTJmMGEyNmY4MTA1NTU1YjMwMSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМаленькая ферма с крышей и грядками,'
+    - '&#aaaaaaосвещением и ящиками для хранения.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '18':
+    display_name: '&#55ff55Рыбацкий Домик'
+    slot: 18
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaТорговая лавка с бирюзовой крышей'
+    - '&#aaaaaaи небольшим пирсом.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,500,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '19':
+    display_name: '&#55ff55Лесная Конюшня'
+    slot: 19
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУютная конюшня с бирюзовой крышей,'
+    - '&#aaaaaaсеном и просторными стойлами.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l2,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '20':
+    display_name: '&#55ff55Розовый Особняк'
+    slot: 20
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY5M2E2MTllYTU3OGJmMjE5YmJjMTNlNGNiYzcyZDEyMGQ4MzFhOWNjMjg4MDEzMzY1OGIwNzQzMWIzOTI2ZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaЭлегантный двухэтажный дом с'
+    - '&#aaaaaaцветочными балконами'
+    - '&#aaaaaaи каменными деталями.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,950,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '21':
+    display_name: '&#55ff55Вилла с Бассейном'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiNDJkNDA3MWIyNThmYjY1ZDI2YjY0OTE2MzAwMWY5MWQ5MjQ4NzU0NzUzYTJmMGEyNmY4MTA1NTU1YjMwMSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПросторный современный дом'
+    - '&#aaaaaaс садом, бассейном и парковкой.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l4,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '22':
+    display_name: '&#55ff55Современная Вилла'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПросторный двухэтажный дом'
+    - '&#aaaaaaв современном стиле с бассейном,'
+    - '&#aaaaaaсадом и зоной отдыха.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,999,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '23':
+    display_name: '&#55ff55Горное Шале'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПросторный деревянный дом'
+    - '&#aaaaaaс панорамными окнами, балконом'
+    - '&#aaaaaaи каменным фундаментом.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '24':
+    display_name: '&#55ff55Эко-Дом'
+    slot: 24
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaСовременный особняк с панорамными'
+    - '&#aaaaaaокнами, зелёными насаждениями'
+    - '&#aaaaaaи стильным дизайном.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,650,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '25':
+    display_name: '&#55ff55Люксовый Особняк'
+    slot: 25
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkNjFhYzAwYjc4OWEyOWI1NjQ1Yzk0MzZjNGUwYTIyZDI0NmM1MTUzYmI1ZDA4M2M0OWJiN2Y5Y2VlODkxNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaСовременный трехэтажный дом '
+    - '&#aaaaaaс балконами, террасой'
+    - '&#aaaaaaи стильным дизайном.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,850,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '26':
+    display_name: '&#55ff55Осенний Коттедж'
+    slot: 26
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУютный дом с крышей из дерева'
+    - '&#aaaaaaи тыкв, идеально подходит для'
+    - '&#aaaaaaосенней атмосферы и фермерской жизни.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,750,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '27':
+    display_name: '&#55ff55Глиняный Особняк'
+    slot: 27
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaСредний дом с крышей из терракоты'
+    - '&#aaaaaaи необычной архитектурой.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '28':
+    display_name: '&#55ff55Дом Алхимика'
+    slot: 28
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaВысокий дом с печью у входа,'
+    - '&#aaaaaaкрышей из терракоты и каменными'
+    - '&#aaaaaaстенами, похожий на мастерскую.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '29':
+    display_name: '&#55ff55Средневековый Дом'
+    slot: 29
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДеревянно-каменный дом с массивной'
+    - '&#aaaaaaкрышей и растительностью.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '30':
+    display_name: '&#55ff55Таверна Путника'
+    slot: 30
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaТрехэтажный дом с дымящейся'
+    - '&#aaaaaaтрубой и уютным дизайном.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,600,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '31':
+    display_name: '&#55ff55Городское Поместье'
+    slot: 31
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПросторный дом с каменным'
+    - '&#aaaaaaоснованием и кирпичной крышей.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff3 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l2,100,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '32':
+    display_name: '&#55ff55Ведьмин Дом'
+    slot: 32
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗагадочный дом с тёмной крышей,'
+    - '&#aaaaaaбирюзовыми деталями и магической'
+    - '&#aaaaaaатмосферой. '
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '33':
+    display_name: '&#55ff55Дом Викинга'
+    slot: 33
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NzI3MjUzODEyMTdmOGRjYjYxNjRlNjEwNjI1YTU2ZTM5NGEyMzQ4NWFlOWJjNWMwZTc4NGNlMTY0YmUxNyJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДом в скандинавском стиле'
+    - '&#aaaaaaс травяной крышей.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l790,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '34':
+    display_name: '&#55ff55Современная Вилла'
+    slot: 34
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДвухэтажный дом в стиле модерн,'
+    - '&#aaaaaaвыполненный из бетона, '
+    - '&#aaaaaaстекла и дерева.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,700,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '35':
+    display_name: '&#55ff55Коттедж из Вишни'
+    slot: 35
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY5M2E2MTllYTU3OGJmMjE5YmJjMTNlNGNiYzcyZDEyMGQ4MzFhOWNjMjg4MDEzMzY1OGIwNzQzMWIzOTI2ZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУютный дом из розовой древесины'
+    - '&#aaaaaaс декоративными ветвями сакуры.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff2 этажа'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,950,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '36':
+    display_name: '&#55ff55Лесное Убежище'
+    slot: 36
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJkM2Q3NmQ1N2QxMThhOTFhYzI4M2UwYTY2ZDViYWQ0YzhjZGQxYzA0OGFhMDJjYjY4ZDZjYzg1MmQ4OTZkNSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaКомпактный деревянный дом '
+    - '&#aaaaaaв стиле палатки с фонарём.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l350,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '37':
+    display_name: '&#55ff55Деревянный Шалаш'
+    slot: 37
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FiNmIxODgxZWNhMjJhNjVjNjlmMDZlNzQ0YzQ2OGJmNjUwMGJiMTJiODM4ZGI4ZTIwY2NiMTU5MjE2MzU2MCJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaКомпактное укрытие из древесины.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffС мебелью'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l50,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '38':
+    display_name: '&#55ff55Загадочный Особняк'
+    slot: 38
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NzI3MjUzODEyMTdmOGRjYjYxNjRlNjEwNjI1YTU2ZTM5NGEyMzQ4NWFlOWJjNWMwZTc4NGNlMTY0YmUxNyJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaАтмосферный дом в темных'
+    - '&#aaaaaaтонах с мистической аурой.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffff1 этаж'
+    - '&#555555▪ &#ffffffБез мебели'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,000,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '39':
+    display_name: '&#55ff55Строительный Бульдозер'
+    slot: 39
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДетализированная модель бульдозера'
+    - '&#aaaaaaс ковшом и кабиной.'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,400,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '40':
+    display_name: '&#55ff55Мопсик Мальчик'
+    slot: 40
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QwNTBiM2ZkMTE5NTM0YzQzZTc4OTg2NTU4NjU4M2I0MTBkMjUzODlkZmRiZTRlOGJiYThkMjQyZDRiMzY5ZSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМиленькая статуя в виде'
+    - '&#aaaaaaмопса-мальчика.'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,999,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '41':
+    display_name: '&#55ff55Мопсик Девочка'
+    slot: 41
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZiNDJkNDA3MWIyNThmYjY1ZDI2YjY0OTE2MzAwMWY5MWQ5MjQ4NzU0NzUzYTJmMGEyNmY4MTA1NTU1YjMwMSJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМиленькая статуя в виде'
+    - '&#aaaaaaмопса-девочки.'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,999,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '42':
+    display_name: '&#55ff55Лисичка'
+    slot: 42
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМиленькая статуя в виде'
+    - '&#aaaaaaлисички.'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1,999,000&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes

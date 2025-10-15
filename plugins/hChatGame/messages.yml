@@ -1,0 +1,34 @@
+# RGB: &#RRGGBB
+messages:
+  win: # Event winner message
+    - '&c&lChat Game &8» &fПобедил игрок: &a%winner% &fПравильный ответ: &e%answer%'
+  start: # Event start message
+    - '&c&lChat Game &8» &fРешите пример&7: &c%question%. &7Ответ напишите в чат. Награда: 5000$'
+  already: # Already solved
+    - '&c&lChat Game &8» &fПример уже решён игроком &a%winner%&f!'
+
+  no-perms:
+    - '&c&l| &4У вас нет права %perms%'
+
+  commands:
+    reload:  # Message when the configuration is reloaded
+      - '&c&l| &fКонфиг перезагружен!'
+
+    toggle:  # Message when the ElytraSwap mode is toggled (enabled/disabled)
+      - '&c&l|  &fСваппер был переведён в режим &c%toggle%'
+
+    only-players:  # Message when a command is used by someone who is not a player
+      - '&c&l| &4Команда доступна лишь игрокам!'
+
+    help:  # Help command with plugin commands
+      - '&c&l| &f/hchatgame reload&7/&freboot &7(&#FB7723Перезагрузка плагина&7)'
+
+# Global placeholders: %hchatgame_winner/answer/question%
+
+# External resource links
+
+# tg: https://t.me/he3haukaX
+# tg_channel: https://t.me/hplugin
+# youtube: https://www.youtube.com/@Retor_YT
+# spigot ru: https://spigotmc.ru/resources/authors/he3hauka.23927/
+# spigot org: https://www.spigotmc.org/resources/authors/dsad12d.2078385/

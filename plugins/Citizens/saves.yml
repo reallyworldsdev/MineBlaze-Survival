@@ -1,0 +1,511 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 10
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: 85db6d65-eee3-4245-881b-39db41d9c3af
+      cached-skin-uuid-name: frostdiamonddd
+      nameplate-visible: 'false'
+    name: itemsgod
+    uuid: edf1de3c-2b69-4061-ac42-06ba291d2647
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 128.19861
+        world: world
+        x: -23.4799
+        y: 69.0
+        z: -60.5327
+        yaw: 116.028
+        pitch: -1.7221
+      skintrait:
+        signature: qGhk7FqxoL0MKYaBoSNHGd+1sHu3kvb5UIbHE7oTAkv9TYzbarjIAzOrKZ2Gm0hY2nvmpOsg/RcHYQCEVGhj3bNpl/sEamaz/tGTxKxAn1bd4Y80CLkqPwygvNJL96d4rLAU+0JwKXLCN8Efnpsjld6835oimrjgaXa3rgzagHpXCnKpaMWdgV2dlLdEcUlDMsOg1uZdznjJfh5bGEd2lEvxjstU+HO5WpE+F5TIJ8VL4lxSc280qGjxw12WLo/c7aD36UEjveBJLO2Z8/NxNBTm3hQ2J0xV3xkW+TyYrgWojExgF6PZN9DfUl64buRMNPW0kzr3EGdTQSM+/KramQGhdQaKIKYQNItlbr0fMtbePxfOli3PVs9SRrjpKHQ9cnFg45VF5x06G6sOnPEa9vwWXofRc6+1QkGI1CUiaTnRIJw/1ZBF1SlhM4kFdMy6r+qFIL86ULMNC7T4iSQ8al08ViqJVzX29+hkLDG0baXTLlhENAu9Wd1a027x44ch7h/VJnQPwgGylPcge8Y1zgd8Rgak66q8vcmMOqdjgZOFOrj+sHxvGeTWz1mP9hEPq3omxurhSt3dP48rWDOmT8qKYXqMtsg1+ge6qrno/StuQFYfWT6RxMDffF7jNSundkaYVLMgPVQQvlfEa16GeRsJx9XKY9vTVhAeDXDSZwo=
+        skinName: FrostDiamonddd
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MDI2Mjk3MiwKICAicHJvZmlsZUlkIiA6ICI4NWRiNmQ2NWVlZTM0MjQ1ODgxYjM5ZGI0MWQ5YzNhZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcm9zdERpYW1vbmRkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYWZkZTI4NGQ3YzhkNDRhYTU5YjI2N2Y2ZjA4NzFjZGNlZjk5MjZjODE2MDdhYmJkYjYxYjE0ZTFiNmE5NDJmIgogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      commandtrait:
+        commands:
+          '1':
+            command: dm open ShopGodItem %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+          '2':
+            command: dm open ShopGoditemsOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    metadata:
+      cached-skin-uuid: 65945fe0-9338-4042-9aae-80c9ca885b73
+      cached-skin-uuid-name: aragon567
+      nameplate-visible: 'false'
+    name: armor
+    uuid: f7dc4595-ed24-4a2b-bdbc-5fd5e07e3c3c
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: -144.64401
+        world: world
+        x: -84.4814
+        y: 69.0
+        z: 12.4747
+        yaw: -144.644
+        pitch: 7.9383
+      skintrait:
+        signature: Z61QK6esRUl+y+D05ksRYEd+cohi+gXFvAWZzKpkoQ7NbaOWGdfJfoLvcqI24RoSt37QU66eRp7mTr19ExtpkuS8zlxx8JdCoc53CTdWroo96zwmXn6YBZHZwTsqq1AznkmFOtaFUDKfasFKrhP0daasusslrN8MAANSUPsbJCAnaBKZdEItM8MLlH2/YeDoDLoilF1B0QpkcNvLj9SSEDdN0INE1b7cUc7YhbmDhCB3hmJ4KrC+qY2WawT9X8iZjIq6/hLHk2DguzzLzJYbwLzv2DILERAKdHKnuY8mFfop1V3VgZ/eJc1FlS5DqbJXdg5mJkPdssFGF7Bkwhon7xBjxQONvo2Wq/Rih7yrvEZBxmpuLka2DbjB41kSoLNUAd9uPaszlNHY1pHDkgEuJ4bM6pA4g3EaymGOnvzk1W2IFsXcUVLKG8NwanZ92vQsr8/7yrtuETpHcqzQXSaxrFGCETt1a3zmP60LqO3MVAc7+0I0KuO/7BbEZ+cQqWCtva35gm+5juoW+O2sguKHGPg2646ccQ9cJJs0Y3BDHem5BEkaG/gS1RWIGoWO77o4l6Wop9dWsVVmpmiv3PGfIz7vAa7N/bTP+roC9IyIJdy3hs0bAJFTYKE4kElW55IzWk+DHM60SCotgxH5VwIHYiD//QJdkAr+ov3FKIh3Gak=
+        skinName: aragon567
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MTA4MTg0NSwKICAicHJvZmlsZUlkIiA6ICI2NTk0NWZlMDkzMzg0MDQyOWFhZTgwYzljYTg4NWI3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmFnb241NjciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQwYzMwN2UzNjk4ODRjMzFiNmE3NjBlNWViZjU5MDQxNzQ0MDhiMTkxZjBiNGRiNGZjNTI2OTMzMmZmNDU1OCIKICAgIH0KICB9Cn0=
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopArmorOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '4':
+    metadata:
+      cached-skin-uuid: 1a72d2e4-0194-4190-b938-46cc957a0772
+      cached-skin-uuid-name: yellowtable
+      nameplate-visible: 'false'
+    name: other
+    uuid: 6d35569e-0be8-42a1-8fce-22c8d698dfdb
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 130.82787
+        world: world
+        x: -84.5033
+        y: 69.0
+        z: 18.4756
+        yaw: 142.7128
+        pitch: -1.1093
+      skintrait:
+        signature: GH9tO/sbt7rWaGFJoJgmLcwNTyjOzv4+eKli4RaNhQ7QzdCQtwRQVpky+0SYKpB8zU9gITij8qpi7i+u2x6XWUuMmsBMnjj++S1BDQPkUXVt20NzQWO2YxQkxU+7yX0Y7de6teigAug2YCkWDnel/7+inK8oBem29GOjLAASpS8bbONPYa8TG1rpQ2r6hptIEGv7Zp0zgy18RvnnSBGZ5ASsO75AMC40rVlT4cyxuz9YY9NkcvgfZeDse9BDMTn24JTKsAnO2VH8uIoirMxOqR4Efj+1SKPaK4znMB/DRRNgLWbym1pFW+A7h3o9uHDn+E2Iq6GFiiYp2fDdvW5wweMQooz2oxvklBlciBvPMIHe8w4wBOZJYG9dUSIezqGcakR44Bse4gKUilQ4xhab0XO9nosq+7WQWCBVROxZd4KGlEuMExdlRmdx2MfNslubXyp0lKtquH/Qf/2mF1PKF7UY/uxlns8GRvwBwI+0e1aMCAvsR5DKPhsLRjJUjyDLj6YeughdRXCA6/KhyFbEZYBVrzVHo2DIIBPY+rfRBlWaTy2x+c7VJl/2SV7+x2PpPkVhPt6IpP3hKJ3cNUcpqjtz+pKFTe3mVlSvPPN467I6hFeAwpbgn0sp4QnYN12Vdee3jK5gL6S6b2g0LUkeIEhjTMIZKT/wybXwESfhRxw=
+        skinName: YellowTable
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MTQzMjU5NiwKICAicHJvZmlsZUlkIiA6ICIxYTcyZDJlNDAxOTQ0MTkwYjkzODQ2Y2M5NTdhMDc3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxsb3dUYWJsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MjVmZGRiZGIwYjFkYmUwYTQ1MjExOGM0ZmUzZTQ1OTkyMDM4YjM3MjJkZDg2YzlkZWFhOWJkNDdhMGE4ZThiIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopOtherOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '3':
+    metadata:
+      cached-skin-uuid: 1084f6f4-8453-4e3f-be56-0adcd02d1cba
+      cached-skin-uuid-name: ahemdld
+      nameplate-visible: 'false'
+    name: tools
+    uuid: b151dc00-2719-4610-852b-994e8a7dd29c
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 119.13197
+        world: world
+        x: -84.5049
+        y: 69.0
+        z: 15.5129
+        yaw: 139.132
+        pitch: -3.5386
+      skintrait:
+        signature: EgEV0y2z0IHOP9orQJJ9ih2OTCoq9po5HuRAZw1x/Cq7WbkEbzhnDHtqg+K38UdgidvoNg4CNpDRzX2VgWVQPhIdx7Oqd0gZlmsrj/PVKLfhPjtTVMXVNIubQM/AcaHv24sj9DHSwTNIQvN/1QCDgtDULvEIl5kXl2CEul94YDRkhnzWVTZZ9fBHiv6+XO7+yTGw9Ps4TYIQcf3cmn+lsB3dAaaSjwArwEinGBGRf2gxRdi7SDKD/7RZNvVxtQ7SaTmo6OVbLcz9KZKTbnu64fe94jETyIeyxliJIKED8diWVWONNog8q9IPfUfLaci0A2v6hYBKPT2s6FpL6M+iGeIaAtB9NAF34Rmi35WPSyWhbe5NJnxFUrUd406sd2gEllpyIX2e2tYMXPh/bUzQr/NKj62FHoghRr5QX715pzC0AIpuMXCzjOY02Dyru7SYJnq62YcrnwWROzWYB71p+KzLN4T7PATTE8h9RBTpI2K+4QB0MPSB2Cj8loJeQjyAMM/Xf16DmRydd131Bwl5j+WD5yAlndIGJEycz3jlQStOiOryH/rY0OGDJU/kGNcN+H2F5Op+6sYm3Gvl6q5liETGu68D3EMguDc+icSGPP8yIvEbAWqNep4jiTtL1bhMPSYPgAp0oCnJ1gXp8L/4KIBlc/c7EnW7TAaX9Db/EiM=
+        skinName: AHEMDLD
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MTIwMjYyOSwKICAicHJvZmlsZUlkIiA6ICIxMDg0ZjZmNDg0NTM0ZTNmYmU1NjBhZGNkMDJkMWNiYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBSEVNRExEIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljNWZkYjY0NmEzOWI2NzJmODcyNTI2NWQ1Y2RmMjIyNjQ1YjA2ZGJkOGQzN2ZkMTM2Y2JlMDMwOTg5ZTIxYjAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopToolOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '5':
+    metadata:
+      cached-skin-uuid: 238f535c-9738-40b5-9b34-77e26252b2f7
+      cached-skin-uuid-name: marmerr_
+      nameplate-visible: 'false'
+    name: hdb
+    uuid: cc0d4622-ba54-43f5-b228-982fc1771f95
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 124.764496
+        world: world
+        x: -84.5301
+        y: 69.0
+        z: 21.501
+        yaw: 141.9421
+        pitch: 2.8314
+      skintrait:
+        signature: xsMyB7o05/D3/GudxH8rO+8qzMRFx2Z7coMWv+kOxQkWEG/MUdzmg0VKrqN3F2g7g30O1ZRjJOmhsVIEWKz87vZ6ocXNTZN+OpjN9VYDnN0bS4U265UJrUFjBY6UtSukHlzYY+3cf22DXc27q7wvvXsp2ODp4Gtl1fJK9ugsmclDrjLDgTmuOhJvKZ56tFVKhBFIupIWiVIHpK8Fj11grNATgjlW4RyM4V+omBdiCYCYR9Oy7KsGZVmoyQ/YFO6KtCE9S3YeSopHwa/f8J/7L2tkhYUSHnXN7clvbAhIuOfBVZaGtDcAD4qEx3pApIpQWZedZugxh2MlFktONQVrMk51AGvEYJkz5BA7uHAE/6D5RdYmRXmv8BrYuSCoZ0ENO3O9uGxs7v9lwT00z+2GJzjf7ti2bHbwiF1GR3qwGJYCnpit+j5ZQyGXurNSKuMCYa8uTBEpXccx4fhnmfEsGsRg1RiKyXSn/IjgHk8F9bGrNA7JCgsEJoKcc53tWATATBSl5MLaI8K/pfy+wxgquv3y69k9QNx8TTSj07963Q4Kv0/9KF1bDUNvBeFsjnjoA1pjIqE9nmDVNPy5jTCWr/rcUTlYTD1UwjDECB7Q+MqBB97YZwxz6bAVo18WBVlymb+jlNvTv8U5i1n9CDQN2xAQuJSwvocfxYekqDBBtYQ=
+        skinName: Marmerr_
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MTU5OTgyNywKICAicHJvZmlsZUlkIiA6ICIyMzhmNTM1Yzk3Mzg0MGI1OWIzNDc3ZTI2MjUyYjJmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJtZXJyXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOWI3NDg2NDc1Y2UwYzUwOTAzNzU2M2YyZGNiNzEyMzlkNDcwMjAzMjZiYjA5MmZhMjUwOGQ2YTkzMWMzYmQ3IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: hdb
+            hand: RIGHT
+            player: true
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: 72371adf-2e8d-4c92-a734-a93c8279deb9
+      cached-skin-uuid-name: stone
+      nameplate-visible: 'false'
+    name: block
+    uuid: 513f46e1-c342-4b06-86cc-dacd9549423c
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 145.32559
+        world: world
+        x: -60.4949
+        y: 69.0
+        z: 12.4627
+        yaw: 165.3256
+        pitch: -11.8714
+      skintrait:
+        signature: QE9m/QA+s6+0KcaoCJSn4hErIOQZExLErl1cYjIis2Ixsd5yNiG/a/72YY/PbcrKKOx6dqDPfKgiZxOsH4mfy6rTUxIYfn3Wtgl4IKat9oGSYWPTdo2aiM4QN1INHUcT5uRWtOWvJYdAyaekn/0hukhFB44P5Wn2/S/ft/wuzU8/B1rq0wXU3K44QZhvVF81HWs+ZzTv1JSzTTY3OeoL9BKWHaR2qFT31ZuEvrCKQ33cy5jAJAdKvkG08mi31eJGOr116ETdd+55OpMzgP1qOVcaGWvq1m9rHPDEBg3mKtJqow/rrBJX+iwo+wBk7ul9yXQzVKlbbHVpO40adz/6jQ/c9Dt5xEiGetkh+DLsyZSYZ3XcgccVsPFkgJkuHJYVHrEvOqwDRVpca8uhM4XKuHhijhbUC3XX2lzT5SO8yHo5A3pFgWcEYfQV5Nssi4iH5QbDX2gTy1g/x1ysTmA8yLakNEV+5udc0hG//wZUwAnYCniN2lL6EhrYt0u4EOUHDFOKjymCz5f9fJrq3ilh5ovLAvysg6QEFaqPj3kquOs8u5zDlUrv1fSdPuvaxSXyBMk4T/C4SLZOxRT2l3sPkiyhAQnrifDM2utVDJc4AT9HXP8dIl5ZMwi3Q7F9q33MJxBMyKW9KdlHDsWAb3YSBk207gDNPYvpx5WeZB4oLHQ=
+        skinName: Stone
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MjQyNDI2MiwKICAicHJvZmlsZUlkIiA6ICI3MjM3MWFkZjJlOGQ0YzkyYTczNGE5M2M4Mjc5ZGViOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9uZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NmRhNzM1Yzg4ZTA4YjgwYmRmODE0MGIwYWRkOGQxODY5MGI4NWI0ZjkwMjViYjg4MWQ3YTE5MTM0MGYzYjMxIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYjQwYTkyZTMyYjU3ZmQ3MzJhMDBmYzMyNWU3YWZiMDBhN2NhNzQ5MzZhZDUwZDhlODYwMTUyZTQ4MmNmYmRlIgogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopBlockOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '8':
+    metadata:
+      cached-skin-uuid: 11e16261-2266-4159-a3f1-d8005e8df0fb
+      cached-skin-uuid-name: handwriting
+      nameplate-visible: 'false'
+    name: npcShopMech
+    uuid: 0f237d77-8460-40a7-b346-082d1714b411
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 137.53036
+        world: world
+        x: -60.503
+        y: 69.0
+        z: 18.5317
+        yaw: 127.6071
+        pitch: -0.6478
+      skintrait:
+        signature: FoyT+8I7/i5ElbIW1zeHZ+D5OAuVIcMIWr6oeC7RMxYzhmglLWcSryZtsS0F5o8KwTMVmMYb8WWLtPYeVD2HC4XuKXyPg0q90UNBV7oG5A1PS5nn5icviNeD11v4cTpkhbnnKrmShhyWoqo8DOp4p34j3Sx3pqOq6JyoelnJK8SqsPNzLXVUwLwUiBa01YBRvywVN8rd69zV4mjrNy5Bu6bmbyucCnDZqYGfCc7piOjJbOIfZDgTVIN2Kc6X2IBVAJpNQtskK849VJIvhMY0zz9EBpr3LrLI+Uop0QFLVF9C20/pUe5Tci3btIQwl5rhAw8HAfC40wPEVLZ+8qXNQh0gjQPO23Lq/y3UpM7zhH4JfeiabWJ95ZYKzQnqon8SBMwSemEtErnl2l6dtK1hw1mfYq4CA1HzNrMmJ4N5mgqANTCPNQZDLJ9kLiyvcCP7MmDu3ejmuaBYGdaaevuUgHWSOq+HNZf3/T7WnoJ1GGuxPCawGxJurO3Pw92tH3UsCGOh5rhZedzzSISypZexEbQ5onFBk67yx9TpqjoI/hUWhpzwC/U4vPBSg0f+/aaZ5jiew04bUTi0SWHHRlkdJiLkCRbLpvyu2cBb/85Aa8sbIzccsAbbBJm3Kn7eMiOH9yJUroV6JmrPKrmGqq8C0mTkJ/H6j5I+ZqlXMTN2NpU=
+        skinName: handwriting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MjgwOTgxNCwKICAicHJvZmlsZUlkIiA6ICIxMWUxNjI2MTIyNjY0MTU5YTNmMWQ4MDA1ZThkZjBmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJoYW5kd3JpdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MmIxMjRhZjE5MTljN2YxM2UyOWEyMTBlMDZkZWZlMjFmNzM1YzZjZjk0MzMzOWVhODUyZmFjYTU3MTlhZTg1IgogICAgfQogIH0KfQ==
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopMechanismOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '9':
+    metadata:
+      cached-skin-uuid: e435f739-d635-4a05-877d-2c4adcac99fb
+      cached-skin-uuid-name: cake2050
+      nameplate-visible: 'false'
+    name: eat
+    uuid: a630aaf5-b6dd-49ee-9b39-64e26a05917b
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 145.11224
+        world: world
+        x: -60.4445
+        y: 69.0
+        z: 21.5002
+        yaw: 138.6118
+        pitch: -5.9074
+      skintrait:
+        signature: Edmp106jN24chr9G4n0eHv1fuaVZfcGulNLa3jUjptaSJSHW2g7QXU40YtaLiVaR/i9KQ6GujJaYuqzjrJvCL+6kqhfjn/8IEYwD46qWr2YIuPdOarDRACAJzO7MHm1Qtbc2YRCKpSzH40PPfFN3Z7FWYpaUg0A+fL3dVQSwkBNnlD9xUETLd3kbDKhqmCT9fDAS5ZzW5gMorSthDREkI1Tfb/8LsYDYrfg53SWWYh8mJKLl/5ankdPaGMaVt+PdxaM+SQt/mS8apbeBxIAQJGUPyz725sHPeOEWZYwwyk2JnZC0D+nZKhpZjGioChJEN5gvju89k6tgnAB1x96aGN0XvMbD187VwZ+c3NmyZn3qsezpzhIqpnRJZdfJG7IDPBxqWUv0vK5cMEkNjDhpZAsnW3IuTh+edIQKxi8KjBUIedMOfd64EVzGjC2UlkgbWNm5LrmucNXVBmBMQ6m4Cy2fdPbczKQB/YnOJuH2ItwomshW9zqd4eSZVLDLzK60G10+crIjIG+0p7MmW1P8a3ugodO3q64/uHhMx0ywy55ugci2IXQ5uqGBvwl2p8dVtuT91pnwU+uOeo09kIaTpaMMiSSXuwSjdTjqkqM2kwkwmH4NBnD2MOUV4tvFQutt3YtZD8ac1QEEyVYN2vBxziVUVKQjXa3evfohehY6+HA=
+        skinName: Cake2050
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MjkyNzgxMSwKICAicHJvZmlsZUlkIiA6ICJlNDM1ZjczOWQ2MzU0YTA1ODc3ZDJjNGFkY2FjOTlmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYWtlMjA1MCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNjAwMTU1YWFkMmJjYzhjOTJkZjY3Yjg4MTRkZTQzMWI4YzVmM2MzY2U2OTZhODY3Zjg4NDNkNGFmMjY5NDQ2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopEatOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '7':
+    metadata:
+      cached-skin-uuid: 733c64bc-6fd8-453a-af69-5b170b05309c
+      cached-skin-uuid-name: zeonymo
+      nameplate-visible: 'false'
+    name: design
+    uuid: 1519b0c6-9eee-4490-a643-b1d49fd21220
+    traits:
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: 150.91052
+        world: world
+        x: -60.4734
+        y: 69.0
+        z: 15.5277
+        yaw: 170.9105
+        pitch: -7.3389
+      skintrait:
+        signature: hXgvGsDWF3j5FVUGDauhHglzKSoyBiiDdxZJk/PN6IBp9Eq0SQ/DiWA0qro59BAL7hqPzcZwH2syHrmUVdqPJn0OYxfDmlWBz7FF2alOrwFddkC2qNzbyvfQ7sIrodZuAwTsxLYDY20zveB22Ykejtg3b1Kc96yShBku6rdcUyyEQm2wA0ety3s/wm+dAQGWyaf5Pd0KQ3yPpJqF/pFn08UZQbhQAMzZzJupb6cJeQzCdE+8PfjtN1NTG6mrbG6HpTCDsKifyuU8pfvw0DnTmWRRLGxkbD5RQqQboQ4yKl5A/FO66MYv8KIbYHJALwCJK8tq9ogAcxyYHxl4SiZ2nQ9futzLNIiQgee2TtNlZhBiQKogyX9Y9f5mu0DoonreubDWhwzCB95d9Xo1857rW8i+vyMRPLRsd5nVhlxst5j2lPKQVn7tG0aRMTE/MuqTjb5NQTpupCFdbSezMng5iJrNPnNAMg8y0wvRNCOmvGy++wIb2IKS02j/SpAkhTy3RXFuYv2zZHn0F42+YBEqvDyGYIjWqK1ORnP4vJvt+ANcqYem4LHMe0jE/18e2zfJPYuzMLqy1Mnpo3taxm6DycygLzikAZFqn3+bNGjuyNuFcTqyopyGZCfUpvaCofm7mL+YOK3psLEDbfnh2ZDIXYRbM8LSZkUE65N498S3G0c=
+        skinName: --url
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0NDY1MzAxODg2MiwKICAicHJvZmlsZUlkIiA6ICI3MzNjNjRiYzZmZDg0NTNhYWY2OTViMTcwYjA1MzA5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZW9ueW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyYTBhZTAwMTcyNTdiNGExNmJkYTUzM2RkMGY5ZWU4NWMwMjZjMTcwNDk0ODE5ZTE1ZDgyZGNhNmRiOGZjODciCiAgICB9CiAgfQp9
+      type: PLAYER
+      owner:
+        uuid: f4ca1fc6-f246-3f31-8062-92d3734be9bf
+      spawned: true
+      commandtrait:
+        commands:
+          '0':
+            command: dm open shopDesignOne %player_name%
+            hand: RIGHT
+            player: false
+            npc: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,commandtrait,skintrait,lookclose,location,inventory,type,targetable
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

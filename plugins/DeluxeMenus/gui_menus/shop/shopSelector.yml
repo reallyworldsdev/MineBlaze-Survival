@@ -1,0 +1,197 @@
+menu_title: '&0&nМагазин&#555555 › &0Категории'
+open_command: shop
+register_command: true
+size: 44
+items:
+  # Вернуться
+  'backin':
+    display_name: '&#ff5555Назад'
+    slot: 36
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] generalMenu'
+  # Категории
+  'block':
+    display_name: '&#ffff55&lБлоки'
+    slot: 10
+    material: bricks
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopBlockOne'
+  'design':
+    display_name: '&#ffff55&lДекоративные блоки'
+    slot: 11
+    material: anvil
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopDesignOne'
+  'mechanism':
+    display_name: '&#ffff55&lМеханизмы'
+    slot: 12
+    material: sticky_piston
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopMechanismOne'
+  'eat':
+    display_name: '&#ffff55&lЕда'
+    slot: 13
+    material: cookie
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes 
+    click_commands:
+    - '[openguimenu] ShopEatOne'
+  'armor':
+    display_name: '&#ffff55&lБроня и оружие'
+    slot: 14
+    material: netherite_chestplate
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes 
+    click_commands:
+    - '[openguimenu] ShopArmorOne'
+  'cases':
+    display_name: '&#ffff55&lCS:GO кейсы, Автоматы'
+    slot: 15
+    material: chest
+    lore:
+    - ''
+    - '&#ffff55▪ &#ffffffПредметные кейсы'
+    - '&#ffff55▪ &#ffffffИгровые автоматы &#55ff55← NEW'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopCasesOne'
+  'effects':
+    display_name: '&#ffff55&lНапитки с эффектами'
+    slot: 16
+    material: potion
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    - HIDE_ADDITIONAL_TOOLTIP
+    click_commands:
+    - '[openguimenu] ShopPotionOne'
+  'tool':
+    display_name: '&#ffff55&lИнструменты'
+    slot: 19
+    material: netherite_pickaxe
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopToolOne'
+  'other':
+    display_name: '&#ffff55&lРазное'
+    slot: 20
+    material: brewing_stand
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopOtherOne'
+  'goditems':
+    display_name: '&#ffff55&lБроня бога'
+    slot: 21
+    material: totem_of_undying
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopGoditemsOne'
+  'unicitems':
+    display_name: '&#ffff55&lУникальные предметы'
+    slot: 22
+    material: honeycomb
+    lore:
+    - ''
+    - '&#ffff55▪ &#ffffffМагическая палочка'
+    - '&#ffff55▪ &#ffffffНевидимая рамка'
+    - '&#ffff55▪ &#ffffffВейпы, HQD'
+    - '&#ffff55▪ &#ffffffи т.д...'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopUnicitemsOne'
+  'hdb':
+    display_name: '&#ffff55&lМагазин голов'
+    slot: 23
+    material: piglin_head
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[player] hdb'
+  'createbanner':
+    display_name: '&#ffff55&lСоздание баннеров'
+    slot: 24
+    material: white_banner
+    lore:
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[player] bannermaker'
+  # CREATEYOURCODER!!!
+  'decoration':
+    display_name: '&#ffff55&lУкрашения, Мебель!'
+    slot: 25
+    material: birch_stairs
+    lore:
+    - ''
+    - '&#ffff55▪ &#ffffffСтулья, столы'
+    - '&#ffff55▪ &#ffffffКатапульты и т.д..'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopFurnitureOne'
+  'schem':
+    display_name: '&#ffff55&lПостройки, дома, декор'
+    slot: 31
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlhNWM4Zjc1ZjBkYTMxZjJmMjUwNDYxZjFlZTFkOTI3MTFhYjMxY2FkNWUzZGIzMzFhYWExZTI5M2Y2MjM3ZiJ9fX0
+    lore:
+    - ''
+    - '&#ffff55▪ &#ffffffНастоящие дома'
+    - '&#ffff55▪ &#ffffffУличный декорации'
+    - '&#ffff55▪ &#ffffffПалатки'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopDecorOne'

@@ -1,0 +1,199 @@
+menu_title: '&0Танки'
+size: 26
+items:
+  '11':
+    display_name: '&#55ff55&lПолучить T-90'
+    slot: 11
+    priority: 2
+    material: iron_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[&lПомощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.'
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.opka.effects%'
+          output: 'no'
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#55ffff[&lПомощник&#55ffff]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '11_2':
+    display_name: '&#55ff55&lПолучить T-90'
+    slot: 11
+    priority: 1
+    material: iron_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[&lПомощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.'
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.help.tank%'
+          output: 'yes'
+    left_click_commands:
+    - '[console] givetank %player_name% T1'
+  '13':
+    display_name: '&l&#ff5555Получить T-34'
+    slot: 13
+    priority: 2
+    material: golden_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[Помощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.   '
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.opka.effects%'
+          output: 'no'
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#55ffff[&lПомощник&#55ffff]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '13_2':
+    display_name: '&l&#ff5555Получить T-34'
+    slot: 13
+    priority: 1
+    material: golden_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[Помощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.   '
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.help.tank%'
+          output: 'yes'
+    left_click_commands:
+    - '[console] givetank %player_name% T2'
+  '15':
+    display_name: '&l&#ffff55Получить Армата'
+    slot: 15
+    priority: 2
+    material: diamond_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[Помощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.   '
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.opka.effects%'
+          output: 'no'
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#55ffff[&lПомощник&#55ffff]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '15_2':
+    display_name: '&l&#ffff55Получить Армата'
+    slot: 15
+    priority: 1
+    material: diamond_horse_armor
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДоступно только для &#55ffff[Помощник&#55ffff] &#aaaaaaза &#ff55555&m475 &#55ff55&l219 &#aaaaaaруб.   '
+    - ''
+    - ' &#aaaaaa▪ &#ffffffСайт для доната: www.31fDev.ru   '
+    - ' &#aaaaaa▪ &#ffffffДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &#ffffffДонат не исчезает после вайпа'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &l&#ffff5575&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    priority: 1
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: string equals
+          input: '%luckperms_has_permission_menu.help.tank%'
+          output: 'yes'
+    left_click_commands:
+    - '[console] givetank %player_name% T3'

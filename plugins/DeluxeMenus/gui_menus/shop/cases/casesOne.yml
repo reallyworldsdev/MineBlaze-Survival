@@ -1,0 +1,281 @@
+menu_title: '&0CS:GO Кейсы, Автоматы'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  # Слоты магазина
+  '0':
+    display_name: '&#ff5555&l&lКейс с PvP вещами'
+    slot: 0
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '1':
+    display_name: '&#55ffff&lКейс с баннерами'
+    slot: 1
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '2':
+    display_name: '&#ffaa00&lКейс с транспортом'
+    slot: 2
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '3':
+    display_name: '&#ff55ff&lКейс с зельями'
+    slot: 3
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '4':
+    display_name: '&#ffff55&lКейс орел или решка'
+    slot: 4
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l1000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '5':
+    display_name: '&#55ff55&l&lКейс с мобами'
+    slot: 5
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '6':
+    display_name: '&#ffaa00&lКейс с эмоциями'
+    slot: 6
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '7':
+    display_name: '&#55ffff&lКейс с вкусняшками'
+    slot: 7
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l10000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '8':
+    display_name: '&3&lКейс с шалкерами'
+    slot: 8
+    material: chest
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l30000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '18':
+    display_name: '&#ffaa00Деревянный автомат &#aaaaaa[3x3]'
+    slot: 18
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1NzViYjU0YTJlOTEzM2FhYTEzMTBhMTQ2NDJmNzhhMDE0ZmNjOTM2MDc3NDE3MTY2M2QzNGRiMjM2Y2NjNCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffАвтоматический'
+    - '&#555555▪ &#ffffffПризы - монетки'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '19':
+    display_name: '&#ffaa00Деревянный автомат &#aaaaaa[1x3]'
+    slot: 19
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY1NzViYjU0YTJlOTEzM2FhYTEzMTBhMTQ2NDJmNzhhMDE0ZmNjOTM2MDc3NDE3MTY2M2QzNGRiMjM2Y2NjNCJ9fX0= 
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffРучное пополнение'
+    - '&#555555▪ &#ffffffПризы - ваши предметы'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l250,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '20':
+    display_name: '&#aaaaaaКаменный автомат &#aaaaaa[3x3]'
+    slot: 20
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYyNGM5MjdjZmVhMzEzNTU0Mjc5OTNkOGI3OTcxMmU4NmY5NGQ1OTUzNDMzZjg0ODg0OWEzOWE2ODc5In19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffАвтоматический'
+    - '&#555555▪ &#ffffffПризы - монетки'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '21':
+    display_name: '&#aaaaaaКаменный автомат &#aaaaaa[1x3]'
+    slot: 21
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYyNGM5MjdjZmVhMzEzNTU0Mjc5OTNkOGI3OTcxMmU4NmY5NGQ1OTUzNDMzZjg0ODg0OWEzOWE2ODc5In19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffРучное пополнение'
+    - '&#555555▪ &#ffffffПризы - ваши предметы'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l250,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '22':
+    display_name: '&#ff55ffРозовый автомат &#aaaaaa[3x3]'
+    slot: 22
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhZjY1NzcxZWZkNWQzMDQ3ZDRlZTQ2MDU0YzRlN2MzNzhkYzk2MWQ4ZjJiZTkzZDEzYTlkZDk1NjhlIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffАвтоматический'
+    - '&#555555▪ &#ffffffПризы - монетки'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '23':
+    display_name: '&#ff55ffРозовый автомат &#aaaaaa[1x3]'
+    slot: 23
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRhZjY1NzcxZWZkNWQzMDQ3ZDRlZTQ2MDU0YzRlN2MzNzhkYzk2MWQ4ZjJiZTkzZDEzYTlkZDk1NjhlIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffРучное пополнение'
+    - '&#555555▪ &#ffffffПризы - ваши предметы'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l250,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '24':
+    display_name: '&#55ffffНовогодний автомат &#aaaaaa[3x3]'
+    slot: 24
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkZjQ3YzMwYjFlM2RiNTJlNDFmNWVlYjgwNmM2OWZlZjgwNTk1NTBlOGY1N2IwYTgzYjIyNjBhNjZkOTI3ZSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffАвтоматический'
+    - '&#555555▪ &#ffffffПризы - монетки'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes
+  '25':
+    display_name: '&#55ffffНовогодний автомат &#aaaaaa[1x3]'
+    slot: 25
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkZjQ3YzMwYjFlM2RiNTJlNDFmNWVlYjgwNmM2OWZlZjgwNTk1NTBlOGY1N2IwYTgzYjIyNjBhNjZkOTI3ZSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaИгровой автомат, в который'
+    - '&#aaaaaaсмогут играть все, а вы'
+    - '&#aaaaaaполучать прибыль.'
+    - ''
+    - '&#aaaaaaХарактеристики:'
+    - '&#555555▪ &#ffffffРучное пополнение'
+    - '&#555555▪ &#ffffffПризы - ваши предметы'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l250,000&#55ff55$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_attributes

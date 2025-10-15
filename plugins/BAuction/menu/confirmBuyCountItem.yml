@@ -1,0 +1,40 @@
+menu_title: "&0Подтвердить покупку?"
+type: CHEST
+size: 9
+
+id: confirmBuyCountItem
+provider: itemViewer
+
+item:
+  slot: 4
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Количество: &a{count}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  click_commands:
+    - '[BUY_COUNT]'
+    - '[BACK_TO_OR_CLOSE] home'
+
+items:
+  accept:
+    material: LIME_STAINED_GLASS_PANE
+    slots:
+      - 5-8
+    display_name: "&aПодтвердить"
+    lore: [ ]
+    click_commands:
+      - '[BUY_COUNT]'
+      - '[BACK_TO_OR_CLOSE] home'
+
+  deny:
+    material: RED_STAINED_GLASS_PANE
+    slots:
+      - 0-3
+    display_name: "&cОтклонить"
+    lore: [ ]
+    click_commands:
+      - '[BACK_TO_OR_CLOSE] home'

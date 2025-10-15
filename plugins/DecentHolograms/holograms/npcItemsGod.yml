@@ -1,0 +1,14 @@
+location: world:-23,476:71,533:-60,499
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lВещи БОГА'
+    height: 0.3
+  - content: '&fНажмите, чтобы открыть'
+    height: 0.3
+  actions: {}

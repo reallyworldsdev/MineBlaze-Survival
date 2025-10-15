@@ -1,0 +1,29 @@
+[15:25:59] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[15:26:12] [Server thread/INFO]: Enabling BAuction v1.3.3
+[15:26:12] [Server thread/INFO]: [DEBUG] enable checkUpdate
+[15:26:12] [Server thread/INFO]: [DEBUG] enable enable BMenuApi
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load MenuLoader
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load db cfg
+[15:26:12] [Server thread/INFO]: [DEBUG] enable registerAdapters
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load UniqueNameGenerator
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load cfg
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load assetsManager
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load lang
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load logger
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load event manager
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load time util
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load TrieManager
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load econ
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load PAPI hook
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load black list
+[15:26:12] [Server thread/INFO]: [DEBUG] enable load db
+[15:26:12] [Server thread/INFO]: [DEBUG] enable check version
+[15:26:12] [Server thread/INFO]: [DEBUG] enable init commands
+[15:26:12] [bauc File Db loader/INFO]: Успешно загружено 0 предметов за 9 мс.
+[20:12:48] [Server thread/INFO]: Disabling BAuction v1.3.3
+[20:12:48] [Server thread/INFO]: [DEBUG] disable disable PAPI hook
+[20:12:48] [Server thread/INFO]: [DEBUG] disable disable logger
+[20:12:48] [Server thread/INFO]: [DEBUG] disable disable BMenuApi
+[20:12:48] [Server thread/INFO]: [DEBUG] disable disable db
+[20:12:48] [Server thread/INFO]: saved 0 items, 3 users and 0 unsold items in 1 ms
+[20:12:48] [Server thread/INFO]: [DEBUG] disable unregisterAdapters

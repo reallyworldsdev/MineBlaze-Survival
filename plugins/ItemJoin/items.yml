@@ -1,0 +1,44 @@
+# 
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+
+# General options that apply to the custom items' functionality.
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+
+# This is the section where the custom items created will be stored.
+# All created items should be saved under the 'items' section for each 'custom-item' subsection.
+items:
+  first-item:
+    id: BLAZE_POWDER
+    slot: 0
+    name: '&eМеню сервера &c[/ПКМ]'
+    interact:
+    - 'player: menu'
+    itemflags: unbreakable, hide-flags
+    triggers: join
+    enabled-worlds: world
+  second-item:
+    id: MAGMA_CREAM
+    slot: 1
+    name: '&eДонат услуги &c[/ПКМ]'
+    interact:
+    - 'player: donate'
+    itemflags: unbreakable, hide-flags
+    triggers: join
+    enabled-worlds: world
+  server-select:
+    id: NETHER_STAR
+    slot: 8
+    name: '&eВыбор сервера &c[/ПКМ]'
+    interact:
+    - 'player: servers'
+    itemflags: unbreakable, hide-flags
+    triggers: join
+    enabled-worlds: world

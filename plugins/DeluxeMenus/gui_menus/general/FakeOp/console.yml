@@ -1,0 +1,97 @@
+menu_title: '&0Консоль управления'
+size: 35
+items:
+  # Системные
+  'back':
+    display_name: '&#ff5555Назад'
+    slot: 27
+    material: arrow
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopSelector'
+  '10':
+    display_name: '&#ffff55Информация о сервере'
+    slot: 10
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQxOWM2ODQ2MTY2NmFhY2Q3NjI4ZTM0YTFlMmFkMzlmZTRmMmJkZTMyZTIzMTk2M2VmM2IzNTUzMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&l&#ff5555|&#ffffff Основатели сервера:'
+    - '&#ffffff- &#ff5555[&lВладелец&#ff5555] &#ff5555YukiKawaii'
+    - '&#ffffff- &#ff5555[&lВладелец&#ff5555] &#ff5555Keksik9000'
+    - '&l&#ff5555|&#ffffff Дата основания: 02.09.16'
+    - ''
+    - '&#ff5555Системная информация:'
+    - '&#ffff55▪ &#ffffffОнлайн сервера: &#ffff55&l%server_online%'
+    - '&#55ff55▪ &#ffffffВерсия сервера: &#55ff55&l1.21.x'
+    - '&#55ffff▪ &#ffffffАптайм сервера: &#55ffff&l%server_uptime%'
+    - '&#55ff55▪ &#ffffffИспользовано памяти: &#55ff55%server_ram_used% MB &#555555/ &#ff5555%server_ram_max% MB'
+    - '&#ffaa00▪ &#ffffffTPS сервера: &#ffaa00&l%server_tps%'
+    - '&#ff5555▪ &#ffffffЗагружено чанков: &l&#ff5555%server_total_chunks%'
+    - '&#ffffff'
+    - '&#ffffffХостинг: &#ffff55OVH.ie'
+    - '&#ffffffСайт: &#55ff55&lwww.31fDev.ru'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '11':
+    display_name: '&#ffff55Суффиксы в чате'
+    slot: 11
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk3M2Y1ZjNiNjAyNDM3ZWY3ODRkNGM2YTE3NTJlMTk0YmViMWIxNzM3YjExYTMzZTI3NDg4ZDU0ZGU2YSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffУникальные суффиксы в чате'
+    - '&#ffffffДоступно от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '12':
+    display_name: '&#ffff55Суффиксы в табе'
+    slot: 12
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYTI3N2JlYjllNGZhYTZlN2UzNTZjNzQ3ODZlOTY2MTU1NzM2YTY4NThiZjViYjVhZDI5ZGY1YmFiNjFhMSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffУникальные суффиксы в табе'
+    - '&#ffffffДоступно от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '13':
+    display_name: '&#ffff55Включить свечение'
+    slot: 13
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNlM2IxZjI2ZjY1MjVhZjgyZjViYTE0ZGJiOTNiNWU3YTU0M2Q0NzdmYThkYTEyM2RiZmFhNmQyMjlmZGE0ZiJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[player] glow on'
+  '14':
+    display_name: '&#ffff55Изменить цвет текста в чате'
+    slot: 14
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjAxYTU2OGViYTdlNDUzYjU1ZjE1NTQ1ZjVlMzVmZmFiODc5MWFhY2Y5MDM0YWZiYmJlNGJkZGIyMWZhNTAifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+

@@ -1,0 +1,18 @@
+location: world:27,531:70,500:0,490
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&lТелепорт со спавна'
+    height: 0.3
+  - content: '&fНапишите команду &c/rtp'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: RED_BED'
+    height: 0.3
+  actions: {}

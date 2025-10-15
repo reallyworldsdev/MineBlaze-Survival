@@ -1,0 +1,4 @@
+getMoney: "§aYou received  %money money!"
+onlyWood: "§cHere you can only break wood."
+placeDeny: "§cYou can not put blocks here! "
+cut: "§6Cut down §a%number !"

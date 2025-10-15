@@ -1,0 +1,28 @@
+menu_title: '&0Уникальные предметы (Стр. 1)'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  # Слоты магазина
+  '0':
+    display_name: '&l&#55ff55Волшебная палочка'
+    slot: 0
+    material: blaze_rod
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaНажав, вы сможете получить'
+    - '&#aaaaaaсебе волшебную палочку.'
+    - ''
+    - '&#ffffffДоступно от: &#ffaa00[Опка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes

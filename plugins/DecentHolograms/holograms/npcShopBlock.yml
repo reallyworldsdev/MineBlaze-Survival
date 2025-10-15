@@ -1,0 +1,12 @@
+location: world:-60,394:71,500:12,468
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lБлоки'
+    height: 0.3
+  actions: {}

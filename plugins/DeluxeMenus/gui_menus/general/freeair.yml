@@ -1,0 +1,24 @@
+menu_title: '&0           Получить вертолет'
+open_command: air
+size: 26
+items:
+  '13':
+    display_name: '&#ffff55&lПолучить вертолет'
+    slot: 13
+    material: magma_cream
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaПолучите свой бесплатный вертолет и катайте   '
+    - '&#aaaaaaшлюх на своём вертике по ночным Черемушкам.'
+    - ''
+    - '&#ffffffПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Получить вертолет'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_commands:
+    - '[console] givehelicopter %player_name% H1'

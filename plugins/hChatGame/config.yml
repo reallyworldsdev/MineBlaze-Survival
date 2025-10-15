@@ -1,0 +1,8 @@
+question:
+  time: 300 # In seconds
+  min: 5 # Min int
+  max: 5000 # Max int
+  cmd: # Cmds
+    - 'money give %winner% 5000'
+
+# Global placeholders: %hchatgame_winner/answer/question%

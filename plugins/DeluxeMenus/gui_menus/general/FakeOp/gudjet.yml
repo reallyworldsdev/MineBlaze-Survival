@@ -1,0 +1,109 @@
+menu_title: 'Гаджеты'
+size: 53
+items:
+  # Системные
+  'back':
+    display_name: '&#ff5555Назад'
+    slot: 39
+    material: arrow
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopSelector'
+  '10':
+    display_name: '&#ffff55Игры и веселье'
+    slot: 10
+    material: gray_dye
+    lore:
+    - '&#aaaaaaВесёлые гаджеты, с которыми вам не будет скучно.'
+    - '&#aaaaaaРазличные игры и приколы с другими игроками.'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/9 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '11':
+    display_name: '&#ffff55Мобы'
+    slot: 11
+    material: gray_dye
+    lore:
+    - '&#aaaaaaСпавны забавных мутантов'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/7 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '12':
+    display_name: '&#ffff55Передвижение'
+    slot: 12
+    material: gray_dye
+    lore:
+    - '&#aaaaaaИзмени принцип своего'
+    - '&#aaaaaaпередвижения!'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/8 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '13':
+    display_name: '&#ffff55Музыка'
+    slot: 13
+    material: gray_dye
+    lore:
+    - '&#aaaaaaМузыкальные гаджеты.'
+    - '&#aaaaaaСлушать музыку и танцевать.'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/4 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '14':
+    display_name: '&#ffff55Луки'
+    slot: 14
+    material: gray_dye
+    lore:
+    - '&#aaaaaaСтреляй прикольными штуками!'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/5 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '15':
+    display_name: '&#ffff55Визуальные Эффекты'
+    slot: 15
+    material: gray_dye
+    lore:
+    - '&#aaaaaaПрикольные всеобщие анимации.'
+    - ''
+    - '&#aaaaaaРазблокировано: &#ff55550/11 &#555555(0%)'
+    - ''
+    - '&#ffff55Нажмите, чтобы посмотреть!'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+  '40':
+    display_name: '&#ff5555Убрать гаджеты'
+    slot: 40
+    material: red_stained_glass
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes

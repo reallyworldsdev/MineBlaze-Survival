@@ -1,0 +1,75 @@
+messages:
+  successful_loading: "Успешно загружено %s предметов за %s мс."
+  plugin_reload: "&6&l| &fПлагин успешно перезагружен за %s мс."
+  must_be_player: "Вы должны быть игроком!"
+  item_in_hand_required: "&6&l| &fУ Вас в руке должен быть предмет"
+  price_tag: "[цена]"
+  quantity_tag: "[количество]"
+  sale_time_tag: "[время продажи]"
+  successful_listing: "&6&l| &fВы успешно выставили %s предметов на продажу за %s миллисекунд!"
+  cannot_trade_air: "&6&l| &fВы не можете торговать воздухом!"
+  tags_required: "&6&l| &fУкажите теги!"
+  start_entering_item_name: "начните вводить название предмета"
+  auction_item_limit_reached: "&6&l| &fВы достигли лимита по количеству предметов на аукционе!"
+  error_occurred: "&6&l| &fПроизошла ошибка!"
+  not_item_owner: "&6&l| &fВы не владелец предмета!"
+  item_already_sold_or_removed: "&6&l| &fПредмет уже продан или снят с продажи!"
+  item_not_found: "&6&l| &fКажется такого предмета больше нет!"
+  item_owner: "&6&l| &fВы владелец предмета!"
+  quantity_limit_exceeded: "&6&l| &fКто-то выкупил часть товара и вы больше не можете купить этот предмет в таком количестве!"
+  insufficient_balance: "&6&l| &fУ Вас не хватает баланса для покупки предмета!"
+  something_went_wrong: "&6&l| &fЧто-то пошло не так!"
+  price_not_specified: "&6&l| &fВы должны указать цену!"
+  insufficient_balance_for_purchase: "&6&l| &fУ Вас не хватает баланса для покупки хотя бы одного предмета!"
+  item_no_longer_exists: "&6&l| &fКажется этого предмета больше не существует"
+  has_no_external_time: 'нет'
+  player-not-found: '&6&l| &fИгрок не найден!'
+  player-not-selected: '&6&l| &fВы должны указать игрока!'
+  auc-clear-confirm: '&6&l| &fВы уверены что хотите очистить аукцион?'
+  auc-cleared: '&6&l| &fАукцион очищен!'
+  count-req: '&6&l| &fУкажите число для продажи определённого количества предметов!'
+  sale-by-the-piece-format-off: 'отключена'
+  sale-by-the-piece-format-on: 'включена'
+  item-in-black-list: '&6&l| &fВы не можете выставить "{item_name}&f" на продажу!'
+  update-msg-raw: '["",{"text":"[Bauction]","color":"green"},{"text":" Вышла новая версия плагина!"},{"text":"
+  Текущая ''"},{"text":"%s","color":"red"},{"text":"'', новая ''"},{"text":"%s","color":"green"},{"text":"''","color":"#6AAB73"},{"text":"\n"},{"text":"[Bauction]","color":"green"},{"text":"
+  Ссылка на скачивание "},{"text":"%s","italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"%s"},"hoverEvent":{"action":"show_text","contents":"%s"}}]'
+  item-size-limit: '&6&l| &fВы не можете выставить этот предмет на продажу!'
+  online-seller: '&aонлайн'
+  offline-seller: '&cоффлайн'
+  search-type: '-полное_совпадение'
+time-format:
+  ago: 'назад'
+  in: 'через'
+  just-now: 'Только что'
+  formats:
+    years: '%years% %months%'
+    months: '%months% %days%'
+    days: '%days% %hours%'
+    hours: '%hours% %minutes%'
+    minutes: '%minutes% %seconds%'
+    seconds: '%seconds%'
+  years:
+    form-1: 'год'
+    form-2: 'года'
+    form-5: 'лет'
+  months:
+    form-1: 'месяц'
+    form-2: 'месяца'
+    form-5: 'месяцев'
+  days:
+    form-1: 'день'
+    form-2: 'дня'
+    form-5: 'дней'
+  hours:
+    form-1: 'час'
+    form-2: 'часа'
+    form-5: 'часов'
+  minutes:
+    form-1: 'мин'
+    form-2: 'мин'
+    form-5: 'мин'
+  seconds:
+    form-1: 'сек'
+    form-2: 'сек'
+    form-5: 'сек'

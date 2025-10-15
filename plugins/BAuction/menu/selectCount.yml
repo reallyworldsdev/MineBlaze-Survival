@@ -1,0 +1,50 @@
+menu_title: "&0Аукционы"
+type: HOPPER
+
+provider: selectCount
+id: buyCount
+
+size: 5
+
+item:
+  slot: 2
+  lore:
+    - ''
+    - '&7Стоимость &a{price_format}'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  click_commands:
+    - '[OPEN_MENU] confirmBuyCountItem'
+items:
+  add1:
+    material: LIME_CONCRETE_POWDER
+    slot: 3
+    display_name: "&#29F822(+) Увеличить на 1 единицу"
+    lore: []
+    click_commands:
+      - '[ADD] 1'
+  add10:
+    material: LIME_CONCRETE
+    slot: 4
+    display_name: "&#29F822(+) Увеличить на 10 единиц"
+    lore: []
+    click_commands:
+      - '[ADD] 10'
+
+  remove1:
+    material: RED_CONCRETE_POWDER
+    slot: 1
+    display_name: "&#F81313(-) Уменьшить на 1 единицу"
+    lore: []
+    click_commands:
+      - '[REMOVE] 1'
+
+  remove10:
+    material: RED_CONCRETE
+    slot: 0
+    display_name: "&#F81313(-) Уменьшить на 10 единиц"
+    lore: []
+    click_commands:
+      - '[REMOVE] 10'

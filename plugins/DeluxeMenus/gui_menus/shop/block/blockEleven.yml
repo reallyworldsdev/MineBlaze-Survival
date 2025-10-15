@@ -1,0 +1,280 @@
+menu_title: '&0&nМагазин&#555555 › &0Блоки (Стр. 11'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  'back':
+    display_name: '&#ff5555Назад'
+    slot: 48
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopBlockTen'
+  # Слоты магазина
+  '0':
+    display_name: ''
+    slot: 0
+    material: Tuff
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(450$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(225$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 450
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 450' #
+    - '[console] give %player_name% Tuff 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: Tuff
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 225' #
+      - '[refresh]'
+      - '[console] clear %player_name% Tuff 64'
+  '1':
+    display_name: ''
+    slot: 1
+    material: Chiseled_Tuff
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(550$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(275$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 550
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 550' #
+    - '[console] give %player_name% Chiseled_Tuff 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: Chiseled_Tuff
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 275' #
+      - '[refresh]'
+      - '[console] clear %player_name% Chiseled_Tuff 64'
+  '2':
+    display_name: ''
+    slot: 2
+    material: polished_Tuff
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(100$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(50$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100' #
+    - '[console] give %player_name% polished_Tuff 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: polished_Tuff
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 50' #
+      - '[refresh]'
+      - '[console] clear %player_name% polished_Tuff 64'
+  '3':
+    display_name: '&#ffffff1.19.4 Cherry Wood'
+    slot: 3
+    material: acacia_wood
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(300$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(150$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] give %player_name% acacia_wood 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: acacia_wood
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 150' #
+      - '[refresh]'
+      - '[console] clear %player_name% acacia_wood 64'
+  '4':
+    display_name: ''
+    slot: 4
+    material: Stripped_Cherry_Wood
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(400$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(200$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 400
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 400' #
+    - '[console] give %player_name% Stripped_Cherry_Wood 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: Stripped_Cherry_Wood
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 200' #
+      - '[refresh]'
+      - '[console] clear %player_name% Stripped_Cherry_Wood 64'
+  '5':
+    display_name: ''
+    slot: 5
+    material: Mangrove_Wood
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(150$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(75$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 150
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 150' #
+    - '[console] give %player_name% Mangrove_Wood 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: Mangrove_Wood
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 75' #
+      - '[refresh]'
+      - '[console] clear %player_name% Mangrove_Wood 64'
+  '6':
+    display_name: ''
+    slot: 6
+    material: Stripped_Mangrove_Wood
+    amount: 64
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#55ff55› ЛКМ, чтобы купить &#aaaaaa(500$)'
+    - '&#ff5555› ПКМ, чтобы продать &#aaaaaa(250$)'
+    - ''
+    - '&#ffffffВаш баланс &#555555› &#ff5555%cmi_user_balance_formated%$'
+    item_flags:
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500' #
+    - '[console] give %player_name% Stripped_Mangrove_Wood 64'
+    right_click_requirement: # Продажа предмета (ПКМ)
+      requirements:
+        item_check:
+          type: has item
+          material: Stripped_Mangrove_Wood
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно предметов'
+    right_click_commands:
+      - '[console] money give %player_name% 250' #
+      - '[refresh]'
+      - '[console] clear %player_name% Stripped_Mangrove_Wood 64'

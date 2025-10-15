@@ -1,0 +1,52 @@
+menu_title: "&0Список ваших завершенных лотов"
+size: 54
+type: CHEST
+
+provider: unsoldItems
+id: unsoldItems
+
+items-slots:
+  - 0-44
+
+item:
+  lore:
+    - ''
+    - '&7Стоимость &a{price_count}$'
+    - '&7Продавец: &a{seller_name}'
+    - '&7Истекает: &a{expires}'
+    - ''
+    - '&a› Кликни, чтобы купить'
+  left_click_commands:
+    - '[TAKE_UNSOLD_ITEM]'
+
+items:
+  back:
+    material: PAPER
+    slot: 45
+    display_name: "&c⟲ Назад"
+    lore: []
+    click_commands:
+      - '[BACK_OR_CLOSE]'
+      
+      
+  history:
+    material: GOLD_INGOT
+    slot: 52
+    amount: 1
+    display_name: "&fИстория ваших&a продаж"
+    lore:
+      - ''
+      - '&7Кликни, чтобы увидеть'
+      - '&7список проданных лотов'
+      - ''
+      
+  what:
+    material: BOOK
+    slot: 53
+    amount: 1
+    display_name: "&fЧто тут делать?"
+    lore:
+      - ''
+      - '&7Это меню активных лотов, где вы'
+      - '&7можете отменить свои лоты'
+      - ''

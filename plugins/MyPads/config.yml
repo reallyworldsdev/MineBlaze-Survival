@@ -1,0 +1,43 @@
+# If true - players will be able to use pads even if they cannot interact with that plate.
+ignoreCanceled: false
+# If true - using pads will not activate redstone, tnt and etc.
+# Recommended when sound is enabled, cause it also removes default sound.
+cancelEvent: false
+
+# 1.12: Replace plates list with legacy list.
+legacy:
+- GOLD_PLATE
+- IRON_PLATE
+- STONE_PLATE
+- WOOD_PLATE
+
+# Enabled plates list.
+plates:
+- ACACIA_PRESSURE_PLATE
+- BIRCH_PRESSURE_PLATE
+- DARK_OAK_PRESSURE_PLATE
+- HEAVY_WEIGHTED_PRESSURE_PLATE
+- JUNGLE_PRESSURE_PLATE
+- LIGHT_WEIGHTED_PRESSURE_PLATE
+- OAK_PRESSURE_PLATE
+- SPRUCE_PRESSURE_PLATE
+- STONE_PRESSURE_PLATE	
+
+sound:
+  enable: true
+  # Aviable sounds: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  # 1.12: BLOCK_SLIME_PLACE
+  type: BLOCK_SLIME_BLOCK_PLACE
+  # Volume from 0.0 to 1.0, where 1.0 is max.
+  volume: 0.5
+  # Pitch from 0.5 to 2.0, default: 1.0
+  pitch: 1.8
+
+# Aviable materials: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+pads:
+  DIAMOND_BLOCK: 4.0
+  EMERALD_BLOCK: 3.0
+  GOLD_BLOCK: 1.5
+  IRON_BLOCK: 1.9
+  REDSTONE_BLOCK: 1.0
+  LAPIS_BLOCK: 2.0

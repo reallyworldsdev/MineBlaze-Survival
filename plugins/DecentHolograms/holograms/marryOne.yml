@@ -1,0 +1,18 @@
+location: world:-97,527:70,500:-4,583
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&l&nПровести свадьбу'
+    height: 0.3
+  - content: '&fРаспишись со 2й половинкой'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: writable_book'
+    height: 0.3
+  actions: {}

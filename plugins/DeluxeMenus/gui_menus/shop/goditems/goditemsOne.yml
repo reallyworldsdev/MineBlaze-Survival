@@ -1,0 +1,764 @@
+menu_title: '&0&nМагазин&#555555 › &0Броня бога'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    click_commands:
+    - '[openguimenu] shopSelector'
+  # Слоты магазина
+  '9':
+    display_name: '&#55ffff&lМеч бога'
+    slot: 9
+    material: netherite_sword
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_sword'
+  '10':
+    display_name: '&#55ffff&lКирка бога'
+    slot: 10
+    material: netherite_pickaxe
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_pickaxe'
+  '11':
+    display_name: '&#55ffff&lТопор бога'
+    slot: 11
+    material: netherite_axe
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_axe'
+  '12':
+    display_name: '&#55ffff&lЛопата бога'
+    slot: 12
+    material: netherite_shovel
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_shovel'
+  '13':
+    display_name: '&#55ffff&lМотыга бога'
+    slot: 13
+    material: netherite_hoe
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_hoe'
+  '15':
+    display_name: '&#55ffff&lШлем бога'
+    slot: 15
+    material: netherite_helmet
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l4000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_helmet'
+  '22':
+    display_name: '&#55ffff&lЛук бога'
+    slot: 22
+    material: bow
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l3000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_bow'
+  '24':
+    display_name: '&#55ffff&lНагрудник бога'
+    slot: 24
+    material: netherite_chestplate
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l4000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_chestplate'
+  '27':
+    display_name: '&#ff5555&lЗелье силы'
+    slot: 27
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% sila'
+  '28':
+    display_name: '&#ff5555&lЗелье регенерации'
+    slot: 28
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% regen'
+  '29':
+    display_name: '&#ff5555&lЗелье исцеление'
+    slot: 29
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% iscel'
+  '31':
+    display_name: '&#55ffff&lЗолотое яблоко'
+    slot: 31
+    material: golden_apple
+    amount: 16
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l1500$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 1500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 1500' #
+    - '[console] give %player_name% golden_apple 16'
+  '33':
+    display_name: '&#55ffff&lШтаны бога'
+    slot: 33
+    material: netherite_leggings
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l4000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_leggings'
+  '36':
+    display_name: '&#ff5555&lЗелье силы II'
+    slot: 36
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% sila2'
+  '37':
+    display_name: '&#ff5555&lЗелье регенерации II'
+    slot: 37
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% regen2'
+  '38':
+    display_name: '&#ff5555&lЗелье исцеление II'
+    slot: 38
+    material: potion
+    lore:
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l250$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% iscel2'
+  '40':
+    display_name: '&#55ffff&lСтрелы'
+    slot: 40
+    material: arrow
+    amount: 16
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l300$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] give %player_name% arrow 16'
+  '42':
+    display_name: '&#55ffff&lБотинки бога'
+    slot: 42
+    material: netherite_boots
+    lore:
+    - '&#555555www.31fDev.ru'
+    - ''
+    - '&#aaaaaaЗащита IV'
+    - '&#aaaaaaОгнеупорность IV'
+    - '&#aaaaaaНевесомость IV'
+    - '&#aaaaaaЗащита от снарядов IV'
+    - '&#aaaaaaПодводное дыхание III'
+    - '&#aaaaaaПодводник'
+    - '&#aaaaaaШипы III'
+    - '&#aaaaaaПодводная ходьба III'
+    - '&#aaaaaaОстрота V'
+    - '&#aaaaaaНебесная кара V'
+    - '&#aaaaaaБич членистоногих V'
+    - '&#aaaaaaОтдача II'
+    - '&#aaaaaaЗаговор огня II'
+    - '&#aaaaaaДобыча III'
+    - '&#aaaaaaЭффективность III'
+    - '&#aaaaaaШёлковое касание'
+    - '&#aaaaaaНерушимость III'
+    - '&#aaaaaaУдача III'
+    - '&#aaaaaaСила V'
+    - '&#aaaaaaОтбрасывание II'
+    - '&#aaaaaaГорящая стрела'
+    - '&#aaaaaaБесконечность'
+    - '&#aaaaaaВезучий рыбак III'
+    - '&#aaaaaaПриманка III'
+    - '&#aaaaaaПочинка'
+    - ''
+    - '&#ffff55|| &#ffffffЦена &#555555› &#ffff55&l4000$'
+    - '&#ff5555|| &#ffffffВаш баланс &#555555› &#ff5555&l%cmi_user_balance_formated%&#ff5555$'
+    - ''
+    - '&#55ff55› Нажми, чтобы купить'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_attributes
+    - hide_enchants
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 3000' #
+    - '[console] ei give %player_name% god_boots'

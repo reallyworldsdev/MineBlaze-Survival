@@ -1,0 +1,78 @@
+settings:
+  # Длительность режима PvP
+  time: 30
+  
+  bossbar:
+    bar: ''
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+    color: RED
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+    style: SOLID
+  
+  leave:
+    kill: true
+    # null или [] чтобы отключить
+    message:
+    - §6§l| §fИгрок §6{player}, §fпокинул сервер во время PvP!
+  
+  # Что будет отключено в начале боя
+  disable:
+    fly: true
+    speed: false
+    gamemode: false
+    godmode: false
+    elytra: false
+    invisibility: false
+  
+  # Какие действия нужно отменять во время боя
+  cancel:
+    interact: true
+    command: true
+    teleport: true
+    ender-chest: true
+  
+  # Установите 0, чтобы отключить задержки
+  cooldown:
+    golden-apple: 0
+    enchanted-golden-apple: 0
+    ender-pearl: 7
+    chorus: 5
+    firework: 0
+    totem: 0
+    trident: 0
+    crossbow: 0
+  
+  # Работает только если cancel.command ровно true
+  command-whitelist:
+  - msg
+  - m
+  - tell
+  - pm
+  
+  # Команды в начале или конце боя. Заполнители: {player}, [console], [player]. Выполняется для каждого игрока отдельно!
+  # Пример: "[console] msg {player} Удачи в бою!"
+  command-start: []
+  command-end: []
+  
+  # Миры в которых плагин не будет работать
+  disabled-worlds:
+  - exampleWorld
+messages:
+  start: §c§l| §fВы вошли в режим PVP! Не выходите из игры, иначе умрете!
+  end: §a§l| §fВы вышли из режима PVP! Можно выходить из игры не умерев!
+  block: §c§l| §cВы не можете делать это в режиме PvP!
+  cooldown: §c§l| §fПодождите §6{time}, §fчтобы использовать этот предмет!
+  
+  # Установите "", чтобы отключить
+  cooldown-subtitle: ''
+  
+  help:
+  - §6§lАнтиРелог
+  - ''
+  - §6/powerantirelog help §fСписок команд
+  - §6/powerantirelog reload §fПерезагружает конфигурацию
+  - §6/powerantirelog test {игрок} §fВыдаёт игроку режим боя
+  - §r
+  reload: §a§l| §fКонфигурация плагина была успешно перезагружена!
+  test: §6§l| §fВы выдали игроку §6{player} §fрежим PvP.
+  not-found: §c§l| §fИгрок §c{player} §fне найден.

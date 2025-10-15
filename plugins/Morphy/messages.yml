@@ -1,0 +1,149 @@
+mobNames:
+  silverfish: серебряная рыбка
+  horse: лошадь
+  vex: векс
+  wolf: волк
+  vindicator: защитник
+  bogged: увязший
+  shulker: шулкер
+  wither: иссушитель
+  cave_spider: паук-пещерник
+  sniffer: нюхач
+  evoker: заклинатель
+  llama: лама
+  cow: корова
+  guardian: хранитель
+  turtle: черепаха
+  pig: свинья
+  strider: странник
+  camel: верблюд
+  sheep: овца
+  ghast: газ
+  blaze: пламя
+  warden: страж
+  zombie_villager: зомби-житель
+  illusioner: иллюзионист
+  cod: треска
+  snowman: снеговик
+  pillager: грабитель
+  bee: пчела
+  endermite: эндермит
+  allay: аллай
+  panda: панда
+  tadpole: головастик
+  dolphin: дельфин
+  goat: коза
+  ender_dragon: эндер-дракон
+  ocelot: оцелот
+  husk: хаск
+  zombie: зомби
+  mule: мул
+  piglin_brute: грубый пиглин
+  spider: паук
+  donkey: осел
+  enderman: эндермен
+  baby: малыш
+  chicken: курица
+  ravager: разоритель
+  creeper: крипер
+  skeleton: скелет
+  glow_squid: светящийся кальмар
+  piglin: пиглин
+  breeze: бриз
+  drowned: утопленник
+  slime: слизь
+  bat: летучая мышь
+  axolotl: аксолотль
+  hoglin: хоглин
+  zoglin: зоглин
+  pufferfish: рыба-фугу
+  wither_skeleton: скелет иссушителя
+  stray: бродяга
+  skeleton_horse: скелетная лошадь
+  villager: житель
+  squid: кальмар
+  tropical_fish: тропическая рыба
+  parrot: попугай
+  magma_cube: магмовый куб
+  witch: ведьма
+  fox: лиса
+  iron_golem: железный голем
+  phantom: фантом
+  salmon: лосось
+  cat: кошка
+  polar_bear: белый медведь
+  zombified_piglin: зомбифицированный пиглин
+  mushroom_cow: грибная корова
+  giant: гигант
+  frog: лягушка
+  rabbit: кролик
+youHaveMorphed: '&fYou have morphed into a {mob}'
+prefix: '&6&l|&r'
+vexTooManyLayers: '&fСлишком много слоев для поэтапного прохождения'
+unableToChangeView: '&fИгроки не могут менять свой вид маскировки'
+couldNotFindPlayer: '&fНе удалось найти игрока &6{target}'
+commands:
+  morph near: '&fСообщает вам, есть ли рядом с вами игрок-морф'
+  unmorph <all:player>: '&fТрансформируйся обратно в себя'
+  addmorph <player> <mob>: '&fДобавить морфа к игроку'
+  morph info <mob>: '&fПоказать способности, которые получает морф'
+  delmorph <player> <mob>: '&fУдалить морф из игрока'
+  morph reload: '&fПерезагружает плагин'
+  forcemorph <player> <mob> [ignoreChecks] [silent]: '&fПринудительно превратить игрока'
+  morph: '&fПревратиться в моба'
+  morph status: '&fОтображает то, во что вы превратились'
+  unmorph: '&fПревращайся обратно в себя'
+disableInThisWorld: '&fThis plugin is disabled in this world'
+cooldown: '&fПожалуйста, подождите &6{time} &fсекунд'
+targetCanAlreadyMorph: '&6{target} &fуже может превратиться в &6{mob}'
+outOfMorphPower: '&fНет силы морфинга! Вы должны приземлиться, чтобы вернуться'
+unmorphedByTime: '&fУ вашего морфа истекло время, и вы не превратились'
+morphedNearby: '&6{target} &fнаходится рядом с вами и замаскирован под &6{mob}'
+unmorphedByStaff: '&fВы были изменены администрацией'
+canMorphInto: '&fВы можете превратиться в: &6{canMorphAs}'
+noPlayersMorphed: '&fВ настоящее время нет морфов'
+invalidMorph: '&fНедопустимый тип маскировки.'
+unableToMorph: '&fВы не можете превратиться в &6{mob}'
+morphReversed: '&fВы снова превратились в &6{player}'
+getMorphByKill: '&fВы убили &6{target}&f, превратившегося в &6{mob}&f, теперь вы получаете его'
+noPermissions: '&fУ вас нет прав на эту команду.'
+unmorphedByWorld: '&fYou have been unmorphed because morphing is disabled in this
+  world'
+openingInventory: '&fОткрытие инвентаря..'
+changeSoundVolSuccess: '&fВаши звуки толпы были &6%statusColor%'
+morphedAs: '&fВы превратились в &6{mob}'
+addedMorphToTarget: '&fДобавлен моб &6{mob} &fигроку &6{target}'
+timeLeftAsMorph: '&fОсталось времени &6{mob}: {min}:{second}'
+changeViewSuccess: '&fВы можете &6%status% &fувидеть свой собственный морф'
+removedMorph: '&fУдален моб &6{mob} от игрока &6{target}'
+morphOnCooldown: '&fПожалуйста, подождите &6{time} &fсекунд'
+noBabyType: '&fУ этого моба нет детского типа'
+notMorphedAsAnything: '&fВы ни во что не трансформировались'
+unableToMorphAsPlayer: '&fВы не можете превратиться в &6{target}, &fправильно написали?'
+unmorphedAllPlayers: '&fВсе игроки были анморфированы'
+playerUnmorphed: '&fИгрок &6{target}&f был анморфирован'
+morphProgress: '&fТеперь у вас есть &6{kills}/{requiredKills}&f убийств для морфа &6{mob}'
+invalidArguments: '&fНеправильно&f Исследуй &6/morph help'
+diedLostCurrent: '&fВы были убиты &6{player}&f и потеряли свой текущий морф: &6{mob}'
+nobodyNearby: '&fРядом с вами нет никого замаскированного'
+invalidPlayer: '&fНе удалось найти игрока с именем &6{target}'
+abilityToggledOff: '&fВаши способности отключены'
+endermenDisabled: '&fЭндермен был отключен из-за сбоя игры игроков'
+cannotMorphAsAnything: '&fПока что ты не можешь превратиться, иди убивай мобов'
+morphedTitle: 'Превратился в &6{mob}'
+helpFormat: '&f{command}: {description}'
+reloadedConfig: '&fКонфиг перезагружен'
+abilityToggledOn: '&fВаши способности были активированы'
+morphPower: '&fСила Морфа: &6'
+diedLostAll: '&fВас убил &6{player}&f, поэтому вы потеряли всех морфов'
+alreadyMorphed: '&fВы уже превратились в &6{mob}'
+currentlyMorphedAs: '&fВы превратились в &6{mob}'
+unmorphedTitle: '&0Превращения в мобов'
+clickToMorph: '&a&l{mob}'
+GUIdisabled: '&fИнтерфейс Morph &cотключен&f. /morph help'
+abilityInfo:
+  title: '&fИнформация о способностях &6{mob}'
+mobDisabled: '&fЭтот моб не активирован'
+morphedAsPlayer: '&fВы превратились в {target}'
+creeperExploded: '&fТы взорвался'
+youCanNowMorph: '&fТеперь вы можете превратиться в {mob}'

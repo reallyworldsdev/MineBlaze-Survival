@@ -1,0 +1,388 @@
+menu_title: '&0Транспорт'
+open_command: 
+- vehicles
+- vehicle
+- auto
+register_command: true
+size: 44
+items:
+  '10':
+    display_name: '&#ffff55&lМагазин ГОНОЧНЫХ машин'
+    slot: 10
+    priority: 2
+    material: furnace_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '10_2':
+    display_name: '&#ffff55&lМагазин ГОНОЧНЫХ машин'
+    slot: 10
+    priority: 1
+    material: furnace_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    left_click_commands:
+    - '[openguimenu] VehicleGonkaAuto'
+  '11':
+    display_name: '&#ffff55&lМагазин СПОРТИВНЫХ байков'
+    slot: 11
+    priority: 2
+    material: minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '11_2':
+    display_name: '&#ffff55&lМагазин СПОРТИВНЫХ байков'
+    slot: 11
+    priority: 1
+    material: minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    left_click_commands:
+    - '[openguimenu] VehicleSportBike'
+  '12':
+    display_name: '&#ffff55&lМагазин РОБОТОВ'
+    slot: 12
+    priority: 2
+    material: flint_and_steel
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '12_2':
+    display_name: '&#ffff55&lМагазин РОБОТОВ'
+    slot: 12
+    priority: 1
+    material: flint_and_steel
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#ff5555| &fДоступно от доната &#ff5555&lБлейз'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    left_click_commands:
+    - '[openguimenu] VehicleRobot'
+  '13':
+    display_name: '&#ffff55&lМагазин танков'
+    slot: 13
+    material: tnt_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#55ffff| &fДоступно от доната &#55ffff&lПомощник'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleTanki'
+  '14':
+    display_name: '&#ffff55&lМагазин ховербайков'
+    slot: 14
+    priority: 2
+    material: diamond_horse_armor
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#55ffff| &fДоступно от доната &#55ffffПремиум'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#55ffff[Премиум]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '14_2':
+    display_name: '&#ffff55&lМагазин ховербайков'
+    slot: 14
+    priority: 1
+    material: diamond_horse_armor
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#55ffff| &fДоступно от доната &#55ffffПремиум'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.premium.perms
+    left_click_commands:
+    - '[openguimenu] VehicleHoverBike'
+  '15':
+    display_name: '&#ffff55&lМагазин байков'
+    slot: 15
+    priority: 2
+    material: iron_horse_armor
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#55ffff| &fДоступно от доната &#55ffffПремиум'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#55ffff[Премиум]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '15_2':
+    display_name: '&#ffff55&lМагазин байков'
+    slot: 15
+    priority: 1
+    material: iron_horse_armor
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#55ffff| &fДоступно от доната &#55ffffПремиум'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.premium.perms
+    left_click_commands:
+    - '[openguimenu] VehicleBike'
+  '16':
+    display_name: '&#ffff55&lМагазин машин'
+    slot: 16
+    priority: 2
+    material: chest_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#5555ff| &fДоступно от доната &#5555ffВип'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#5555ff[Вип]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '16_2':
+    display_name: '&#ffff55&lМагазин машин'
+    slot: 16
+    priority: 1
+    material: chest_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#5555ff| &fДоступно от доната &#5555ffВип'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vip.perms
+    click_commands:
+    - '[openguimenu] VehicleAuto'
+  '19':
+    display_name: '&#ffff55&lМагазин БУРОВ'
+    slot: 19
+    material: hopper_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleBur'
+  '20':
+    display_name: '&#ffff55&lМагазин поездов'
+    slot: 20
+    material: anvil
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehiclePoezd'
+  '21':
+    display_name: '&#ffff55&lМагазин самолетов'
+    slot: 21
+    material: feather
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleSamolet'
+  '22':
+    display_name: '&#ffff55&lМагазин вертолетов'
+    slot: 22
+    material: cobweb
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleVertolet'
+  '23':
+    display_name: '&#ffff55&lМагазин метелок'
+    slot: 23
+    material: stick
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleMetelki'
+  '24':
+    display_name: '&#ffff55&lМагазин парашютов'
+    slot: 24
+    material: elytra
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleParashut'
+  '25':
+    display_name: '&#ffff55&lМагазин подводных лодок'
+    slot: 25
+    material: tripwire_hook
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleLodka'
+  '30':
+    display_name: '&#ffff55&lМагазин плотов'
+    slot: 30
+    material: jungle_slab
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehiclePlot'
+  '32':
+    display_name: '&#ffff55&lМагазин тракторов'
+    slot: 32
+    material: hay_block
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaa| &fДоступно всем игрокам'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleTraktor'

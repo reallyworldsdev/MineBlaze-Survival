@@ -1,0 +1,257 @@
+menu_title: '&0Напитки (Стр. 1)'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Вернуться в магазин'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] shopSelector'
+  '0':
+    display_name: '&#8f5430К&#8f5630о&#8f5830ф&#8f5a30е&#8f5c30 &#8f5e30А&#8f6030м&#8f6230е&#8f6430р&#8f6630и&#8f6830к&#8f6a30а&#8f6c30н&#8f6e30о'
+    slot: 0
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l300&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] ei give %player_name% potion1'
+  '1':
+    display_name: '&#fdc156К&#f5ba54о&#edb352ф&#e5ac50е&#dda54e &#d59e4cК&#cd974aа&#c59048п&#bd8946у&#b58244ч&#ad7b42и&#a57440н&#9d6d3eо'
+    slot: 1
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l300&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] ei give %player_name% potion2'
+  '2':
+    display_name: '&#764520Ч&#6a3c20а&#5e3320й'
+    slot: 2
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l250&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 250
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 250' #
+    - '[console] ei give %player_name% potion3'
+  '3':
+    display_name: '&#edfcfdГ&#e6fafbа&#dff8f9з&#d8f6f7и&#d1f4f5р&#caf2f3о&#c3f0f1в&#bceeefа&#b5ecedн&#aeeaebн&#a7e8e9а&#a0e6e7я&#99e4e5 &#92e2e3в&#8be0e1о&#84dedfд&#7ddcddа'
+    slot: 3
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l200&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 200
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 200' #
+    - '[console] ei give %player_name% potion4'
+  '4':
+    display_name: '&#fa0000К&#f10907о&#e8120eк&#df1b15а&#d6241c &#cd2d23К&#c4362aо&#bb3f31л&#b24838а'
+    slot: 4
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l500&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500' #
+    - '[console] ei give %player_name% potion5'
+  '5':
+    display_name: '&#bfe3c17&#9de28a &#7be153U&#59e01cP'
+    slot: 5
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l300&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 3000
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] ei give %player_name% potion6'
+  '6':
+    display_name: '&#3cdc3bS&#38cd37p&#34be33r&#30af2fi&#2ca02bt&#289127e'
+    slot: 6
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l300&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] ei give %player_name% potion7'
+  '7':
+    display_name: '&#2ca42bM&#2a9c29o&#289427u&#268c25n&#248423t&#227c21a&#20741fi&#1e6c1dn &#d50000D&#b60000e&#970000w'
+    slot: 7
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l350&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 350
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 350' #
+    - '[console] ei give %player_name% potion8'
+  '31':
+    display_name: '&l&#ffffffМолоко'
+    slot: 31
+    material: milk_bucket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЦена покупки: &#55ff55&l150&#55ff55$'
+    - '&#ffffffВаш баланс: &#ff5555%cmi_user_balance_formated%$'
+    - ''
+    - '&#55ff55► Нажмите для покупки'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 150
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 150' #
+    - '[console] give %player_name% milk_bucket'

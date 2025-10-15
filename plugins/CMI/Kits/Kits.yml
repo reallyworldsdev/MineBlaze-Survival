@@ -1,0 +1,461 @@
+start:
+  CommandName: start
+  Delay: 3600
+  Items:
+    '10':
+      v: 4189
+      type: ENDER_PEARL
+      amount: 4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '11':
+      v: 4189
+      type: ELYTRA
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '12':
+      v: 4189
+      type: OAK_LOG
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/3WPsQrCQAyGAw6Kj+AgcnOX1q2jDyAO4iIiZ5vq4WnkekXFFnwR30FxEQefIX0jbzpFcAnJx0f+pA3Qhmaq8p2WxxZ0J4NyZMhSQjqch/0xuRrNozIqh3KDUJ+ExYMVsRCBcI2RIp56xhe+8o1f9bnHD77XZ37xk68957p9ZJxyRK1p78CCdCriTOocA6Gs1CrxY7FN0Wi1xY+RW6PWaFeGiuXKU1pkRZ5I68Uq8Mf0wyxE/Io2zvqJqmYVNKDz72mVAkAEb3JDyu0kAQAA
+    '13':
+      v: 4189
+      type: STONE_BRICKS
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '14':
+      v: 4189
+      type: BRICKS
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '15':
+      v: 4189
+      type: COBBLESTONE
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '16':
+      v: 4189
+      type: GLASS
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '17':
+      v: 4189
+      type: GLOWSTONE
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '18':
+      v: 4189
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 16
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '19':
+      v: 4189
+      type: COOKED_PORKCHOP
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '20':
+      v: 4189
+      type: CARROT
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '21':
+      v: 4189
+      type: DIAMOND
+      amount: 24
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '22':
+      v: 4189
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: SHIELD
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '23':
+      v: 4189
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Подзорная труба","italic":false,"color":"yellow"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Предмет виден с версии 1.18.2","italic":false,"color":"gray"}]}'
+        custom: H4sIAAAAAAAA/7XPsUrDQBgH8E86WPsIIhpuLoWkRSWjs4iDuIiUa3JtD8+eXC5oMIW2PoCP4Ni1isEMts/w3Rv52SHaycnluP+f/x38GgAN2I5lcqd4Vof9y5P83GirI638rt++0HQG3SAP8jN+K2D+yKx4sCxkrMnoYjgLr6oOX3CF7/iBKzfBJS7cs+dmbuKe8BUX9IA+1YZ2mVBK31PR0ypmYZ+rRDSZtFzJqIrpKBZGyZH4WSTWyBthh0ang2HV6l4/TSJuq+H4erwDe5uSzlrSJsmpNqIOAFtQ/oEhREGcTyzczMM3LCkUuPTc9DsVBJtSV3p+yz9uBb98A8Oz/9RBDXY3eUdr3mG3k8sYoHYAX1G3BznYAQAA
+    '24':
+      v: 4189
+      type: RABBIT_SPAWN_EGG
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        display-name: '{"text":"","extra":[{"text":"1.19 Frog Spawn Egg","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Предмет виден с версии 1.19.2","italic":false,"color":"gray"}]}'
+        custom: H4sIAAAAAAAA/+NiYOBi4ErNK8ksqdQtSUznYGDKTGEQyM3MS00uSkwrsSpKTErKLGFgAACznvcQKQAAAA==
+    '25':
+      v: 4189
+      type: SILVERFISH_SPAWN_EGG
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: SPAWN_EGG
+        display-name: '{"text":"","extra":[{"text":"1.17 Goat Spawn Egg","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Предмет виден с версии 1.19.2","italic":false,"color":"gray"}]}'
+        custom: H4sIAAAAAAAA/+NiYOBi4ErNK8ksqdQtSUznYGDKTGEQyc3MS00uSkwrsSrOzClLLUrLLM5gYAAAH68lEC0AAAA=
+    '26':
+      v: 4189
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '27':
+      v: 4189
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '30':
+      v: 4189
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '31':
+      v: 4189
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '32':
+      v: 4189
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '33':
+      v: 4189
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '34':
+      v: 4189
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+    '35':
+      v: 4189
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"text":"","extra":[{"text":"Набор игрока ","italic":false,"color":"yellow"}]}'
+        custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+bonus:
+  CommandName: bonus
+  Delay: 86400
+  Items:
+    '28':
+      v: 4189
+      type: DIAMOND
+      amount: 8
+    '29':
+      v: 4189
+      type: GOLD_INGOT
+      amount: 8
+    '30':
+      v: 4189
+      type: IRON_INGOT
+      amount: 8
+    '31':
+      v: 4189
+      type: EMERALD
+      amount: 8
+vip:
+  CommandName: vip
+  Delay: 3600
+  Items:
+    '1':
+      v: 4189
+      type: ARROW
+      amount: 64
+    '2':
+      v: 4189
+      type: ARROW
+      amount: 64
+    '3':
+      v: 4189
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '4':
+      v: 4189
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '5':
+      v: 4189
+      type: COOKED_BEEF
+      amount: 64
+    '6':
+      v: 4189
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 32
+    '7':
+      v: 4189
+      type: ENDER_PEARL
+      amount: 2
+    '28':
+      v: 4189
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '29':
+      v: 4189
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '30':
+      v: 4189
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '31':
+      v: 4189
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '32':
+      v: 4189
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 5
+        repair-cost: 1
+    '33':
+      v: 4189
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:power: 3
+        repair-cost: 1
+    '34':
+      v: 4189
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1
+    '35':
+      v: 4189
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1
+    '36':
+      v: 4189
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1
+prem:
+  CommandName: prem
+  Delay: 3600
+  Items:
+    '1':
+      v: 4189
+      type: ARROW
+      amount: 64
+    '2':
+      v: 4189
+      type: ARROW
+      amount: 64
+    '3':
+      v: 4189
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '4':
+      v: 4189
+      type: EXPERIENCE_BOTTLE
+      amount: 64
+    '5':
+      v: 4189
+      type: COOKED_BEEF
+      amount: 64
+    '6':
+      v: 4189
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 32
+    '7':
+      v: 4189
+      type: ENDER_PEARL
+      amount: 2
+    '28':
+      v: 4189
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '29':
+      v: 4189
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '30':
+      v: 4189
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '31':
+      v: 4189
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 4
+        repair-cost: 1
+    '32':
+      v: 4189
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 5
+        repair-cost: 1
+    '33':
+      v: 4189
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:power: 3
+        repair-cost: 1
+    '34':
+      v: 4189
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1
+    '35':
+      v: 4189
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1
+    '36':
+      v: 4189
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:efficiency: 5
+        repair-cost: 1

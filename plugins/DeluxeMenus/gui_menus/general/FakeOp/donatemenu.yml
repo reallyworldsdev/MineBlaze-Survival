@@ -1,0 +1,231 @@
+menu_title: 'Донат меню'
+open_command: donatemenu
+size: 44
+items:
+  # Приколюхи
+  'madeinmobs':
+    display_name: '&#ff5555&lПревращения в мобов'
+    slot: 9
+    material: creeper_head
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ff5555[&lБлейз&#ff5555] &7за &#ff5555&m9475&f &#55ff55&l479 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateMorphOne'
+  'effects':
+    display_name: '&#ffff55&lЭффекты'
+    slot: 13
+    material: blaze_powder
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ffaa00[&lОпка&#ffaa00] &7за &#ff5555&m6975&f &#55ff55&l279 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateChangeEffect'
+  'supersword':
+    display_name: '&#55ff55&lПолучить СУПЕР Меч'
+    slot: 15
+    priority: 2
+    material: diamond_sword
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ffaa00[&lОпка&#ffaa00] &7за &#ff5555&m6975&f &#55ff55&l279 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_enchants
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &6[&lОпка&6]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  'supersword_2':
+    display_name: '&#55ff55&lПолучить СУПЕР Меч'
+    slot: 15
+    priority: 1
+    material: diamond_sword
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ffaa00[&lОпка&#ffaa00] &7за &#ff5555&m6975&f &#55ff55&l279 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    enchantments:
+    - KNOCKBACK;1
+    item_flags:
+    - hide_enchants
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.opka.perms
+    click_commands:
+    - '[console] ei give %player_name% god_sword'
+    - '[close]' 
+  'tanktwo':
+    display_name: '&#5555ff&lТанки 2й мировой'
+    slot: 17
+    material: furnace_minecart
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#55ffff[&lПомощник&#55ffff] &7за &#ff5555&m5475&f &#55ff55&l219 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] VehicleTanki'
+  'magic':
+    display_name: '&#ff55ff&lМагические штучки'
+    slot: 32
+    material: writable_book
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ffaa00[&lОпка&#ffaa00] &7за &#ff5555&m6975&f &#55ff55&l279 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopMagic'
+  # Скам.. Ой, FakeOp
+  'admincmd':
+    display_name: '&#55ffff&lАдмин команды'
+    slot: 28
+    material: diamond
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ffaa00[&lОпка&#ffaa00] &7за &#ff5555&m6975&f &#55ff55&l279 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#ff5555► Временно не работает.'
+    item_flags:
+    - hide_attributes
+  'wipeconsole':
+    display_name: '&#ffff55&lВайп консоль'
+    slot: 30
+    material: experience_bottle
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ff5555[&lБлейз&#ff5555] &7за &#ff5555&m9475&f &#55ff55&l479 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#ff5555► Временно не работает.'
+    item_flags:
+    - hide_attributes
+  'donategadjet':
+    display_name: '&#55ff55&lДонат гаджеты'
+    slot: 34
+    material: magma_cream
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#55ffff[&lПомощник&#55ffff] &7за &#ff5555&m5475&f &#55ff55&l219 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateGudjet'
+  'editconsole':
+    display_name: '&#ffaa00&lКонсоль управления'
+    slot: 11
+    material: command_block
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Доступно только для &#ff5555[&lБлейз&#ff5555] &7за &#ff5555&m9475&f &#55ff55&l479 &7руб.   '
+    - ''
+    - ' &7▪ &fСайт для доната: www.31fDev.ru   '
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru&f &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее..'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateConsole'

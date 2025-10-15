@@ -1,0 +1,14 @@
+blocks:
+- world: world
+  pos:
+    x: -24
+    y: 70
+    z: -45
+  on_click_menu: bcases:donate
+  hologram:
+    offsets:
+      x: 0.5
+      y: 1.5
+      z: 0.5
+    lines: []
+  block: minecraft:ender_chest[facing=east,waterlogged=false]

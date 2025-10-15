@@ -1,0 +1,18 @@
+location: world:-103,501:70,500:5,534
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&l&nЛавовый паркур'
+    height: 0.3
+  - content: '&fПройди весь, выложи в группу скрин'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: lava_bucket'
+    height: 0.3
+  actions: {}

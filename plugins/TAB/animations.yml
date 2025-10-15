@@ -1,0 +1,20 @@
+bartext:
+  change-interval: 4000
+  texts:
+  - '&c&lИмператор &c149р &8▸ &fДоступно: &c//set, /ban, /mute, /kick, /burn и 96 кмд! &7(/donate)'
+  - '&a&lДелюкс &a179р &8▸ &fДоступно: &aИммунитет от бана, /broadcast, /nick, /tnt и 103 кмд! &7(/donate)'
+  - '&b&lПомощник &b219р &8▸ &fДоступно: &b/give, /tphere, /rg info, /eco, все флаги и 110 кмд! &7(/donate)'
+  - '&6&lОпка &6279р &8▸ &fДоступно: &6/socialspy, /tpo, выдать другу, /fly и 123 кмд! &7(/donate)'
+  - '&e&lХелпер &e329р &8▸ &fДоступно: &e/console, /drain, /pyramid, /nick, /ipban и 153 кмд! &7(/donate)'
+  - '&c&lБлейз &c479р &8▸ &fДоступно: &cДоступны почти все команды сервера! &7(/donate)'
+  - '&dНа сайте работает доплата доната! &lwww.31fDev.ru'
+barcolors:
+  change-interval: 4000
+  texts:
+    - RED
+    - GREEN
+    - BLUE
+    - YELLOW
+    - YELLOW
+    - RED
+    - PURPLE

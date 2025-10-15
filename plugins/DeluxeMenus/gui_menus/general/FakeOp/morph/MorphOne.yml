@@ -1,0 +1,1024 @@
+menu_title: '&0Превращения в мобов (Стр. 1/3)'
+size: 53
+items:
+  # Системные
+  'backinshop':
+    display_name: '&#ff5555Назад'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopSelector'
+  'off':
+    display_name: '&#ff5555Выключить превращение'
+    slot: 49
+    material: red_dye
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[player] unmorph'
+  'up':
+    display_name: '&#55ff55Следующая страница'
+    slot: 50
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+    lore:
+    - '&#aaaaaaНажмите для перехода'
+    - '&#aaaaaaна 2 страницу'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateMorphTwo'
+  # Слоты морфов
+  '10':
+    display_name: '&#55ff55&lСвинья'
+    slot: 10
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM2MWZiODgyNWQ4M2RjNjE0YzkyZWJiZjRlNzRjMThhODA2ODdkNWIyYjk2YjNjZDZhNjA5MGVlZjViIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '10_2':
+    display_name: '&#55ff55&lСвинья'
+    slot: 10
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM2MWZiODgyNWQ4M2RjNjE0YzkyZWJiZjRlNzRjMThhODA2ODdkNWIyYjk2YjNjZDZhNjA5MGVlZjViIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph pig'
+    - '[close]' 
+  '11':
+    display_name: '&#55ff55&lКорова'
+    slot: 11
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhOWNkNThkNGM2N2JjY2M4ZmIxZjVmNzU2YTJkMzgxYzlmZmFjMjkyNGI3ZjRjYjcxYWE5ZmExM2ZiNWMifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '11_2':
+    display_name: '&#55ff55&lКорова'
+    slot: 11
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhOWNkNThkNGM2N2JjY2M4ZmIxZjVmNzU2YTJkMzgxYzlmZmFjMjkyNGI3ZjRjYjcxYWE5ZmExM2ZiNWMifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph cow'
+    - '[close]' 
+  '12':
+    display_name: '&#55ff55&lВолк'
+    slot: 12
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '12_2':
+    display_name: '&#55ff55&lВолк'
+    slot: 12
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph wolf'
+    - '[close]' 
+  '13':
+    display_name: '&#55ff55&lПчела'
+    slot: 13
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '13_2':
+    display_name: '&#55ff55&lПчела'
+    slot: 13
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph bee'
+    - '[close]' 
+  '14':
+    display_name: '&#55ff55&lПанда'
+    slot: 14
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAxOGExNzcxZDY5YzExYjhkYWQ0MmNkMzEwMzc1YmEyZDgyNzkzMmIyNWVmMzU3ZjdlNTcyYzFiZDBmOSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '14_2':
+    display_name: '&#55ff55&lПанда'
+    slot: 14
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAxOGExNzcxZDY5YzExYjhkYWQ0MmNkMzEwMzc1YmEyZDgyNzkzMmIyNWVmMzU3ZjdlNTcyYzFiZDBmOSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph panda'
+    - '[close]' 
+  '15':
+    display_name: '&#55ff55&lКозел &#555555← &#55ffffНОВИНКА'
+    slot: 15
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU3NjA3MDk5ZDA2YjdhOGIxMzI3MDkzY2QwYTQ4OGJlN2M5ZjUwYjYxMjFiMjIxNTEyNzFiNTkxNzBmM2MyMSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '15_2':
+    display_name: '&#55ff55&lКозел &#555555← &#55ffffНОВИНКА'
+    slot: 15
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU3NjA3MDk5ZDA2YjdhOGIxMzI3MDkzY2QwYTQ4OGJlN2M5ZjUwYjYxMjFiMjIxNTEyNzFiNTkxNzBmM2MyMSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph goat'
+    - '[close]' 
+  '16':
+    display_name: '&#55ff55&lГоловастик &#555555← &#55ffffНОВИНКА'
+    slot: 16
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjOWI5NzQwYmQzYWRlYmE1MmUwY2UwYTc3YjNkZmRlZjhkM2E0MDU1NWE0ZThiYjY3ZDIwMGNkNjI3NzBkMCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &c[&lБлейз&c]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '16_2':
+    display_name: '&#55ff55&lГоловастик &#555555← &#55ffffНОВИНКА'
+    slot: 16
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjOWI5NzQwYmQzYWRlYmE1MmUwY2UwYTc3YjNkZmRlZjhkM2E0MDU1NWE0ZThiYjY3ZDIwMGNkNjI3NzBkMCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[player] morph tadpole'
+    - '[close]' 
+  '19':
+    display_name: '&#55ff55&lКот'
+    slot: 19
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '19_2':
+    display_name: '&#55ff55&lКот'
+    slot: 19
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph cat'
+    - '[close]' 
+  '20':
+    display_name: '&#55ff55&lКурица'
+    slot: 20
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '20_2':
+    display_name: '&#55ff55&lКурица'
+    slot: 20
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph chicken'
+    - '[close]' 
+  '21':
+    display_name: '&#55ff55&lЛиса'
+    slot: 21
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]'     
+  '21_2':
+    display_name: '&#55ff55&lЛиса'
+    slot: 21   
+    priority: 1   
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph fox'
+    - '[close]' 
+  '22':
+    display_name: '&#55ff55&lОсел'
+    slot: 22 
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNhOTc2YzA0N2Y0MTJlYmM1Y2IxOTcxMzFlYmVmMzBjMDA0YzBmYWY0OWQ4ZGQ0MTA1ZmNhMTIwN2VkYWZmMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '22_2':
+    display_name: '&#55ff55&lОсел'
+    slot: 22 
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNhOTc2YzA0N2Y0MTJlYmM1Y2IxOTcxMzFlYmVmMzBjMDA0YzBmYWY0OWQ4ZGQ0MTA1ZmNhMTIwN2VkYWZmMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes    
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph donkey'
+    - '[close]'
+  '23':
+    display_name: '&#55ff55&lГолем'
+    slot: 23 
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '23_2':
+    display_name: '&#55ff55&lГолем'
+    slot: 23 
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes    
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph iron_golem'
+    - '[close]'
+  '24':
+    display_name: '&#55ff55&lЛягушка &#555555← &#55ffffНОВИНКА'
+    slot: 24
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1OTg1ZjRkNTY0MzkxOGU2YWZkZDQ1NzZhOTRhZjY4ZGY4ZDI0MmQ2ODBjMDViNGU3ZjAyMDY4NmQ2ZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]'  
+  '24_2':
+    display_name: '&#55ff55&lЛягушка &#555555← &#55ffffНОВИНКА'
+    slot: 24
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM1OTg1ZjRkNTY0MzkxOGU2YWZkZDQ1NzZhOTRhZjY4ZGY4ZDI0MmQ2ODBjMDViNGU3ZjAyMDY4NmQ2ZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph frog'
+    - '[close]'
+  '25':
+    display_name: '&#55ff55&lСветящийся спрут &#555555← &#55ffffНОВИНКА'
+    slot: 25
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjZDBiNWViNmIzODRkYjA3NmQ4NDQ2MDY1MjAyOTU5ZGRkZmYwMTYxZTBkNzIzYjNkZjBjYzU4NmQxNmJiZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '25_2':
+    display_name: '&#55ff55&lСветящийся спрут &#555555← &#55ffffНОВИНКА'
+    slot: 25
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVjZDBiNWViNmIzODRkYjA3NmQ4NDQ2MDY1MjAyOTU5ZGRkZmYwMTYxZTBkNzIzYjNkZjBjYzU4NmQxNmJiZCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[player] morph Glow_Squid'
+    - '[close]'
+  '28':
+    display_name: '&#55ff55&lХранитель &#555555← &#55ffffНОВИНКА'
+    slot: 28
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmZDEzY2EwOGJmOTczYmZlZjAyOTNkNzcwNzA0YTExZWY1YTlmZTIwZDQwNjcxZmIwNjY3MjRkM2UxOGQ4In19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+  '28_2':
+    display_name: '&#55ff55&lХранитель &#555555← &#55ffffНОВИНКА'
+    slot: 28
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRmZDEzY2EwOGJmOTczYmZlZjAyOTNkNzcwNzA0YTExZWY1YTlmZTIwZDQwNjcxZmIwNjY3MjRkM2UxOGQ4In19fQ==
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph Warden'
+    - '[close]'
+  '29':
+    display_name: '&#55ff55&lТихоня &#555555← &#55ffffНОВИНКА'
+    slot: 29
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '29_2':
+    display_name: '&#55ff55&lТихоня &#555555← &#55ffffНОВИНКА'
+    slot: 29
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph Allay'
+    - '[close]'
+  '30':
+    display_name: '&#55ff55&lАксолотль &#555555← &#55ffffНОВИНКА'
+    slot: 30
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc3M2Q4ODc1Yzk4OTExNTM4ZTEwMGFjMDJlMTdhMjc2M2FlN2Y3MTI1ODIyNGI4YmY5NTU3YjNkNWRkZTAwNiJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '30_2':
+    display_name: '&#55ff55&lАксолотль &#555555← &#55ffffНОВИНКА'
+    slot: 30
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc3M2Q4ODc1Yzk4OTExNTM4ZTEwMGFjMDJlMTdhMjc2M2FlN2Y3MTI1ODIyNGI4YmY5NTU3YjNkNWRkZTAwNiJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph axolotl'
+    - '[close]'
+  '31':
+    display_name: '&#55ff55&lЛошадь'
+    slot: 31
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk5MDgyMTk1MWZkOWFiOTMwMWFlYmY1ZDc2YTliNjBmMTVlYmY2MTllMWM5ZThkNjY4OTE5ZDM5NGQ5YTkzMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '31_2':
+    display_name: '&#55ff55&lЛошадь'
+    slot: 31
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk5MDgyMTk1MWZkOWFiOTMwMWFlYmY1ZDc2YTliNjBmMTVlYmY2MTllMWM5ZThkNjY4OTE5ZDM5NGQ5YTkzMyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph horse'
+    - '[close]'
+  '32':
+    display_name: '&#55ff55&lЛама'
+    slot: 32
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJiMWVjZmY3N2ZmZTNiNTAzYzMwYTU0OGViMjNhMWEwOGZhMjZmZDY3Y2RmZjM4OTg1NWQ3NDkyMTM2OCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '32_2':
+    display_name: '&#55ff55&lЛама'
+    slot: 32
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJiMWVjZmY3N2ZmZTNiNTAzYzMwYTU0OGViMjNhMWEwOGZhMjZmZDY3Y2RmZjM4OTg1NWQ3NDkyMTM2OCJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph Llama'
+    - '[close]'
+  '33':
+    display_name: '&#55ff55&lМул'
+    slot: 33
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '33_2':
+    display_name: '&#55ff55&lМул'
+    slot: 33
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph mule'
+    - '[close]'
+  '34':
+    display_name: '&#55ff55&lГрибная корова'
+    slot: 34
+    priority: 2
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '34_2':
+    display_name: '&#55ff55&lГрибная корова'
+    slot: 34
+    priority: 1
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0=
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто превращение доступно'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы превратиться'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[player] morph Mooshroom'
+    - '[close]'

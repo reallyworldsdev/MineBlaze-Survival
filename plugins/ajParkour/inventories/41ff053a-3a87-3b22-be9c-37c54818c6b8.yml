@@ -1,0 +1,274 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Меню сервера ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1l4ErLLCou0c0ECjIAAGzW/ycgAAAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Донат услуги ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1l4C5OTc7PS9HNBIoyAACdxTpRIQAAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Выбор сервера ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1l4C1OLSpLLdItTs1JTS5hAAAlX7zrIwAAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ENDER_PEARL
+    amount: 4
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: OAK_LOG
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/3WOMQrCQBBFBywUj2AhsnWaxC6lBxALsRGRNZno4urIZoOKCXgR76DYiIVnmNzIrVYRbIaZx2P+bwM0oDMZlCNDlhLS4Tzsj8nNaB6VKgWAqA3NVOU7LY8t6P5To3IoNwj1SVg8WBELEQi3GCniqWd84Svf+FWfe/zge33mFz/52nOu+0fGKUfUmvYOLEinIs6kzjEQykqtEn8W2xSNVlv8GLk1ao12ZahYrjylRVbkibRerAJfph9mIeJXtHHWT1Q1qwDemgKZLiQBAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: STONE_BRICKS
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: BRICKS
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: COBBLESTONE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: GLASS
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: GLOWSTONE
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 16
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: COOKED_PORKCHOP
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: CARROT
+    amount: 64
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND
+    amount: 24
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: SHIELD
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Подзорная труба","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Предмет виден с версии 1.18.2","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      custom: H4sIAAAAAAAA/7XPsUrDQBgH8E86WPsIIhpuLoWkRSWjs4iDuIiUa3JtD8+eXC5oMIW2PoCP4Ni1isEMts/w3Rv52SHaycnluP+f/x38GgAN2I5lcqd4Vof9y5P83GirI638rt++0HQG3SAP8jN+K2D+yKx4sCxkrMnoYjgLr6oOX3CF7/iBKzfBJS7cs+dmbuKe8BUX9IA+1YZ2mVBK31PR0ypmYZ+rRDSZtFzJqIrpKBZGyZH4WSTWyBthh0ang2HV6l4/TSJuq+H4erwDe5uSzlrSJsmpNqIOAFtQ/oEhREGcTyzczMM3LCkUuPTc9DsVBJtSV3p+yz9uBb98A8Oz/9RBDXY3eUdr3mG3k8sYoHYAX1G3BznYAQAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: RABBIT_SPAWN_EGG
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: SPAWN_EGG
+      display-name: '{"text":"","extra":[{"text":"1.19 Frog Spawn Egg","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Предмет виден с версии 1.19.2","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      custom: H4sIAAAAAAAA/+NiYOBi4ErNK8ksqdQtSUznYGDKTGEQyM3MS00uSkwrsSpKTErKLGFgAACznvcQKQAAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SILVERFISH_SPAWN_EGG
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: SPAWN_EGG
+      display-name: '{"text":"","extra":[{"text":"1.17 Goat Spawn Egg","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"white"}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Предмет виден с версии 1.19.2","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+      custom: H4sIAAAAAAAA/+NiYOBi4ErNK8ksqdQtSUznYGDKTGEQyc3MS00uSkwrsSrOzClLLUrLLM5gYAAAH68lEC0AAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Набор игрока ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"}]}'
+      custom: H4sIAAAAAAAA/12OMQrCQBBFt1M8hISt0yR2KT2AWIiNiGySiVlcM7LZoMEEvIh3iNiIRc4wuZFbrWIzzDwe8/+EsQkbpbI8KVGP2XQ9b5YaDSaogl0wW6Gd4S5swmYhjsCGKzdwMTzi3Od20YJHG8foTh09qB9uHr3oOdyopzd1nnXtP9RWqUEpPFsQo0p5lAlVgs+lEUom7qyKFLSSBXyN0mh5AJNrrPa5oxhnVZkI48TWd2VmQRYA/ERra/1FtduWsQ/Oz1J8AwEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null

@@ -1,0 +1,151 @@
+menu_title: '&0Управление нано-броней'
+register_command: true
+open_command:
+- nano
+- guard
+size: 26
+items:
+  '10':
+    display_name: '&#ff5555&lПрыгучесть'
+    slot: 10
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУсиленный на &#ff55552x &#aaaaaaэффект прыгучести.   '
+    - '&#aaaaaaДействует &#ff55553 &#aaaaaaминуты.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% JumpBoost 180 2'
+  '11':
+    display_name: '&#ffaa00&lСкорость'
+    slot: 11
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУсиленный на &#ffaa002x &#aaaaaaэффект скорости.   '
+    - '&#aaaaaaДействует &#ffaa003 &#aaaaaaминуты.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% Speed 180 2'
+  '12':
+    display_name: '&#ffff55&lРегенерация'
+    slot: 12
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaУсиленный на &#ffff552x &#aaaaaaрегенерации.   '
+    - '&#aaaaaaДействует &#ffff553 &#aaaaaaминуты.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% Regeneration 180 2'
+  '13':
+    display_name: '&#55ff55&lЗащита'
+    slot: 13
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДобавит &#55ff55+3 &#aaaaaaполоски здоровья!   '
+    - '&#aaaaaaДействует &#55ff5510 &#aaaaaaминут.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% HealthBoost 180 20'
+  '14':
+    display_name: '&#55ffff&lМаскировка'
+    slot: 14
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaМаскировка.'
+    - '&#aaaaaaДействует &#55ffff10 &#aaaaaaминут.   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% Invisibility 600 1'
+  '15':
+    display_name: '&#ff55ff&lНано-визер'
+    slot: 15
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaНано-визер.'
+    - '&#aaaaaaДействует &#ff55ff10 &#aaaaaaминут.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% NightVision 600 1'
+  '16':
+    display_name: '&#aa0000&lOFF'
+    slot: 16
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaОтключить нано-броню.   '
+    - '&#aaaaaaНано-броня будет отключена!   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы отключить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] effect %player_name% clear'
+    - 
+  '17':
+    display_name: '&#ff5555&lАдмин-Эффекты'
+    slot: 17
+    material: barrier
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&#aaaaaaДелает вас неуязвимым ко всему'
+    - '&#aaaaaaДействует &#ff555599999 &#aaaaaaчасов.'
+    - ''
+    - ' &#aaaaaa▪ &fСайт для доната: www.31fDev.ru'
+    - ' &#aaaaaa▪ &fДонат выдается на всех серверах'
+    - ' &#aaaaaa▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&#55ff55► Нажмите, чтобы активировать'
+    item_flags:
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffaa00[&lОпка&#ffaa00]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 

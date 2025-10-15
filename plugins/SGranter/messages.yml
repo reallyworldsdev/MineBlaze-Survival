@@ -1,0 +1,24 @@
+help:
+  - "&6&l| &6/grant <Игрок> <Привилегия>"
+  - "&6&l| &6/grant list &f- Список привилегий, которые вы можете выдать."
+noPerm: "&c&l| &fУ вас нет права 'sgranter.use'"
+invalidSenderGroup: "&cВаша группа не может выдавать привилегии."
+invalidGrantGroup:
+  - "&6&l| &fВаша группа не может выдавать эту привилегию либо она не существует."
+  - "&6&l| &fДоступные вам привилегии для выдачи - &6/grant list"
+listHeader: "&6&lВы можете выдать:"
+listFormat: "&6&l| &fПривилегия&8: (groupPrefix) &6(already)/(limit) &7(/grant ник (groupName))"
+
+grantSuccess:
+  - "&6&l| &fВы успешно выдали группу (groupPrefix)&7 игроку &e(playerName)"
+  - "&6&l| &fВы выдали привилегий данного типа:&6 (already)/(limit)"
+errorPriority: "&c&l| &fУ игрока уже есть привилегия выше или равная указанной."
+errorAllGranted:
+  - "&c&l| &fВы потратили лимит по выдаче этой привилегии."
+  - "&a&l| &fВы выдали:&6 (already)/(limit)"
+limitCleared: "&cВы успешно сбросили лимит игроку (playerName)"
+errorNotFound: "&cИгрок (playerName) не найден."
+errorSelf: "&cВы хотите выдать донат игроку или понизить себе?"
+clearUsage: "&cИспользование: /grant clear <Игрок>"
+broadcast: "&6&l| &fИгрок&6 (granter)&f выдал привилегию (groupPrefix) &fигроку &6(playerName)"
+emptyList: "&c&l| &fВы выдали все привилегии доступные вам."

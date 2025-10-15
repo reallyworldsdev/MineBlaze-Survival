@@ -1,0 +1,473 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:aqua_affinity: 1
+        minecraft:bane_of_arthropods: 5
+        minecraft:depth_strider: 3
+        minecraft:efficiency: 3
+        minecraft:feather_falling: 4
+        minecraft:fire_aspect: 2
+        minecraft:fire_protection: 4
+        minecraft:flame: 1
+        minecraft:infinity: 1
+        minecraft:knockback: 2
+        minecraft:looting: 3
+        minecraft:luck_of_the_sea: 3
+        minecraft:lure: 3
+        minecraft:mending: 1
+        minecraft:protection: 4
+        minecraft:respiration: 3
+        minecraft:sharpness: 5
+        minecraft:smite: 5
+        minecraft:thorns: 3
+        minecraft:unbreaking: 3
+      attribute-modifiers:
+        minecraft:armor:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:armor_toughness:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:knockback_resistance:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_damage
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.4000000953674316
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_speed
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "god_sword",
+            "score:usage": 1
+        }
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: COBBLESTONE
+    amount: 12
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:aqua_affinity: 1
+        minecraft:bane_of_arthropods: 5
+        minecraft:depth_strider: 3
+        minecraft:efficiency: 3
+        minecraft:feather_falling: 4
+        minecraft:fire_aspect: 2
+        minecraft:fire_protection: 4
+        minecraft:flame: 1
+        minecraft:infinity: 1
+        minecraft:knockback: 2
+        minecraft:looting: 3
+        minecraft:luck_of_the_sea: 3
+        minecraft:lure: 3
+        minecraft:mending: 1
+        minecraft:protection: 4
+        minecraft:respiration: 3
+        minecraft:sharpness: 5
+        minecraft:smite: 5
+        minecraft:thorns: 3
+        minecraft:unbreaking: 3
+      attribute-modifiers:
+        minecraft:armor:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:armor_toughness:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:knockback_resistance:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_damage
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.4000000953674316
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_speed
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "god_sword",
+            "score:usage": 1
+        }
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:aqua_affinity: 1
+        minecraft:bane_of_arthropods: 5
+        minecraft:depth_strider: 3
+        minecraft:efficiency: 3
+        minecraft:feather_falling: 4
+        minecraft:fire_aspect: 2
+        minecraft:fire_protection: 4
+        minecraft:flame: 1
+        minecraft:infinity: 1
+        minecraft:knockback: 2
+        minecraft:looting: 3
+        minecraft:luck_of_the_sea: 3
+        minecraft:lure: 3
+        minecraft:mending: 1
+        minecraft:protection: 4
+        minecraft:respiration: 3
+        minecraft:sharpness: 5
+        minecraft:smite: 5
+        minecraft:thorns: 3
+        minecraft:unbreaking: 3
+      attribute-modifiers:
+        minecraft:armor:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 6.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:armor_toughness:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:knockback_resistance:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: head
+          operation: 0
+          key: minecraft:80ce2fbe-56cf-3fa4-956a-5a75a0c5485c
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: chest
+          operation: 0
+          key: minecraft:e63f290b-0c71-3271-935b-5f3510bd4140
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.10000000149011612
+          slot: legs
+          operation: 0
+          key: minecraft:f4a0d71b-7d96-3f87-863c-cf4ea90e700a
+        minecraft:attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 7.0
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_damage
+        minecraft:attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.4000000953674316
+          slot: mainhand
+          operation: 0
+          key: minecraft:base_attack_speed
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ADDITIONAL_TOOLTIP
+      PublicBukkitValues: |-
+        {
+            "executableitems:ei-id": "god_sword",
+            "score:usage": 1
+        }
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: WOODEN_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:power: 3
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 5
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 5
+      repair-cost: 1
+      Damage: 35
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Выбор сервера ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1l4C1OLSpLLdItTs1JTS5hAAAlX7zrIwAAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: EXPERIENCE_BOTTLE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ENCHANTED_GOLDEN_APPLE
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: ENDER_PEARL
+    amount: 2
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 4
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 4
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 4
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: ARMOR
+      enchants:
+        minecraft:protection: 4
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:sharpness: 5
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:efficiency: 5
+      repair-cost: 1
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Донат услуги ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/+NiYOBg4PUsSc31ys/MU/BLzE1l4C5OTc7PS9HNBIoyAACdxTpRIQAAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: LAPIS_BLOCK
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: RAW_IRON
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: REDSTONE
+    amount: 9
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: EMERALD_BLOCK
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIAMOND_BLOCK
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

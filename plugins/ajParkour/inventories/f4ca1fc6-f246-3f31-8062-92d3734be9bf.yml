@@ -1,0 +1,87 @@
+inventory:
+  armor:
+  - null
+  - null
+  - null
+  - null
+  content:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Меню сервера ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/12QwUoDQQyGUxRsV7z4BEsOnla8782LqKA3T6WHmd1sG5ruyMwsWkpBX8AHkIKvIEKPvsMs9IGcFtmKOQTy8/3JTxKAAZxeem9ZN57uTMkVk3WwrT6c3Hia3Rqu03s1I0gqts6fcxR7cPxQa0tqqrRQL4Gjkt2jqHkfDnfsZoH07K3CfLjAwoixmOOcRMwTZtjUJVnhmkrMKyWOMvQRj0hYhXX4bt/S9jWs25fwteufaTRpI3vcxchT8hNrmvGkU42uGlco/2cveyVc/I7LbB/GRqg7O7wIH+E9rEb43zHqGFzCAQyuuaQrUePtj87gB7E+hl9BAQAA
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Донат услуги ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/12Qv0oDQRDGJyiYP9j4BMcUVif219mICtpZhRS7t3PJksmu7O6hIaTQvIKVCL6CYCOIeYY98IHciFzE6ebj9818fH2AHhychOC0rANdWqUrTc7DZrqwfx5odmG1ya7EjGDgqbRGHemkdmBwbaQjMRWSqdOHPaX9DYt5F3Z/4K8F0l1wAovhAkvL1mGBc2K2t5hjbRQ51oYUFpVgTzmGhCckPsZ1/IyvzUPWrJr7+NGs4lt8z5JJWt7iPmWeUpg4W48nrWplVftShD93dRCsy991mW/DuAS1b4fH8SU+xecR/neMWgaXsAO9M63olMV4U9IhfAPX0UykQgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Выбор сервера ","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"yellow"},{"text":"[/ПКМ]","italic":false,"color":"red"}]}'
+      attribute-modifiers: {}
+      ItemFlags:
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_ADDITIONAL_TOOLTIP
+      Unbreakable: true
+      custom: H4sIAAAAAAAA/12QsUoDQRCGJyiYRNL4BMcUVif219mICtpZhRS7t3PJksmt7M6pIQRibWcpgq+ggq3PsNf4PF6CXMQpBmb4/vl/pg/Qg4MTEW91JXTpjC0s+QDr6sLgXGh24WyZXKkZwSCQvyV/FIgplw7sX5fak5oqzdTpw56x4YbVvAu7G/x7gXQvXmE2XGDu2HnMcE7M7g5TrEpDnm1JBrNCcaAUpcEbJD7Vj/E9ftWrpH6In/Uqfmz6W9LItOOtIDS5pyQT76rxpN06XVQhV/LnshXFNv8dl+k2jm+g1nh4HF/jc3wZ4X/FqGVwCTvQO7OGTlmN1486hB95aBo+RgEAAA==
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

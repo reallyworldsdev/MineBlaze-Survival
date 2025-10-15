@@ -1,0 +1,18 @@
+location: world:-36,510:70,500:-3,599
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&c&l&nЦарь горы'
+    height: 0.3
+  - content: '&fПопробуй стать Юлием Цезарем'
+    height: 0.3
+  - content: ''
+    height: 0.1
+  - content: '#ICON: red_banner'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,4 @@
+# Join Message Configuration
+disable-join-leave-messages: true
+# Death Message Configuration
+disable-death-messages: true

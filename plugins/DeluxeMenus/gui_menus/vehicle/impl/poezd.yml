@@ -1,0 +1,105 @@
+menu_title: '&#555555Магазин поездов'
+size: 26
+items:
+  '11':
+    display_name: '&#aaaaaaМедленный'
+    slot: 11
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$100'
+    - ''
+    - '&#aaaaaaКак управлять?'
+    - ''
+    - ' &#ff5555Поезд можно поставить только на рельсы.'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55S &#aaaaaa- назад'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 100
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 100' #
+    - '[console] givetrain %player_name% T1'
+  '13':
+    display_name: '&#ffff55Средний поезд'
+    slot: 13
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$300'
+    - ''
+    - '&#aaaaaaКак управлять?'
+    - ''
+    - ' &#ff5555Поезд можно поставить только на рельсы.'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55S &#aaaaaa- назад'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 300
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 300' #
+    - '[console] givetrain %player_name% T2'
+  '15':
+    display_name: '&#55ff55Быстрый поезд'
+    slot: 15
+    material: chest
+    lore:
+    - '&#ffffffСтоимость: &#ffff55$500'
+    - ''
+    - '&#aaaaaaКак управлять?'
+    - ''
+    - ' &#ff5555Поезд можно поставить только на рельсы.'
+    - ''
+    - ' &#55ff55W &#aaaaaa- вперед'
+    - ' &#55ff55S &#aaaaaa- назад'
+    - ''
+    - ' &#55ff55ЛЕВЫЙ SHIFT &#aaaaaa- слезть'
+    - ' &#55ff55Правая кнопка мыши &#aaaaaa- сесть в транспорт'
+    - ''
+    - '&#55ff55► Нажмите, чтобы купить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    left_click_requirement: # Покупка предмета (ЛКМ)
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%cmi_user_balance%'
+          output: 500
+          deny_commands:
+          - '[message] &c&l| &r&cУ вас недостаточно денег'
+          - '[close]'
+    left_click_commands:
+    - '[console] money take %player_name% 500' #
+    - '[console] givetrain %player_name% T3'

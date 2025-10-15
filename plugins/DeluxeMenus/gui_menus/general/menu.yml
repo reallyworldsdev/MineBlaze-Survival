@@ -1,0 +1,202 @@
+menu_title: '&0Игровое меню'
+open_command: menu
+register_command: true
+size: 53
+items:
+  # Главное, середина меню
+  'ShopSelector':
+    display_name: '&#ffaa00&lМагазин'
+    slot: 11
+    material: glistering_melon_slice
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Игровой магазин, в котором можно купить   '
+    - '&7любую вещь, которая нужна именно Вам!   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть магазин'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] ShopSelector'
+  'DonateShopMagic':
+    display_name: '&#55ff55&lМагические штучки'
+    slot: 13
+    material: writable_book
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7В этом разделе вы можете найти магию'
+    - '&7да-да, самая реальная магия. Кликай!   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы колдовать'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopMagic'
+  'ah':
+    display_name: '&#ffff55&lАукцион'
+    slot: 28
+    material: gold_ingot
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7На аукционе вы можете приобрести или продать '
+    - '&7вещи по ценам ниже, чем в простом магазине.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы торговаться'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[player] ah'
+  'generalNano':
+    display_name: '&#55ffff&lВключить нано-броню'
+    slot: 32
+    material: diamond_chestplate
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Хотите стать кризисом? Включай броню'
+    - '&7и гоняй в своих галошах по спавну.   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить нано-броню'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] generalNano'
+  'woodcutter':
+    display_name: '&#55ff55&lЛесопилка'
+    slot: 38
+    material: oak_sapling
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Хочешь заработать немного денег, чтобы   '
+    - '&7купить себе пропитание? Так давай дерзай!   '
+    - ''
+    - '&#55ff55► Нажмите, чтобы устроиться'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[player] warp woodcutter'
+  'vehicleSelector':
+    display_name: '&#ffff55&lПолучить транспорт'
+    slot: 40
+    material: magma_cream
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Получите свой бесплатный транспорт и'
+    - '&7катайте шлюх по ночным Черемушкам.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы получить байк'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] vehicleSelector'
+  # Помощь, правая сторона меню
+  'donate':
+    display_name: '&#55ffff&lДонат привилегии'
+    slot: 16
+    material: diamond
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7В этом разделе можно узнать возможности   '
+    - '&7донат привилегий и сайт для покупок.'
+    - ''
+    - ' &7Текущая цель: &fУлучшение качества игры'
+    - ' &#55ff55&m             &#555555&m            &#ffff55 46% &7(2.000р)'
+    - ''
+    - ' &7Текущая цель: &fОткрытие новой мини-игры'
+    - ' &#ffaa00&m      &#555555&m                   &#ffff55 17% &7(7.000р)'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Подробнее...'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] generalDonate'
+  'donatecase':
+    display_name: '&#55ff55&lДонат кейсы'
+    slot: 25
+    material: ender_chest
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Не хватает денег на покупку нормального доната?   '
+    - '&7Попробуй купить кейсы на сайте: &#55ff55www.31fDev.ru   '
+    - ''
+    - ' &#ffff55▪ 5 &fкейсов &7-&#ffff55 25 рублей &7(скидка 20%)'
+    - ' &#ffaa00▪ 10 &fкейсов &7-&#ffff55 42 рублей &7(скидка 30%)'
+    - ' &#ff5555▪ 20 &fкейсов &7-&#ffff55 89 рублей &7(скидка 40%)'
+    - ' &#55ff55▪ 30 &fкейсов &7-&#ffff55 139 рублей &7(скидка 50%)'
+    - ''
+    - '&fПокупка донат привилегий на сайте:'
+    - '&#ff5555&nwww.31fDev.ru &#ffff55(Скидки &#ffff55&l75&#ffff55%)'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть кейсы'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[player] warp case'
+  'rtp':
+    display_name: '&#ffff55&lСлучайная телепортация'
+    slot: 34
+    material: ender_eye
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7Телепортируйтесь в случайное место с помощью   '
+    - '&7этой кнопки.'
+    - ''
+    - '&#55ff55► Нажмите, чтобы телепортироваться'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands: 
+    - '[player] rtp'
+  'DonateShopSelector':
+    display_name: '&#ff5555&lПанель Администратора'
+    slot: 43
+    material: comparator
+    lore:
+    - '&fwww.31fDev.ru'
+    - ''
+    - '&7C помощью этой панели вы получите доступ к крутым   '
+    - '&7гаджетам и некоторым админ-возможностям.'
+    - ''
+    - ' &#ffaa00▪ &fДоступ имеет только донат &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&fДонат продается навсегда за &#ff5555&l&m6975&r &#ffff55&l279 &fрублей'
+    - ''
+    - ' &7▪ &fСайт для покупки: &nwww.31fDev.ru'
+    - ' &7▪ &fДонат выдается на всех серверах'
+    - ' &7▪ &fДонат не исчезает после вайпа'
+    - ''
+    - '&#55ff55► Нажмите, чтобы открыть панель'
+    item_flags:
+    - hide_enchants
+    - hide_dye
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopSelector'

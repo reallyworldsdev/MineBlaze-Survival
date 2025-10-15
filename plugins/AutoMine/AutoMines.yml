@@ -1,0 +1,40 @@
+AutoMines:
+  spawn:
+    firstPos:
+      x: -27.0
+      y: 68.0
+      z: 45.0
+    secondPos:
+      x: -44.0
+      y: 57.0
+      z: 29.0
+    world: world
+    spawnHologram: 'false'
+    hologramPos:
+      world: world
+      x: -27.0
+      y: 71.0
+      z: 45.0
+    lines:
+    - ''
+    timeUpdate: 300
+    typeMine:
+      default:
+        name: Обычная
+        chance: 100
+        blockList:
+        - '150.0 : STONE'
+        - '20.0 : DIAMOND_BLOCK'
+        - '30.0 : IRON_ORE'
+        - '15.0 : DIAMOND_ORE'
+        - '15.0 : ANCIENT_DEBRIS'
+        - '30.0 : GOLD_BLOCK'
+        - '30.0 : EMERALD_BLOCK'
+        - '30.0 : COAL_ORE'
+        - '30.0 : LAPIS_BLOCK'
+        - '30.0 : REDSTONE_ORE'
+        - '30.0 : COBBLESTONE'
+        update_message:
+        - '&6&lАвтоШахта &8» &fШахта обновлена, телепортироваться - &e/warp mine'
+        customDrops:
+        - DIRT:<GIVE><DIAMOND>

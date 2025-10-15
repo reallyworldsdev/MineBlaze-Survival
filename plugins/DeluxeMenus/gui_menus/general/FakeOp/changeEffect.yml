@@ -1,0 +1,834 @@
+menu_title: '&0Выбор эффектов'
+size: 53
+items:
+  # Системные
+  '45':
+    display_name: '&#ff5555Назад'
+    slot: 45
+    material: arrow
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[openguimenu] DonateShopSelector'
+  '49':
+    display_name: '&#ff5555Выключить эффект'
+    slot: 49
+    priority: 2
+    material: red_dye
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[console] ppo %player_name% reset'
+  # Слоты эффекты
+  '10':
+    display_name: '&#55ff55Эффект дыма'
+    slot: 10
+    priority: 2
+    material: firework_star
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffaa00[&lОпка&#ffaa00]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '10_2':
+    display_name: '&#55ff55Эффект дыма'
+    slot: 10
+    priority: 1
+    material: firework_star
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.opka.perms
+    click_commands:
+    - '[console] ppo %player_name% add campfire_signal_smoke normal'
+    - '[close]'
+  '11':
+    display_name: '&#55ff55Эффект огня'
+    slot: 11
+    priority: 2
+    material: gold_nugget
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffaa00[&lОпка&#ffaa00]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '11_2':
+    display_name: '&#55ff55Эффект огня'
+    slot: 11
+    priority: 1
+    material: gold_nugget
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffaa00[&lОпка&#ffaa00]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.opka.perms
+    click_commands:
+    - '[console] ppo %player_name% add trial_spawner_detection normal'
+    - '[close]'
+  '12':
+    display_name: '&#55ff55Эффект эндера'
+    slot: 12
+    priority: 2
+    material: ender_pearl
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffff55[&lХелпер&#ffff55]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ffff55[&lХелпер&#ffff55]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '12_2':
+    display_name: '&#55ff55Эффект эндера'
+    slot: 12
+    priority: 1
+    material: ender_pearl
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ffff55[&lХелпер&#ffff55]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.helper.perms
+    click_commands:
+    - '[console] ppo %player_name% add portal normal'
+    - '[close]'
+  '13':
+    display_name: '&#55ff55Эффект капель воды'
+    slot: 13
+    priority: 2
+    material: water_bucket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '13_2':
+    display_name: '&#55ff55Эффект капель воды'
+    slot: 13
+    priority: 1
+    material: water_bucket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[console] ppo %player_name% add dripping_dripstone_water normal'
+    - '[close]'
+  '14':
+    display_name: '&#55ff55Эффект крови'
+    slot: 14
+    priority: 2
+    material: redstone
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '14_2':
+    display_name: '&#55ff55Эффект крови'
+    slot: 14
+    priority: 1
+    material: redstone
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[console] ppo %player_name% add crimson_spore normal'
+    - '[close]'
+  '15':
+    display_name: '&#55ff55Эффект капель лавы'
+    slot: 15
+    priority: 2
+    material: lava_bucket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &#ff5555[&lБлейз&#ff5555]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '15_2':
+    display_name: '&#55ff55Эффект капель лавы'
+    slot: 15
+    priority: 1
+    material: lava_bucket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &#ff5555[&lБлейз&#ff5555]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.blaze.perms
+    click_commands:
+    - '[console] ppo %player_name% add dripping_dripstone_lava normal'
+    - '[close]'
+  '16':
+    display_name: '&#55ff55Эффект цветов'
+    slot: 16
+    priority: 2
+    material: rose_bush
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '16_2':
+    display_name: '&#55ff55Эффект цветов'
+    slot: 16
+    priority: 1
+    material: rose_bush
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[console] ppo %player_name% add glow normal'
+    - '[close]'
+  '19':
+    display_name: '&#55ff55Эффект искр'
+    slot: 19
+    priority: 2
+    material: firework_rocket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &3[&lАнтиГрифер&3]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '19_2':
+    display_name: '&#55ff55Эффект искр'
+    slot: 19
+    priority: 1
+    material: firework_rocket
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &3[&lАнтиГрифер&3]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.griefer.perms
+    click_commands:
+    - '[console] ppo %player_name% add firework normal'
+    - '[close]'
+  '20':
+    display_name: '&#55ff55Эффект падающих драгоценностей'
+    slot: 20
+    priority: 2
+    material: diamond
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '20_2':
+    display_name: '&#55ff55Эффект падающих драгоценностей'
+    slot: 20
+    priority: 1
+    material: diamond
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add wax_on normal'
+    - '[close]'
+  '21':
+    display_name: '&#55ff55Эффект падающих звезд'
+    slot: 21
+    priority: 2
+    material: nether_star
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '21_2':
+    display_name: '&#55ff55Эффект падающих звезд'
+    slot: 21
+    priority: 1
+    material: nether_star
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add white_ash normal'
+    - '[close]'
+  '22':
+    display_name: '&#55ff55Эффект сердечек'
+    slot: 22
+    priority: 2
+    material: poppy
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '22_2':
+    display_name: '&#55ff55Эффект сердечек'
+    slot: 22
+    priority: 1
+    material: poppy
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes 
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add heart normal'
+    - '[close]'
+  '23':
+    display_name: '&#55ff55Эффект диско'
+    slot: 23
+    priority: 2
+    material: splash_potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    potion_perms:
+    - FIRE_RESISTANCE;1;1
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '23_2':
+    display_name: '&#55ff55Эффект диско'
+    slot: 23
+    priority: 1
+    material: splash_potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    potion_perms:
+    - FIRE_RESISTANCE;1;1
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add end_rod normal'
+    - '[close]'
+  '24':
+    display_name: '&#55ff55Эффект чар. стола'
+    slot: 24
+    priority: 2
+    material: enchanting_table
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '24_2':
+    display_name: '&#55ff55Эффект чар. стола'
+    slot: 24
+    priority: 1
+    material: enchanting_table
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add enchant normal'
+    - '[close]'
+  '25':
+    display_name: '&#55ff55Эффект магмы'
+    slot: 25
+    priority: 2
+    material: magma_cream
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '25_2':
+    display_name: '&#55ff55Эффект магмы'
+    slot: 25
+    priority: 1
+    material: magma_cream
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add lava normal'
+    - '[close]'
+  '28':
+    display_name: '&#55ff55Эффект жителя'
+    slot: 28
+    priority: 2
+    material: slime_ball
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '28_2':
+    display_name: '&#55ff55Эффект жителя'
+    slot: 28
+    priority: 1
+    material: slime_ball
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add angry_villager normal'
+    - '[close]'
+  '29':
+    display_name: '&#55ff55Эффект магии'
+    slot: 29
+    priority: 2
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    potion_perms:
+    - FIRE_RESISTANCE;1;1
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '29_2':
+    display_name: '&#55ff55Эффект магии'
+    slot: 29
+    priority: 1
+    material: potion
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    potion_perms:
+    - FIRE_RESISTANCE;1;1
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add entity_effect normal'
+    - '[close]'
+  '30':
+    display_name: '&#55ff55Эффект нот'
+    slot: 30
+    priority: 2
+    material: note_block
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    click_commands:
+    - '[message] '
+    - '[message] '
+    - '[message] &c&l| &fВы &cне можете &fэто использовать'
+    - '[message] &a&l| &fКупите &2[&lВластелин&2]&f на сайте &a&nwww.31fDev.ru'
+    - '[message] '
+    - '[close]' 
+  '30_2':
+    display_name: '&#55ff55Эффект нот'
+    slot: 30
+    priority: 1
+    material: note_block
+    lore:
+    - '&#ffffffwww.31fDev.ru'
+    - ''
+    - '&#ffffffЭто эффект доступен'
+    - '&#ffffffтолько от доната &2[&lВластелин&2]'
+    - ''
+    - '&#55ff55► Нажмите, чтобы включить'
+    item_flags:
+    - hide_dye
+    - HIDE_ADDITIONAL_TOOLTIP
+    - hide_attributes
+    view_requirement:
+      requirements:
+        perm_check: 
+          type: has permission
+          permission: menu.vlastelin.perms
+    click_commands:
+    - '[console] ppo %player_name% add note normal'
+    - '[close]'
+
