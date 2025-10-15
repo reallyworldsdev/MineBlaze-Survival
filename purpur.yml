@@ -1,0 +1,25 @@
+verbose: false
+config-version: 13
+settings:
+  dont-send-useless-entity-packets: false
+  use-alternate-keepalive: true
+  lagging-threshold: 18.0
+  tps-catchup: true
+  logger:
+    suppress-init-legacy-material-errors: true
+    suppress-ignored-advancement-warnings: false
+world-settings:
+  default:
+    mobs:
+      villager:
+        brain-ticks: 1
+        use-brain-ticks-only-when-lagging: true
+      squid:
+        immune-to-EAR: true
+    blocks:
+      turtle_egg:
+        break-from-exp-orbs: true
+        break-from-items: true
+        break-from-minecarts: true
+    gameplay-mechanics:
+      tick-fluids: true
